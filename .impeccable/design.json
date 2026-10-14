@@ -3,6 +3,14 @@
   "generatedAt": "2026-10-14T04:10:54.562648Z",
   "title": "Design System: Khushali Jain portfolio",
   "extensions": {
+    "projectPresentation": {
+      "catalogue": "Paired room/detail images with natural proportions, desktop alternate-angle reveal, direct phone navigation and sticky compact filters",
+      "overview": "Three real views when available; balanced pair for the two-still landscape project",
+      "gallery": "Inline expansion and side-by-side comparison; full board stays available without a modal or scroll lock",
+      "films": "Both landscape films retain original audio and native playback controls; linked from catalogue and project introduction",
+      "header": "One animated indicator, with native underline fallback when JavaScript is unavailable",
+      "verification": "211 interaction checks; 272 page-layout checks; nine accessibility scans"
+    },
     "sitewideMotion": {
       "scope": "Homepage, project discovery, case studies, image boards, Plans, About and Contact",
       "hero": "Full-width image scene with overlaid name and fixed 116px caption band; 110px caption on phones",

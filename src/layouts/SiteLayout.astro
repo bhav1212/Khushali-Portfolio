@@ -134,6 +134,7 @@ const person = { '@context': 'https://schema.org', '@graph':[
         const current=navigation?.querySelector<HTMLElement>('[aria-current="page"]');
         const moveMarker=(element:HTMLElement|null|undefined)=>{
           if(!navigation||!marker)return;
+          navigation.dataset.indicatorReady='true';
           const bounds=element?.getBoundingClientRect(),container=navigation.getBoundingClientRect();
           gsap.to(marker,{x:bounds?bounds.left-container.left:0,scaleX:bounds?.width||0,autoAlpha:bounds?1:0,duration:animated?.25:0,ease:'power3.out',overwrite:true});
         };
@@ -153,7 +154,7 @@ const person = { '@context': 'https://schema.org', '@graph':[
           const invitation=document.querySelector('.footer-invitation svg');
           if(invitation)gsap.fromTo(invitation,{x:-16},{x:0,ease:'none',scrollTrigger:{trigger:'.site-footer',start:'top 95%',end:'top 65%',scrub:.25}});
         }
-        return()=>{observer.disconnect();navigation?.removeEventListener('pointerover',follow);navigation?.removeEventListener('focusin',follow);navigation?.removeEventListener('pointerleave',restore);navigation?.removeEventListener('focusout',restore);};
+        return()=>{observer.disconnect();if(navigation)delete navigation.dataset.indicatorReady;navigation?.removeEventListener('pointerover',follow);navigation?.removeEventListener('focusin',follow);navigation?.removeEventListener('pointerleave',restore);navigation?.removeEventListener('focusout',restore);};
       });
       document.fonts.ready.then(()=>ScrollTrigger.refresh());
       window.addEventListener('pagehide',event=>{if(!event.persisted)pageMotion.revert();});

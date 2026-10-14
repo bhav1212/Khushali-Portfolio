@@ -32,6 +32,10 @@ async(page,base='http://localhost:4321')=>{
     check(label+' sequence palette remains fixed',palettePositions.every(positions=>positions.every((position,index)=>Object.keys(position).every(key=>Math.abs(position[key]-palettePositions[0][index][key])<1))),palettePositions);
     await capture(`${language}-${profile}-sequence`);
     await page.goto(base+prefix+'/projects');await ready();
+    const catalogue=page.locator('.catalogue-entry').first();
+    check(label+' catalogue pairs real image views',await catalogue.locator('.catalogue-detail img').count()===1);
+    await page.locator('.primary-nav a').first().hover();await page.waitForTimeout(300);
+    check(label+' header has one underline system',await page.locator('.primary-nav a').first().evaluate(element=>getComputedStyle(element).textDecorationLine==='none'&&getComputedStyle(document.querySelector('.nav-position')).visibility==='visible'));
     await page.locator('.view-controls button').nth(1).click();await page.locator('.filter-facet summary').first().click();
     await page.locator('.facet-options input').first().check();await page.keyboard.press('Escape');await page.waitForTimeout(550);
     check(label+' filters retain matching images',await page.locator('.room-entry').count()>0&&await page.locator('.empty-results').count()===0);
@@ -42,7 +46,10 @@ async(page,base='http://localhost:4321')=>{
     await page.locator('.board-rooms button').filter({hasText:language==='de'?'Schlafzimmer':'Bedrooms'}).click();await page.waitForTimeout(350);
     check(label+' filtered image pair stays horizontal',await page.locator('.board-item').evaluateAll(items=>{const bounds=items.map(item=>item.getBoundingClientRect());return bounds.length===2&&Math.abs(bounds[0].top-bounds[1].top)<1&&bounds[1].left>bounds[0].left;}));
     await page.locator('.board-rooms button').first().click();await page.waitForTimeout(350);
-    const opener=page.locator('.board-visual').first(),openerId=await opener.getAttribute('id');await opener.click();await page.locator('.proof-table[open]').waitFor();await settled();
+    check(label+' overview precedes full board and story',await page.evaluate(()=>document.querySelector('.case-overview img')&&document.querySelector('#gallery').getBoundingClientRect().top<document.querySelector('#story').getBoundingClientRect().top));
+    const opener=page.locator('.board-visual').first(),openerId=await opener.getAttribute('id');await opener.click();await page.locator('.board-focus[data-open="true"]').waitFor();await settled();
+    check(label+' expansion stays inline and leaves board available',await page.locator('dialog[open]').count()===0&&await page.locator('.board-item').count()>1&&await page.evaluate(()=>document.body.style.overflow!=='hidden'));
+    check(label+' palette remains beside the board',await page.locator('.board-palette a').count()>0);
     check(label+' board opens one focused image',await page.locator('.proof-stage figure').count()===1);
     await page.locator('.proof-tools button').first().click();await page.locator('.proof-stage[data-comparing="true"]').waitFor();await settled();
     check(label+' compare preserves horizontal views',await page.locator('.proof-stage figure').count()===2&&await page.locator('.proof-stage').evaluate(element=>getComputedStyle(element).gridTemplateColumns.split(' ').length===2));
@@ -54,7 +61,7 @@ async(page,base='http://localhost:4321')=>{
     const selected=await page.locator('.view-board').getAttribute('data-image');
     await page.locator('.proof-tools button').nth(1).click();await page.waitForTimeout(250);await page.keyboard.press('ArrowRight');
     check(label+' zoom keyboard action pans instead of advancing',await page.locator('.view-board').getAttribute('data-image')===selected);
-    await page.keyboard.press('Escape');await page.waitForFunction(()=>!document.querySelector('.proof-table[open]'));await settled();
+    await page.keyboard.press('Escape');await page.waitForFunction(()=>!document.querySelector('.board-focus[data-open="true"]'));await settled();
     check(label+' close restores keyboard focus',await opener.evaluate(element=>document.activeElement===element));
     for(const route of ['/plans','/about','/contact']){
       await page.goto(base+prefix+route);await ready();
@@ -65,10 +72,16 @@ async(page,base='http://localhost:4321')=>{
         await disclosure.locator('summary').click();await page.waitForTimeout(400);check(label+route+' disclosure closes',await disclosure.getAttribute('open')===null);
       }
     }
-    await page.goto(base+prefix+'/projects/panoramic-home-visualisations');await ready();await page.locator('.board-visual').first().click();await page.locator('.proof-table[open]').waitFor();await settled();
+    await page.goto(base+prefix+'/projects/landscape-in-daylight-and-after-dark');await ready();
+    check(label+' landscape films are easy to reach',await page.locator('.case-intro a[href="#walkthroughs"]').count()===1&&await page.locator('#walkthroughs video').count()===2);
+    for(const video of await page.locator('#walkthroughs video').all()){
+      await video.scrollIntoViewIfNeeded();await video.evaluate(element=>element.play());await page.waitForTimeout(200);
+      check(label+' landscape film plays with audio enabled',await video.evaluate(element=>!element.paused&&!element.muted&&element.controls&&element.currentTime>0));await video.evaluate(element=>element.pause());
+    }
+    await page.goto(base+prefix+'/projects/panoramic-home-visualisations');await ready();await page.locator('.board-visual').first().click();await page.locator('.board-focus[data-open="true"]').waitFor();await settled();
     await page.locator('.panorama-actions .text-control').click();await page.waitForFunction(()=>document.querySelector('.panorama-view')?.dataset.ready==='true',null,{timeout:20000});
     check(label+' 360 view remains above its preview',await page.locator('.panorama-view').evaluate(element=>{const canvas=element.querySelector('canvas'),bounds=canvas.getBoundingClientRect();return element.querySelector('.panorama-preview').hidden&&Boolean(document.elementFromPoint(bounds.left+bounds.width/2,bounds.top+bounds.height/2)?.closest('.panorama-stage'));}));
-    await page.keyboard.press('Escape');await page.waitForFunction(()=>!document.querySelector('.proof-table[open]'));await settled();
+    await page.keyboard.press('Escape');await page.waitForFunction(()=>!document.querySelector('.board-focus[data-open="true"]'));await settled();
     await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+prefix+'/');await ready();
     await page.locator('.design-process').scrollIntoViewIfNeeded();await page.locator('.design-steps button').last().click();
     check(label+' reduced-motion sequence remains usable',await page.locator('.design-process').getAttribute('data-step')==='2');
