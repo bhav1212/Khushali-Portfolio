@@ -1,0 +1,8 @@
+---
+import Page from '../../projects/[slug].astro';
+import {translatedProjects,type Project} from '../../../data/portfolio';
+export function getStaticPaths(){return translatedProjects('de').map(project=>({params:{slug:project.slug},props:{project}}));}
+interface Props{project:Project;}
+const {project}=Astro.props;
+---
+<Page project={project} language="de"/>

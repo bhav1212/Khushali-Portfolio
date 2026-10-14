@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Arrow from '../components/Arrow.astro';
+import {ui,localPath,type Language} from '../lib/i18n';
+interface Props{language?:Language;}
+const language=Astro.props.language||'en',text=ui[language];
+---
+<SiteLayout language={language} title={text.notFound}><section class="not-found page-gutter section-space"><h1>{text.notFoundTitle}</h1><p>{text.notFoundCopy}</p><a class="button-link" href={localPath('/projects',language)}>{text.projects}<Arrow/></a></section></SiteLayout>

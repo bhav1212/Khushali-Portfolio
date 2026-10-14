@@ -1,0 +1,9 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Arrow from '../components/Arrow.astro';
+import {contactEmail} from '../data/portfolio';
+import {ui,type Language} from '../lib/i18n';
+interface Props{language?:Language;}
+const language=Astro.props.language||'en',text=ui[language];
+---
+<SiteLayout language={language} title={text.contact} description={text.contactCopy}><section class="contact-intro page-gutter"><h1>{text.contactTitle}</h1><p>{text.contactCopy}</p></section><section class="direct-contact page-gutter section-space"><div><a class="contact-address" href={`mailto:${contactEmail}`}>{contactEmail}<Arrow/></a><a class="inline-link" href="tel:+4917610813919">+49 176 10813919</a><p>{text.city}</p></div><div><p>{text.contactHelp}</p><div class="practice-links"><a class="button-link" href={`mailto:${contactEmail}`}>{text.email}<Arrow/></a></div></div></section></SiteLayout>

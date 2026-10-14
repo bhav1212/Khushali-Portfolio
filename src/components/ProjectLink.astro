@@ -1,0 +1,19 @@
+---
+import Arrow from './Arrow.astro';
+import type { Project } from '../data/portfolio';
+import { ui, localPath, categoryText, type Language } from '../lib/i18n';
+interface Props { project: Project; eager?: boolean; language?:Language; }
+const { project, eager = false, language='en' } = Astro.props;
+const text=ui[language];
+const image = project.gallery[0];
+---
+<article class="project-entry" style={`--project-surface:${project.surface}`}>
+  <a class="project-visual" href={localPath(`/projects/${project.slug}`,language)} aria-label={`${text.explore} ${project.title}`}>
+    <img src={image.src} srcset={image.srcSet} sizes="(max-width: 700px) 100vw, 65vw" width={image.width} height={image.height} alt={image.caption} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+    <span class="project-open">{text.enterSpace}<Arrow /></span>
+  </a>
+  <div class="project-caption">
+    <div><p class="caption-context">{categoryText[language][project.category]}</p><h3><a href={localPath(`/projects/${project.slug}`,language)}>{project.title}</a></h3></div>
+    <a class="project-arrow" href={localPath(`/projects/${project.slug}`,language)} aria-label={`${text.read} ${project.title}`}><Arrow /></a>
+  </div>
+</article>

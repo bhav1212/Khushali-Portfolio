@@ -1,0 +1,256 @@
+[
+  {
+    "id": "04",
+    "title": {
+      "en": "Site layout",
+      "de": "Lageplan"
+    },
+    "sheets": [
+      {
+        "id": "04-site-layout",
+        "title": {
+          "en": "Site layout",
+          "de": "Lageplan"
+        },
+        "src": "/plans/04-site-layout.webp",
+        "width": 1800,
+        "height": 974
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": {
+      "en": "Floor plans by level",
+      "de": "Grundrisse nach Etage"
+    },
+    "sheets": [
+      {
+        "id": "20-first-and-second-floor",
+        "title": {
+          "en": "First and second floor",
+          "de": "Erste und zweite Etage"
+        },
+        "src": "/plans/20-first-and-second-floor.webp",
+        "width": 1400,
+        "height": 989
+      },
+      {
+        "id": "20-third-and-fourth-floor",
+        "title": {
+          "en": "Third and fourth floor",
+          "de": "Dritte und vierte Etage"
+        },
+        "src": "/plans/20-third-and-fourth-floor.webp",
+        "width": 1400,
+        "height": 989
+      },
+      {
+        "id": "20-fifth-and-sixth-floor",
+        "title": {
+          "en": "Fifth and sixth floor",
+          "de": "Fünfte und sechste Etage"
+        },
+        "src": "/plans/20-fifth-and-sixth-floor.webp",
+        "width": 1400,
+        "height": 989
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "title": {
+      "en": "Floor plan and dimensions",
+      "de": "Grundriss und Maße"
+    },
+    "sheets": [
+      {
+        "id": "21-fourth-floor-plan",
+        "title": {
+          "en": "Fourth-floor plan",
+          "de": "Grundriss der vierten Etage"
+        },
+        "src": "/plans/21-fourth-floor-plan.webp",
+        "width": 990,
+        "height": 1046
+      },
+      {
+        "id": "21-dimension-plan",
+        "title": {
+          "en": "Dimension plan",
+          "de": "Maßplan"
+        },
+        "src": "/plans/21-dimension-plan.webp",
+        "width": 990,
+        "height": 1044
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "title": {
+      "en": "Hall plan",
+      "de": "Grundriss der Halle"
+    },
+    "sheets": [
+      {
+        "id": "27-hall-layout",
+        "title": {
+          "en": "Hall layout",
+          "de": "Grundriss der Halle"
+        },
+        "src": "/plans/27-hall-layout.webp",
+        "width": 990,
+        "height": 1269
+      },
+      {
+        "id": "27-plan-detail",
+        "title": {
+          "en": "Plan detail",
+          "de": "Ausschnitt des Plans"
+        },
+        "src": "/plans/27-plan-detail.webp",
+        "width": 1698,
+        "height": 587
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "title": {
+      "en": "Loft and services",
+      "de": "Loft und Haustechnik"
+    },
+    "sheets": [
+      {
+        "id": "31-loft-layout",
+        "title": {
+          "en": "Loft layout",
+          "de": "Loft-Grundriss"
+        },
+        "src": "/plans/31-loft-layout.webp",
+        "width": 990,
+        "height": 1400
+      },
+      {
+        "id": "31-air-conditioning-points",
+        "title": {
+          "en": "Air-conditioning points",
+          "de": "Anschlüsse für die Klimaanlage"
+        },
+        "src": "/plans/31-air-conditioning-points.webp",
+        "width": 990,
+        "height": 1400
+      },
+      {
+        "id": "31-air-conditioning-and-fan-plan",
+        "title": {
+          "en": "Air-conditioning and fan plan",
+          "de": "Plan für Klimaanlage und Ventilatoren"
+        },
+        "src": "/plans/31-air-conditioning-and-fan-plan.webp",
+        "width": 990,
+        "height": 1400
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "title": {
+      "en": "Furniture layout alternatives",
+      "de": "Möbelpläne und Varianten"
+    },
+    "sheets": [
+      {
+        "id": "32-floor-plan-501",
+        "title": {
+          "en": "Floor plan 501",
+          "de": "Grundriss 501"
+        },
+        "src": "/plans/32-floor-plan-501.webp",
+        "width": 1400,
+        "height": 990
+      },
+      {
+        "id": "32-floor-plan",
+        "title": {
+          "en": "Floor plan",
+          "de": "Grundriss"
+        },
+        "src": "/plans/32-floor-plan.webp",
+        "width": 990,
+        "height": 965
+      },
+      {
+        "id": "32-full-plan",
+        "title": {
+          "en": "Full plan",
+          "de": "Gesamtplan"
+        },
+        "src": "/plans/32-full-plan.webp",
+        "width": 1400,
+        "height": 990
+      },
+      {
+        "id": "32-furniture-plan",
+        "title": {
+          "en": "Furniture plan",
+          "de": "Möbelplan"
+        },
+        "src": "/plans/32-furniture-plan.webp",
+        "width": 990,
+        "height": 1033
+      },
+      {
+        "id": "32-furniture-plan-second-version",
+        "title": {
+          "en": "Furniture plan, second version",
+          "de": "Möbelplan, zweite Version"
+        },
+        "src": "/plans/32-furniture-plan-second-version.webp",
+        "width": 1400,
+        "height": 819
+      },
+      {
+        "id": "32-revised-furniture-plan",
+        "title": {
+          "en": "Revised furniture plan",
+          "de": "Überarbeiteter Möbelplan"
+        },
+        "src": "/plans/32-revised-furniture-plan.webp",
+        "width": 1400,
+        "height": 726
+      },
+      {
+        "id": "32-revised-plan",
+        "title": {
+          "en": "Revised plan",
+          "de": "Überarbeiteter Plan"
+        },
+        "src": "/plans/32-revised-plan.webp",
+        "width": 990,
+        "height": 930
+      },
+      {
+        "id": "32-layout-study",
+        "title": {
+          "en": "Layout study",
+          "de": "Grundrissstudie"
+        },
+        "src": "/plans/32-layout-study.webp",
+        "width": 990,
+        "height": 999
+      },
+      {
+        "id": "32-final-plan",
+        "title": {
+          "en": "Final plan",
+          "de": "Endgültiger Plan"
+        },
+        "src": "/plans/32-final-plan.webp",
+        "width": 990,
+        "height": 1047
+      }
+    ]
+  }
+]

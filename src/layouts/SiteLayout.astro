@@ -1,0 +1,114 @@
+---
+import '../styles/global.css';
+import Arrow from '../components/Arrow.astro';
+import { contactEmail, portrait, projects } from '../data/portfolio';
+import { ui, localPath, type Language } from '../lib/i18n';
+interface Props { title?: string; description?: string; image?: string; language?:Language; }
+const { title, image, language='en' } = Astro.props;
+const text=ui[language];
+const description=Astro.props.description||text.siteDescription;
+const pageTitle = title ? `${title} | Khushali Jain` : text.homeSeoTitle;
+const path = Astro.url.pathname.replace(/^\/de(?=\/|$)/,'').replace(/\/$/,'')||'/';
+const absolute=(value:string)=>new URL(value,Astro.site).href;
+const canonical=absolute(localPath(path==='/'?'/':path+'/',language));
+const previewImage=absolute(image||projects[0].gallery[0].src);
+const noIndex=path.includes('404');
+const person = { '@context': 'https://schema.org', '@graph':[
+  { '@type': 'Person', '@id':absolute('/#khushali'), name:'Khushali Jain', jobTitle:text.role, email:contactEmail, url:absolute('/'), image:absolute(portrait.src), address:{'@type':'PostalAddress',addressLocality:'Heilbronn',addressCountry:'DE'} },
+  { '@type':'WebSite', '@id':absolute('/#website'), url:absolute('/'), name:'Khushali Jain — Interior Design', inLanguage:['en','de'] },
+  { '@type':'WebPage', '@id':canonical, url:canonical, name:pageTitle, description, inLanguage:language, about:{'@id':absolute('/#khushali')}, isPartOf:{'@id':absolute('/#website')} },
+  { '@type':'BreadcrumbList', itemListElement:[{name:text.home,url:localPath('/',language)},...(path.startsWith('/projects/')?[{name:text.projects,url:localPath('/projects/',language)}]:[]),...(path==='/'?[]:[{name:title||text.home,url:localPath(path+'/',language)}])].map((item,index)=>({'@type':'ListItem',position:index+1,name:item.name,item:absolute(item.url)})) },
+] };
+---
+<!doctype html>
+<html lang={language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F3F5F2" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={noIndex?'noindex, follow':'index, follow'} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={language==='de'?'de_DE':'en_GB'} />
+    <meta property="og:locale:alternate" content={language==='de'?'en_GB':'de_DE'} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={previewImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" hreflang="de-DE" href={absolute(localPath(path==='/'?'/':path+'/','de'))} />
+    <link rel="alternate" hreflang="en" href={absolute(localPath(path==='/'?'/':path+'/','en'))} />
+    <link rel="alternate" hreflang="x-default" href={absolute(path==='/'?'/':path+'/')} />
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(person).replace(/</g, '\\u003c')} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/gloock.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{text.skip}</a>
+    <header class="site-header">
+      <a class="wordmark" href={localPath('/',language)} aria-label={`Khushali Jain, ${text.home}`}>Khushali Jain<span class="wordmark-dot" aria-hidden="true"></span></a>
+      <nav aria-label={text.mainNav}>
+        <a href={localPath('/projects',language)} aria-current={path.startsWith('/projects') ? 'page' : undefined}>{text.projects}</a>
+        <a href={localPath('/plans',language)} aria-current={path.startsWith('/plans') ? 'page' : undefined}>{text.plans}</a>
+        <a href={localPath('/about',language)} aria-current={path === '/about' ? 'page' : undefined}>{text.about}</a>
+        <a href={localPath('/contact',language)} aria-current={path === '/contact' ? 'page' : undefined}>{text.contact}</a>
+      </nav>
+      <details class="language-menu"><summary aria-label={`${text.language}: ${language==='de'?'Deutsch':'English'}`}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z" stroke="currentColor" stroke-width="1.5"/></svg><span>{language.toUpperCase()}</span></summary><nav aria-label={text.language}><a data-language-link href={localPath(path,'en')} lang="en" hreflang="en" aria-current={language==='en'?'true':undefined}>English<span>EN</span></a><a data-language-link href={localPath(path,'de')} lang="de" hreflang="de" aria-current={language==='de'?'true':undefined}>Deutsch<span>DE</span></a></nav></details>
+      <span class="reading-progress" aria-hidden="true"></span>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-invitation"><a href={localPath('/contact',language)}>{text.invitation}<Arrow /></a></div>
+      <div class="footer-bottom">
+        <div><a class="footer-name" href={localPath('/',language)}>Khushali Jain</a><p>{text.role}</p></div>
+        <div class="footer-contact"><a href={`mailto:${contactEmail}`}>{contactEmail}</a><p>{text.city}</p></div>
+        <nav aria-label={text.footerNav}><a href={localPath('/projects',language)}>{text.projects}</a><a href={localPath('/about',language)}>{text.about}</a>{path!=='/contact'&&<a href="/downloads/khushali-jain-resume.pdf" download>{text.resume}</a>}</nav>
+      </div>
+      <p class="footer-note">© {new Date().getFullYear()} Khushali Jain.</p>
+    </footer>
+    <script>
+      const languageMenu=document.querySelector<HTMLDetailsElement>('.language-menu');
+      const syncLanguageLinks=()=>document.querySelectorAll<HTMLAnchorElement>('[data-language-link]').forEach(link=>{const destination=new URL(link.href);destination.search=location.search;destination.hash=location.hash;link.href=destination.href;});
+      languageMenu?.addEventListener('toggle',syncLanguageLinks);
+      window.addEventListener('hashchange',syncLanguageLinks);
+      window.addEventListener('popstate',syncLanguageLinks);syncLanguageLinks();
+      document.addEventListener('pointerdown',event=>{if(languageMenu?.open&&!languageMenu.contains(event.target as Node))languageMenu.open=false;});
+      document.addEventListener('keydown',event=>{if(event.key==='Escape'&&languageMenu?.open){languageMenu.open=false;languageMenu.querySelector('summary')?.focus();}});
+      const progress = document.querySelector<HTMLElement>('.reading-progress');
+      const header = document.querySelector<HTMLElement>('.site-header');
+      if (header) {
+        const measure = new ResizeObserver(() => document.documentElement.style.setProperty('--header-height', header.offsetHeight + 'px'));
+        measure.observe(header);
+      }
+      const chapterLinks = [...document.querySelectorAll<HTMLAnchorElement>('.case-chapters a')];
+      let frame = 0;
+      const update = () => {
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(() => {
+          const distance = document.documentElement.scrollHeight - innerHeight;
+          if (progress) progress.style.transform = `scaleX(${distance > 0 ? Math.min(1, scrollY / distance) : 0})`;
+          const boundary = (header?.offsetHeight || 74) + 70;
+          const active = [...chapterLinks].reverse().find(link => (document.getElementById(link.hash.slice(1))?.getBoundingClientRect().top ?? Infinity) <= boundary) || chapterLinks[0];
+          chapterLinks.forEach(link => { if (link === active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current'); });
+        });
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update); update();
+      document.addEventListener('click', event => {
+        if (!(event.target instanceof Element) || (event instanceof MouseEvent && (event.metaKey || event.ctrlKey))) return;
+        const languageLink=event.target.closest<HTMLAnchorElement>('[data-language-link]');
+        if(languageLink){ const destination=new URL(languageLink.href);destination.search=location.search;destination.hash=location.hash;languageLink.href=destination.href;return; }
+        const link = event.target.closest<HTMLAnchorElement>('a[href*="/projects/"]');
+        if (!link) return;
+        const image = link.querySelector<HTMLImageElement>('img') || link.closest('.project-entry')?.querySelector<HTMLImageElement>('.project-visual img') || link.closest('.showcase')?.querySelector<HTMLImageElement>('.is-current img');
+        if (image) {
+          document.querySelectorAll<HTMLImageElement>('img').forEach(item => item.style.viewTransitionName = 'none');
+          image.style.viewTransitionName = 'project-image';
+        }
+      });
+    </script>
+  </body>
+</html>

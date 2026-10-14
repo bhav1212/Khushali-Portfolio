@@ -1,0 +1,26 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Arrow from '../components/Arrow.astro';
+import {portrait} from '../data/portfolio';
+import {ui,type Language} from '../lib/i18n';
+interface Props{language?:Language;}
+const language=Astro.props.language||'en',text=ui[language];
+const capabilities=language==='de'?[['Raumplanung','Praktische Grundrisse für den Alltag.'],['Ideen und Materialien','Farben und Oberflächen passend zum Raum.'],['Skizzen und 3D-Ansichten','Ideen verständlich entwickeln und zeigen.'],['Designabstimmung','Zusammenarbeit mit Kunden und Projektteams.']]:[['Space planning','Practical layouts for everyday use.'],['Concepts and materials','Colours and finishes that suit the space.'],['Sketching and visualisation','Developing ideas through sketches and 3D views.'],['Design coordination','Working with clients and project teams.']];
+const career=language==='de'?[
+ ['Dezember 2018 – heute','Oneiro Interiors','Innenraumdesignerin, selbstständig','Design für Wohnräume, Geschäftsräume und Büros. Ich entwickle Entwürfe, Skizzen und 3D-Ansichten und stimme das Design mit Kunden und Teams ab.'],
+ ['August–November 2018','Icraft Designz & Interiors','Junior-Designerin, Hyderabad','Grundrisse, Präsentationen, Materialauswahl und Abstimmung auf der Baustelle.'],
+ ['Mai 2016–Juli 2019','B.Sc. Interior Design','International Institute For Fashion And Interiors','Bachelorstudium in Innenraumdesign in Hyderabad, Indien.'],
+ ['2017','Auszeichnungen im Produktdesign','Society Interior Design Competition & Awards','Nationaler Preis im Produktdesign und erster Platz in Südindien.'],
+ ['April 2023','Weitere Berufserfahrung','LanceSoft Germany','Administrative Aufgaben und Personalvermittlung im Homeoffice für britische und europäische Kunden.'],
+]:[
+ ['December 2018 – present','Oneiro Interiors','Interior designer, independent practice','Residential, commercial and office design. I develop concepts, sketches and 3D views and coordinate the design with clients and teams.'],
+ ['August–November 2018','Icraft Designz & Interiors','Junior interior designer, Hyderabad','Layouts, presentations, material selection and site coordination.'],
+ ['May 2016–July 2019','B.Sc. Interior Design','International Institute For Fashion And Interiors','Bachelor’s degree in interior design, completed in Hyderabad, India.'],
+ ['2017','Product design awards','Society Interior Design Competition & Awards','National product design award and first place in South India.'],
+ ['April 2023','Additional professional experience','LanceSoft Germany','Remote administrative and recruitment coordination for British and European clients.'],
+];
+---
+<SiteLayout language={language} title={text.about} description={text.aboutLead}><section class="about-opening page-gutter"><div class="about-opening-copy"><h1>{text.aboutTitle}</h1><p class="lead-copy">{text.aboutLead}</p><p>{text.aboutCopy}</p><p>{text.aboutExtra}</p><a class="inline-link" href="/downloads/khushali-jain-resume.pdf" download>{text.downloadResume}<Arrow direction="down"/></a></div><figure class="about-portrait"><img src={portrait.src} srcset={portrait.srcSet} sizes="(max-width:700px) 100vw,45vw" width={portrait.width} height={portrait.height} alt={text.portrait} loading="eager"/><figcaption>Khushali Jain, {text.role}</figcaption></figure></section>
+<section class="capabilities-section section-space page-gutter"><div class="section-heading"><h2>{text.capabilities}</h2><p>{text.capabilitiesCopy}</p></div><div class="capability-list">{capabilities.map(([title,copy])=><div><h3>{title}</h3><p>{copy}</p></div>)}</div></section>
+<section id="experience" class="experience-section section-space page-gutter"><div class="experience-intro"><h2>{text.experience}</h2><p>{text.experienceCopy}</p></div><div class="career-timeline">{career.map(([date,title,role,copy])=><details name="career"><summary><span class="career-date">{date}</span><span><strong>{title}</strong><span class="career-role">{role}</span></span><span class="expand-mark" aria-hidden="true"></span></summary><div class="career-details"><p>{copy}</p></div></details>)}</div></section>
+<section class="tools-section page-gutter section-space"><div><h2>{text.tools}</h2><p>{text.toolsCopy}</p></div><div><ul class="tool-list">{['D5 Render','AutoCAD','SketchUp','V-Ray','Lumion','Adobe Photoshop','Revit','3DS Max','MS Office'].map(tool=><li>{tool}</li>)}</ul><p class="languages">{text.languages}</p></div></section></SiteLayout>

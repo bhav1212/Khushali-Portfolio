@@ -1,0 +1,4750 @@
+{
+  "09": {
+    "en": {
+      "title": "Colour and wall treatments",
+      "intro": "Living rooms, bedrooms and kitchens feature varied colours and wall treatments.",
+      "detail": "The views show alternative headboards, cabinetry and patterned panels.",
+      "gallery": [
+        {
+          "id": "image-0065",
+          "caption": "The bed has navy bedding, patterned wall panels and tall beige wardrobes beside it.",
+          "materials": [
+            "glossy beige fronts",
+            "textured inset",
+            "damask pattern",
+            "polished cream tiles",
+            "fabric upholstery"
+          ]
+        },
+        {
+          "id": "image-0072",
+          "caption": "A grey sofa and round footstools face an olive wall panel beside a raised bench alcove.",
+          "materials": [
+            "wood-effect trim",
+            "ribbed olive panel",
+            "textured cream walls",
+            "marble-effect tiles",
+            "grey and patterned fabric"
+          ]
+        },
+        {
+          "id": "image-0078",
+          "caption": "The U-shaped kitchen has mauve cabinets, geometric tiles and a sink beside the window.",
+          "materials": [
+            "glossy mauve fronts",
+            "ribbed translucent glass",
+            "geometric white tiles",
+            "pale stone-effect surfaces",
+            "metal sink",
+            "wood-effect window frame"
+          ]
+        },
+        {
+          "id": "image-0084",
+          "caption": "A wood-framed pooja niche has a lit arch and a stepped altar above drawers.",
+          "materials": [
+            "wood-grain surfaces",
+            "white stone-effect steps",
+            "metal lamp stands",
+            "pale polished floor"
+          ]
+        },
+        {
+          "id": "image-0069",
+          "caption": "Olive bedding sits against a geometric backdrop, with bedside tables and a matching chair.",
+          "materials": [
+            "wood-effect frame and trim",
+            "patterned panels",
+            "polished cream tiles",
+            "olive fabric",
+            "shaggy rug"
+          ]
+        },
+        {
+          "id": "image-0070",
+          "caption": "The bedroom pairs botanical panels with olive bedding, a matching chair and tall cabinets.",
+          "materials": [
+            "wood-effect bed frame",
+            "botanical-pattern panels",
+            "polished cream tiles",
+            "olive fabric",
+            "shaggy rug"
+          ]
+        },
+        {
+          "id": "image-0063",
+          "caption": "A gridded brown headboard sits between rounded bedside units beside tall wardrobes.",
+          "materials": [
+            "brown padded panels",
+            "cream bedding",
+            "glossy pale fronts",
+            "light stone-effect tiles",
+            "textured rug",
+            "fabric blind"
+          ]
+        },
+        {
+          "id": "image-0064",
+          "caption": "The bed sits beneath tan padded panels, with glossy wardrobes and a window blind.",
+          "materials": [
+            "glossy cream tiles",
+            "rose-tinted glossy fronts",
+            "tan padded panels",
+            "woven rug",
+            "fabric bedding"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Farben und Wandgestaltung",
+      "intro": "Wohnzimmer, Schlafzimmer und Küchen zeigen verschiedene Farben und Wandgestaltungen.",
+      "detail": "Die Ansichten zeigen Varianten mit unterschiedlichen Kopfteilen, Schränken und gemusterten Paneelen.",
+      "gallery": [
+        {
+          "id": "image-0065",
+          "caption": "Das Bett hat dunkelblaue Bettwäsche, gemusterte Wandpaneele und hohe beige Schränke daneben.",
+          "materials": [
+            "glänzende beige Fronten",
+            "strukturierter Einsatz",
+            "Damastmuster",
+            "polierte cremefarbene Fliesen",
+            "Stoffpolster"
+          ]
+        },
+        {
+          "id": "image-0072",
+          "caption": "Ein graues Sofa und runde Hocker stehen neben einer erhöhten Sitznische und einem olivgrünen Paneel.",
+          "materials": [
+            "Leisten in Holzoptik",
+            "geripptes olivgrünes Paneel",
+            "strukturierte cremefarbene Wände",
+            "Fliesen in Marmoroptik",
+            "graue und gemusterte Stoffe"
+          ]
+        },
+        {
+          "id": "image-0078",
+          "caption": "Die U-förmige Küche hat malvenfarbene Schränke, geometrische Fliesen und eine Spüle am Fenster.",
+          "materials": [
+            "glänzende malvenfarbene Fronten",
+            "geripptes durchscheinendes Glas",
+            "geometrische weiße Fliesen",
+            "helle Flächen in Steinoptik",
+            "Metallspüle",
+            "Fensterrahmen in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0084",
+          "caption": "Eine Pooja-Nische mit Holzrahmen hat einen beleuchteten Bogen und einen gestuften Altar.",
+          "materials": [
+            "Flächen mit Holzmaserung",
+            "weiße Stufen in Steinoptik",
+            "Lampenständer aus Metall",
+            "heller polierter Boden"
+          ]
+        },
+        {
+          "id": "image-0069",
+          "caption": "Olivgrüne Bettwäsche liegt vor geometrischen Paneelen, neben Nachttischen und einem Sessel.",
+          "materials": [
+            "Rahmen und Leisten in Holzoptik",
+            "gemusterte Paneele",
+            "polierte cremefarbene Fliesen",
+            "olivgrüner Stoff",
+            "Langflorteppich"
+          ]
+        },
+        {
+          "id": "image-0070",
+          "caption": "Das Schlafzimmer zeigt Pflanzenmuster, olivgrüne Bettwäsche, einen Sessel und hohe Schränke.",
+          "materials": [
+            "Bettrahmen in Holzoptik",
+            "Paneele mit Pflanzenmuster",
+            "polierte cremefarbene Fliesen",
+            "olivgrüner Stoff",
+            "Langflorteppich"
+          ]
+        },
+        {
+          "id": "image-0063",
+          "caption": "Ein braunes Kopfteil mit Rastermuster steht zwischen gerundeten Nachttischen und hohen Schränken.",
+          "materials": [
+            "braune Polsterpaneele",
+            "cremefarbene Bettwäsche",
+            "glänzende helle Fronten",
+            "helle Fliesen in Steinoptik",
+            "strukturierter Teppich",
+            "Stoffrollo"
+          ]
+        },
+        {
+          "id": "image-0064",
+          "caption": "Über dem Bett sitzen hellbraune Polsterpaneele, daneben glänzende Schränke und ein Fensterrollo.",
+          "materials": [
+            "glänzende cremefarbene Fliesen",
+            "roséfarbene glänzende Fronten",
+            "hellbraune Polsterpaneele",
+            "gewebter Teppich",
+            "Stoffbettwäsche"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "11": {
+    "en": {
+      "title": "Living spaces and storage",
+      "intro": "Kitchen, living-room and bedroom views combine pale surfaces, blue accents and wood tones.",
+      "detail": "Lit mirrors, window benches and pooja niches appear alongside fitted storage.",
+      "gallery": [
+        {
+          "id": "image-0096",
+          "caption": "A low cream bed sits beside a lit dressing mirror, window bench and tall cabinets.",
+          "materials": [
+            "cream fabric and panels",
+            "wood-grain slats and cabinets",
+            "mirror glass",
+            "white veined stone-effect floor",
+            "burgundy fabric"
+          ]
+        },
+        {
+          "id": "image-0108",
+          "caption": "The living and dining area has a cream corner sofa, a four-seat table and a lit shrine niche.",
+          "materials": [
+            "cream fabric",
+            "pale wood-grain panels",
+            "pale stone-effect surfaces",
+            "ribbed panels",
+            "striped rugs",
+            "glass-front cabinets"
+          ]
+        },
+        {
+          "id": "image-0100",
+          "caption": "The U-shaped kitchen has blue cabinets, veined surfaces and a central fridge.",
+          "materials": [
+            "smooth blue fronts",
+            "pale wood-grain panels",
+            "white surfaces with grey veining",
+            "silver metal finish",
+            "pale floor tiles"
+          ]
+        },
+        {
+          "id": "image-0097",
+          "caption": "The bedroom has a scalloped headboard, dressing area, tall wardrobe and window bench.",
+          "materials": [
+            "cream upholstery",
+            "beige geometric panels",
+            "wood-grain slats",
+            "cream wardrobe fronts",
+            "mirror glass",
+            "white veined stone-effect floor"
+          ]
+        },
+        {
+          "id": "image-0098",
+          "caption": "The reverse view shows a lit TV wall, a low wood-toned console and cabinets on the left.",
+          "materials": [
+            "glossy cream fronts",
+            "cream wall panels",
+            "wood-grain console and bench base",
+            "white veined stone-effect floor",
+            "reflective door",
+            "cream fabric"
+          ]
+        },
+        {
+          "id": "image-0099",
+          "caption": "A panelled TV wall sits above a low wood-toned console, with a window bench on the left.",
+          "materials": [
+            "cream panels",
+            "wood-grain console and bench base",
+            "dark speckled surrounds",
+            "white veined stone-effect floor",
+            "cream fabric"
+          ]
+        },
+        {
+          "id": "image-0109",
+          "caption": "A lit shrine has a semicircular surround beside dining storage and a pendant-lit table.",
+          "materials": [
+            "pale wood-grain panels",
+            "cream fronts and fabric",
+            "glass-front shelves",
+            "pale stone-effect surfaces",
+            "striped rug",
+            "slatted panels"
+          ]
+        },
+        {
+          "id": "image-0110",
+          "caption": "The TV wall has tall lit shelves, pale textured panels and low storage.",
+          "materials": [
+            "pale textured stone-effect panels",
+            "wood-grain panels",
+            "cream fabric",
+            "gold-beige shelves",
+            "pale glossy tiles",
+            "ribbed cabinet front"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Wohnräume und Stauraum",
+      "intro": "Küche, Wohnzimmer und Schlafzimmer verbinden helle Flächen, blaue Akzente und Holztöne.",
+      "detail": "Beleuchtete Spiegel, Fensterbänke zum Sitzen und Pooja-Nischen stehen neben Einbauschränken.",
+      "gallery": [
+        {
+          "id": "image-0096",
+          "caption": "Ein niedriges cremefarbenes Bett steht neben einem beleuchteten Spiegel und einer Fensterbank.",
+          "materials": [
+            "cremefarbener Stoff und Paneele",
+            "Lamellen und Schränke mit Holzmaserung",
+            "Spiegelglas",
+            "weißer Boden in Steinoptik mit Adern",
+            "bordeauxroter Stoff"
+          ]
+        },
+        {
+          "id": "image-0108",
+          "caption": "Der Wohn- und Essbereich zeigt ein cremefarbenes Ecksofa, einen Tisch und eine beleuchtete Nische.",
+          "materials": [
+            "cremefarbener Stoff",
+            "helle Paneele mit Holzmaserung",
+            "helle Flächen in Steinoptik",
+            "gerippte Paneele",
+            "gestreifte Teppiche",
+            "Schränke mit Glasfronten"
+          ]
+        },
+        {
+          "id": "image-0100",
+          "caption": "Die U-förmige Küche hat blaue Schränke, geaderte Flächen und einen mittig stehenden Kühlschrank.",
+          "materials": [
+            "glatte blaue Fronten",
+            "helle Paneele mit Holzmaserung",
+            "weiße Flächen mit grauen Adern",
+            "silberne Metalloberfläche",
+            "helle Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0097",
+          "caption": "Das Schlafzimmer hat ein gewelltes Kopfteil, einen Schminkplatz, einen Schrank und eine Sitzbank.",
+          "materials": [
+            "cremefarbene Polster",
+            "beige geometrische Paneele",
+            "Lamellen mit Holzmaserung",
+            "cremefarbene Schrankfronten",
+            "Spiegelglas",
+            "weißer Boden in Steinoptik mit Adern"
+          ]
+        },
+        {
+          "id": "image-0098",
+          "caption": "Die Gegenansicht zeigt eine beleuchtete TV-Wand, ein niedriges Möbel und Schränke links.",
+          "materials": [
+            "glänzende cremefarbene Fronten",
+            "cremefarbene Wandpaneele",
+            "Holzmaserung an Möbel und Bankunterbau",
+            "weißer Boden in Steinoptik mit Adern",
+            "spiegelnde Tür",
+            "cremefarbener Stoff"
+          ]
+        },
+        {
+          "id": "image-0099",
+          "caption": "Unter der TV-Wand steht ein niedriges Möbel in Holzoptik, links eine Fensterbank zum Sitzen.",
+          "materials": [
+            "cremefarbene Paneele",
+            "Holzmaserung an Möbel und Bankunterbau",
+            "dunkle gesprenkelte Einfassungen",
+            "weißer Boden in Steinoptik mit Adern",
+            "cremefarbener Stoff"
+          ]
+        },
+        {
+          "id": "image-0109",
+          "caption": "Ein beleuchteter Schrein mit halbrunder Einfassung steht neben Schränken und einem Esstisch.",
+          "materials": [
+            "helle Paneele mit Holzmaserung",
+            "cremefarbene Fronten und Stoffe",
+            "Regale mit Glasfronten",
+            "helle Flächen in Steinoptik",
+            "gestreifter Teppich",
+            "Lamellenpaneele"
+          ]
+        },
+        {
+          "id": "image-0110",
+          "caption": "Die TV-Wand hat hohe beleuchtete Regale, helle strukturierte Paneele und niedrige Schränke.",
+          "materials": [
+            "helle strukturierte Paneele in Steinoptik",
+            "Paneele mit Holzmaserung",
+            "cremefarbener Stoff",
+            "goldbeige Regale",
+            "helle glänzende Fliesen",
+            "gerippte Schrankfront"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "12": {
+    "en": {
+      "title": "Circular and geometric bedroom panels",
+      "intro": "These bedroom views show blue circular features and geometric headboard panels.",
+      "detail": "Desks, wardrobes and mirrored panels line the surrounding walls.",
+      "gallery": [
+        {
+          "id": "image-0111",
+          "caption": "The bed sits beneath grey geometric panels, between mirrors and wood-toned drawers.",
+          "materials": [
+            "wood-grain panels and drawers",
+            "glossy grey panels",
+            "cream wardrobe fronts",
+            "upholstered headboard",
+            "white and grey bedding",
+            "mirror glass",
+            "pale tiles"
+          ]
+        },
+        {
+          "id": "image-0113",
+          "caption": "A circular portrait hangs beside taupe geometric panels, a compact desk and a cushioned bench.",
+          "materials": [
+            "taupe panels",
+            "wood-effect desk and ceiling inset",
+            "pale stone-effect tiles",
+            "beige fabric"
+          ]
+        },
+        {
+          "id": "image-0112",
+          "caption": "The bed sits below a lit blue circle, with a desk on the left and tall cream cabinets.",
+          "materials": [
+            "beige woven fabric",
+            "glossy cream fronts",
+            "pale stone-effect tiles",
+            "wood-effect shelves",
+            "blue painted surfaces"
+          ]
+        },
+        {
+          "id": "image-0115",
+          "caption": "Angular blue-grey panels frame the bed beside a fitted desk and patterned wardrobe fronts.",
+          "materials": [
+            "blue-grey panels",
+            "warm wood-grain surfaces",
+            "glossy cream fronts",
+            "beige upholstery",
+            "pale stone-effect tiles"
+          ]
+        },
+        {
+          "id": "image-0116",
+          "caption": "The bed has an angular blue-grey backdrop beside wardrobes with chess-piece artwork.",
+          "materials": [
+            "blue-grey panels",
+            "wood-grain panels and drawers",
+            "glossy cream fronts",
+            "beige woven fabric",
+            "pale stone-effect tiles"
+          ]
+        },
+        {
+          "id": "image-0117",
+          "caption": "The bed sits between angular panels, lit wood-toned surfaces, a desk and wardrobes.",
+          "materials": [
+            "blue-grey panels",
+            "wood-grain cabinets",
+            "glossy cream fronts",
+            "beige fabric",
+            "pale stone-effect tiles"
+          ]
+        },
+        {
+          "id": "image-0118",
+          "caption": "A button-tufted headboard sits against blue-grey panels beside wood-toned drawers.",
+          "materials": [
+            "button-tufted beige fabric",
+            "blue-grey panels",
+            "wood-grain cabinets",
+            "glossy cream fronts",
+            "pale stone-effect tiles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Runde und geometrische Schlafzimmerpaneele",
+      "intro": "Diese Schlafzimmeransichten zeigen blaue Kreisformen und geometrische Paneele hinter den Betten.",
+      "detail": "Schreibtische, Schränke und Spiegelflächen stehen an den umliegenden Wänden.",
+      "gallery": [
+        {
+          "id": "image-0111",
+          "caption": "Das Bett steht vor grauen geometrischen Paneelen, zwischen Spiegeln und Schubladen in Holzoptik.",
+          "materials": [
+            "Paneele und Schubladen mit Holzmaserung",
+            "glänzende graue Paneele",
+            "cremefarbene Schrankfronten",
+            "gepolstertes Kopfteil",
+            "weiße und graue Bettwäsche",
+            "Spiegelglas",
+            "helle Fliesen"
+          ]
+        },
+        {
+          "id": "image-0113",
+          "caption": "Ein rundes Porträt hängt neben geometrischen Paneelen, einem Schreibtisch und einer Polsterbank.",
+          "materials": [
+            "taupefarbene Paneele",
+            "Schreibtisch und Deckeneinsatz in Holzoptik",
+            "helle Fliesen in Steinoptik",
+            "beiger Stoff"
+          ]
+        },
+        {
+          "id": "image-0112",
+          "caption": "Über dem Bett leuchtet ein blauer Kreis, daneben stehen ein Schreibtisch und hohe Schränke.",
+          "materials": [
+            "beiger gewebter Stoff",
+            "glänzende cremefarbene Fronten",
+            "helle Fliesen in Steinoptik",
+            "Regale in Holzoptik",
+            "blau gestrichene Flächen"
+          ]
+        },
+        {
+          "id": "image-0115",
+          "caption": "Eckige blaugraue Paneele stehen hinter dem Bett neben einem Schreibtisch und gemusterten Fronten.",
+          "materials": [
+            "blaugraue Paneele",
+            "warme Flächen mit Holzmaserung",
+            "glänzende cremefarbene Fronten",
+            "beige Polster",
+            "helle Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0116",
+          "caption": "Hinter dem Bett stehen eckige blaugraue Paneele, daneben Schränke mit Schachfigurenmotiven.",
+          "materials": [
+            "blaugraue Paneele",
+            "Paneele und Schubladen mit Holzmaserung",
+            "glänzende cremefarbene Fronten",
+            "beiger gewebter Stoff",
+            "helle Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0117",
+          "caption": "Das Bett steht zwischen eckigen Paneelen, beleuchteten Holzflächen, Schreibtisch und Schränken.",
+          "materials": [
+            "blaugraue Paneele",
+            "Schränke mit Holzmaserung",
+            "glänzende cremefarbene Fronten",
+            "beiger Stoff",
+            "helle Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0118",
+          "caption": "Ein Kopfteil mit Knopfheftung steht vor blaugrauen Paneelen neben Schubladen in Holzoptik.",
+          "materials": [
+            "beiger Stoff mit Knopfheftung",
+            "blaugraue Paneele",
+            "Schränke mit Holzmaserung",
+            "glänzende cremefarbene Fronten",
+            "helle Fliesen in Steinoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "15": {
+    "en": {
+      "title": "Bedroom with illuminated arches",
+      "intro": "A centred bed sits between mirrors and arched slatted panels. Lighting outlines the wall panels.",
+      "detail": "The side view shows a desk, shelves and a television between two doors.",
+      "gallery": [
+        {
+          "id": "image-0133",
+          "caption": "The bed sits between mirrors, with a desk on the left and arched slatted panels on the right.",
+          "materials": [
+            "dark grey panels",
+            "wood-effect bed and desk",
+            "white fronts",
+            "mirror glass",
+            "vertical wood-effect slats",
+            "marble-effect floor",
+            "patterned bedding"
+          ]
+        },
+        {
+          "id": "image-0134",
+          "caption": "The side view shows the bed, a desk and shelves, with a television between two doors.",
+          "materials": [
+            "wood-effect bed and shelves",
+            "dark grey panels",
+            "white fronts",
+            "mirror glass",
+            "marble-effect floor",
+            "patterned bedding"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Schlafzimmer mit beleuchteten Bögen",
+      "intro": "Ein mittig stehendes Bett ist von Spiegeln und bogenförmigen Lamellenpaneelen umgeben. Licht betont die Konturen der Wandpaneele.",
+      "detail": "Die Seitenansicht zeigt einen Schreibtisch, Regale und einen Fernseher zwischen zwei Türen.",
+      "gallery": [
+        {
+          "id": "image-0133",
+          "caption": "Das Bett steht zwischen Spiegeln, links ein Schreibtisch, rechts bogenförmige Lamellenpaneele.",
+          "materials": [
+            "dunkelgraue Paneele",
+            "Bett und Schreibtisch in Holzoptik",
+            "weiße Fronten",
+            "Spiegelglas",
+            "senkrechte Lamellen in Holzoptik",
+            "Boden in Marmoroptik",
+            "gemusterte Bettwäsche"
+          ]
+        },
+        {
+          "id": "image-0134",
+          "caption": "Die Seitenansicht zeigt Bett, Schreibtisch und Regale sowie einen Fernseher zwischen zwei Türen.",
+          "materials": [
+            "Bett und Regale in Holzoptik",
+            "dunkelgraue Paneele",
+            "weiße Fronten",
+            "Spiegelglas",
+            "Boden in Marmoroptik",
+            "gemusterte Bettwäsche"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "18": {
+    "en": {
+      "title": "Reception and Meeting Spaces",
+      "intro": "A curved reception desk sits beside waiting areas, offices and meeting spaces. Pale surfaces contrast with blue panels.",
+      "detail": "Glass partitions, potted plants and varied seating feature throughout. Wood-look panels and pale tiled floors appear in several spaces.",
+      "gallery": [
+        {
+          "id": "image-0196",
+          "caption": "A curved white and blue desk faces grey sofas, display shelves and potted plants.",
+          "materials": [
+            "wood-grain panels",
+            "glossy blue surfaces",
+            "stone-look tiles",
+            "grey upholstery",
+            "glass doors"
+          ]
+        },
+        {
+          "id": "image-0199",
+          "caption": "The desk has lit wave detailing, a slatted backdrop and a raised deity display on the right.",
+          "materials": [
+            "wood-look slats",
+            "smooth white surfaces",
+            "glossy blue panel",
+            "stone-look tiles"
+          ]
+        },
+        {
+          "id": "image-0194",
+          "caption": "Meeting seating and a rear desk sit behind lounge chairs and an oval table.",
+          "materials": [
+            "wood-look panels",
+            "stone-look cladding",
+            "glass tabletop",
+            "marble-look desktop",
+            "grey upholstery",
+            "metallic table base"
+          ]
+        },
+        {
+          "id": "image-0176",
+          "caption": "A central meeting table is lined with swivel chairs beside a whiteboard and wall-mounted screen.",
+          "materials": [
+            "wood-look planks",
+            "beige fabric upholstery",
+            "dark metallic legs",
+            "white ceiling panels",
+            "pale textured walls"
+          ]
+        },
+        {
+          "id": "image-0189",
+          "caption": "A tiled hall leads to glass doors beside blue wall strips, plaques and a curved dark line.",
+          "materials": [
+            "pale stone-look tiles",
+            "blue strips",
+            "translucent plaques",
+            "glass doors",
+            "wood-look trim"
+          ]
+        },
+        {
+          "id": "image-0197",
+          "caption": "Wood-look ribs and blue panels frame a desk opposite grey sofas and black shelves.",
+          "materials": [
+            "wood-look ribs and panels",
+            "veined stone-look facing",
+            "glossy blue panels",
+            "grey upholstery",
+            "stone-look tiles"
+          ]
+        },
+        {
+          "id": "image-0198",
+          "caption": "A veined reception desk has a blue surround, wood-look ribs and nearby sofa seating.",
+          "materials": [
+            "wood-look ribs and panels",
+            "veined stone-look facing",
+            "glossy blue panels",
+            "grey upholstery",
+            "stone-look tiles"
+          ]
+        },
+        {
+          "id": "image-0202",
+          "caption": "Blue display strips and a curved wall line sit beside a large frosted-glass partition.",
+          "materials": [
+            "grey concrete-look panels",
+            "blue strips",
+            "frosted glass",
+            "wood-look doors",
+            "stone-look tiles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Empfang und Besprechungsräume",
+      "intro": "Eine geschwungene Empfangstheke steht neben Wartebereichen, Büros und Besprechungsräumen. Helle Oberflächen stehen im Kontrast zu blauen Paneelen.",
+      "detail": "Glastrennwände, Topfpflanzen und unterschiedliche Sitzmöbel sind in den Ansichten zu sehen. Mehrere Räume haben Paneele in Holzoptik und helle Fliesenböden.",
+      "gallery": [
+        {
+          "id": "image-0196",
+          "caption": "Eine geschwungene weiss-blaue Theke steht gegenüber grauen Sofas, Regalen und Topfpflanzen.",
+          "materials": [
+            "Paneele mit Holzmaserung",
+            "glänzende blaue Flächen",
+            "Fliesen in Steinoptik",
+            "graue Polster",
+            "Glastüren"
+          ]
+        },
+        {
+          "id": "image-0199",
+          "caption": "Die Theke hat beleuchtete Wellenlinien, Lamellen dahinter und rechts eine erhöhte Götterfigur.",
+          "materials": [
+            "Lamellen in Holzoptik",
+            "glatte weisse Flächen",
+            "glänzendes blaues Paneel",
+            "Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0194",
+          "caption": "Besprechungsstühle und ein Schreibtisch stehen hinter Sesseln und einem ovalen Tisch.",
+          "materials": [
+            "Paneele in Holzoptik",
+            "Verkleidung in Steinoptik",
+            "Glastischplatte",
+            "Schreibtischplatte in Marmoroptik",
+            "graue Polster",
+            "metallisch wirkender Tischfuss"
+          ]
+        },
+        {
+          "id": "image-0176",
+          "caption": "Drehstühle stehen am Besprechungstisch neben einem Whiteboard und einem Wandbildschirm.",
+          "materials": [
+            "Dielen in Holzoptik",
+            "beige Stoffpolster",
+            "dunkle metallisch wirkende Beine",
+            "weisse Deckenpaneele",
+            "helle strukturierte Wände"
+          ]
+        },
+        {
+          "id": "image-0189",
+          "caption": "Ein gefliester Flur führt zu Glastüren neben blauen Wandstreifen, Tafeln und einer dunklen Kurve.",
+          "materials": [
+            "helle Fliesen in Steinoptik",
+            "blaue Streifen",
+            "lichtdurchlässige Tafeln",
+            "Glastüren",
+            "Leisten in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0197",
+          "caption": "Rippen in Holzoptik und blaue Paneele rahmen die Theke gegenüber grauen Sofas und Regalen.",
+          "materials": [
+            "Rippen und Paneele in Holzoptik",
+            "gemaserte Verkleidung in Steinoptik",
+            "glänzende blaue Paneele",
+            "graue Polster",
+            "Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0198",
+          "caption": "Die gemaserte Empfangstheke hat eine blaue Einfassung, Rippen in Holzoptik und Sofas daneben.",
+          "materials": [
+            "Rippen und Paneele in Holzoptik",
+            "gemaserte Verkleidung in Steinoptik",
+            "glänzende blaue Paneele",
+            "graue Polster",
+            "Fliesen in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0202",
+          "caption": "Blaue Streifen und eine geschwungene Wandlinie liegen neben einer grossen Milchglastrennwand.",
+          "materials": [
+            "graue Paneele in Betonoptik",
+            "blaue Streifen",
+            "Milchglas",
+            "Türen in Holzoptik",
+            "Fliesen in Steinoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "13": {
+    "en": {
+      "title": "Blue Bedroom with Plant Patterns",
+      "intro": "A blue upholstered bed and bench sit beneath plant-patterned panels. Rounded cabinets and full-length curtains surround the bed.",
+      "detail": "A dressing table and slim television console have pale finishes. The wardrobe combines glazed fronts, open shelves and drawers.",
+      "gallery": [
+        {
+          "id": "image-0120",
+          "caption": "A blue bed and bench sit beside plant-patterned panels, rounded cabinets and long curtains.",
+          "materials": [
+            "dark blue woven upholstery",
+            "cream textured surfaces",
+            "wood-grain surfaces",
+            "pale marble-look flooring",
+            "grey curtains"
+          ]
+        },
+        {
+          "id": "image-0122",
+          "caption": "A full-height wardrobe combines lit hanging spaces, drawers, shelves and glazed fronts.",
+          "materials": [
+            "dark metallic frames",
+            "glazed fronts",
+            "cream panels",
+            "pale marble-look flooring",
+            "dark woven baskets"
+          ]
+        },
+        {
+          "id": "image-0121",
+          "caption": "The blue bed faces a wall-mounted television, with a dressing table beside the curtained window.",
+          "materials": [
+            "blue woven upholstery",
+            "cream textured walls",
+            "pale stone-look flooring",
+            "wood-grain surfaces",
+            "grey curtain fabric",
+            "gold-toned trim"
+          ]
+        },
+        {
+          "id": "image-0123",
+          "caption": "A gold-trimmed mirror sits above curved drawers beside a floating console and long curtains.",
+          "materials": [
+            "cream textured walls",
+            "cream drawer fronts",
+            "gold-toned trim and handles",
+            "grey curtains",
+            "pale marble-look flooring",
+            "blue fabric upholstery"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Blaues Schlafzimmer mit Pflanzenmustern",
+      "intro": "Ein blau gepolstertes Bett und eine Bank stehen unter Paneelen mit Pflanzenmustern. Abgerundete Schränke und bodenlange Vorhänge umgeben das Bett.",
+      "detail": "Ein Schminktisch und ein schmales TV-Möbel haben helle Oberflächen. Der Kleiderschrank kombiniert Glasfronten, offene Regale und Schubladen.",
+      "gallery": [
+        {
+          "id": "image-0120",
+          "caption": "Ein blaues Bett und eine Bank stehen neben Pflanzenmustern, runden Schränken und Vorhängen.",
+          "materials": [
+            "dunkelblaue Webstoffpolster",
+            "cremefarbene strukturierte Flächen",
+            "Flächen mit Holzmaserung",
+            "heller Boden in Marmoroptik",
+            "graue Vorhänge"
+          ]
+        },
+        {
+          "id": "image-0122",
+          "caption": "Der raumhohe Kleiderschrank hat beleuchtete Kleiderfächer, Schubladen, Regale und Glasfronten.",
+          "materials": [
+            "dunkle metallisch wirkende Rahmen",
+            "Glasfronten",
+            "cremefarbene Paneele",
+            "heller Boden in Marmoroptik",
+            "dunkle geflochtene Körbe"
+          ]
+        },
+        {
+          "id": "image-0121",
+          "caption": "Das blaue Bett steht gegenüber dem Wandfernseher; der Schminktisch steht neben dem Fenster.",
+          "materials": [
+            "blaue Webstoffpolster",
+            "cremefarbene strukturierte Wände",
+            "heller Boden in Steinoptik",
+            "Flächen mit Holzmaserung",
+            "grauer Vorhangstoff",
+            "goldfarbene Leisten"
+          ]
+        },
+        {
+          "id": "image-0123",
+          "caption": "Ein goldgerahmter Spiegel hängt über gerundeten Schubladen neben einem schwebenden TV-Möbel.",
+          "materials": [
+            "cremefarbene strukturierte Wände",
+            "cremefarbene Schubladenfronten",
+            "goldfarbene Leisten und Griffe",
+            "graue Vorhänge",
+            "heller Boden in Marmoroptik",
+            "blaue Stoffpolster"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "03": {
+    "en": {
+      "title": "Bedrooms and Dressing Spaces",
+      "intro": "Blue headboards and bedding sit alongside patterned walls. Curved armchairs and large mirrors appear in the bedroom views.",
+      "detail": "Glossy wardrobes and window-side desks feature in several views. The dressing aisle has reflective doors and low strip lighting.",
+      "gallery": [
+        {
+          "id": "image-0023",
+          "caption": "Two armchairs sit beside a blue headboard, lit angled wall bands and a large oval mirror.",
+          "materials": [
+            "blue upholstery",
+            "cream upholstery",
+            "dark wood-look framing",
+            "pale stone-look flooring",
+            "grey patterned rug",
+            "mirror glass",
+            "gold-toned table frame"
+          ]
+        },
+        {
+          "id": "image-0028",
+          "caption": "A grey bed with blue bedding sits beside glossy storage and a desk beneath horizontal blinds.",
+          "materials": [
+            "grey upholstery",
+            "blue bedding",
+            "glossy grey cabinets",
+            "wood-look flooring and shelves",
+            "white textured walls",
+            "woven rug"
+          ]
+        },
+        {
+          "id": "image-0024",
+          "caption": "A blue headboard and patterned walls sit behind two curved armchairs and a low table.",
+          "materials": [
+            "white marble-look flooring",
+            "blue upholstery",
+            "cream upholstery",
+            "wood-look trim",
+            "textured wall panels",
+            "metallic table frame"
+          ]
+        },
+        {
+          "id": "image-0029",
+          "caption": "A grey bed with blue bedding sits beside glossy storage and a desk beneath horizontal blinds.",
+          "materials": [
+            "grey upholstery",
+            "blue bedding",
+            "glossy grey cabinets",
+            "wood-look flooring and shelves",
+            "white textured walls",
+            "woven rug"
+          ]
+        },
+        {
+          "id": "image-0025",
+          "caption": "The television wall has wood-look panels, a lit pale panel and a low blue cabinet.",
+          "materials": [
+            "wood-look panels",
+            "white stone-look surfaces",
+            "blue cabinets",
+            "cream upholstery",
+            "metallic trim"
+          ]
+        },
+        {
+          "id": "image-0026",
+          "caption": "Blue bedding faces a marble-look television wall, glossy wardrobes and a window-side desk.",
+          "materials": [
+            "glossy grey cabinets",
+            "white marble-look panel",
+            "wood-look framing",
+            "blue textiles",
+            "mirror glass",
+            "white desk surface"
+          ]
+        },
+        {
+          "id": "image-0027",
+          "caption": "Blue bedding faces a marble-look television wall, glossy wardrobes and a window-side desk.",
+          "materials": [
+            "glossy grey cabinets",
+            "white marble-look panel",
+            "wood-look framing",
+            "blue textiles",
+            "mirror glass",
+            "white desk surface"
+          ]
+        },
+        {
+          "id": "image-0020",
+          "caption": "Reflective wardrobe doors line a narrow aisle with low lighting, artwork and a potted plant.",
+          "materials": [
+            "dark reflective glass",
+            "dark cabinet panels",
+            "stone-look flooring",
+            "metallic handles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Schlafzimmer und Ankleidebereiche",
+      "intro": "Blaue Kopfteile und Bettwäsche stehen neben gemusterten Wänden. In den Schlafzimmeransichten sind gerundete Sessel und grosse Spiegel zu sehen.",
+      "detail": "Mehrere Ansichten zeigen glänzende Kleiderschränke und Schreibtische am Fenster. Der schmale Ankleidebereich hat spiegelnde Türen und bodennahe Lichtleisten.",
+      "gallery": [
+        {
+          "id": "image-0023",
+          "caption": "Zwei Sessel stehen neben einem blauen Kopfteil, beleuchteten Wandstreifen und einem ovalen Spiegel.",
+          "materials": [
+            "blaue Polster",
+            "cremefarbene Polster",
+            "dunkle Rahmen in Holzoptik",
+            "heller Boden in Steinoptik",
+            "grauer gemusterter Teppich",
+            "Spiegelglas",
+            "goldfarbenes Tischgestell"
+          ]
+        },
+        {
+          "id": "image-0028",
+          "caption": "Ein graues Bett mit blauer Bettwäsche steht neben glänzenden Schränken und einem Schreibtisch.",
+          "materials": [
+            "graue Polster",
+            "blaue Bettwäsche",
+            "glänzende graue Schränke",
+            "Boden und Regale in Holzoptik",
+            "weisse strukturierte Wände",
+            "gewebter Teppich"
+          ]
+        },
+        {
+          "id": "image-0024",
+          "caption": "Ein blaues Kopfteil und gemusterte Wände stehen hinter zwei gerundeten Sesseln und einem Tisch.",
+          "materials": [
+            "weisser Boden in Marmoroptik",
+            "blaue Polster",
+            "cremefarbene Polster",
+            "Leisten in Holzoptik",
+            "strukturierte Wandpaneele",
+            "metallisch wirkendes Tischgestell"
+          ]
+        },
+        {
+          "id": "image-0029",
+          "caption": "Ein graues Bett mit blauer Bettwäsche steht neben glänzenden Schränken und einem Schreibtisch.",
+          "materials": [
+            "graue Polster",
+            "blaue Bettwäsche",
+            "glänzende graue Schränke",
+            "Boden und Regale in Holzoptik",
+            "weisse strukturierte Wände",
+            "gewebter Teppich"
+          ]
+        },
+        {
+          "id": "image-0025",
+          "caption": "Die TV-Wand hat Paneele in Holzoptik, ein beleuchtetes helles Paneel und einen blauen Unterschrank.",
+          "materials": [
+            "Paneele in Holzoptik",
+            "weisse Flächen in Steinoptik",
+            "blaue Schränke",
+            "cremefarbene Polster",
+            "metallisch wirkende Leisten"
+          ]
+        },
+        {
+          "id": "image-0026",
+          "caption": "Das blau bezogene Bett steht gegenüber der TV-Wand in Marmoroptik und glänzenden Schränken.",
+          "materials": [
+            "glänzende graue Schränke",
+            "weisses Paneel in Marmoroptik",
+            "Rahmen in Holzoptik",
+            "blaue Textilien",
+            "Spiegelglas",
+            "weisse Schreibtischfläche"
+          ]
+        },
+        {
+          "id": "image-0027",
+          "caption": "Das blau bezogene Bett steht gegenüber der TV-Wand in Marmoroptik und glänzenden Schränken.",
+          "materials": [
+            "glänzende graue Schränke",
+            "weisses Paneel in Marmoroptik",
+            "Rahmen in Holzoptik",
+            "blaue Textilien",
+            "Spiegelglas",
+            "weisse Schreibtischfläche"
+          ]
+        },
+        {
+          "id": "image-0020",
+          "caption": "Spiegelnde Schranktüren säumen einen schmalen Gang mit Lichtleisten, einem Bild und einer Pflanze.",
+          "materials": [
+            "dunkles spiegelndes Glas",
+            "dunkle Schrankpaneele",
+            "Boden in Steinoptik",
+            "metallisch wirkende Griffe"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "01": {
+    "en": {
+      "title": "Bedrooms with Curved Details",
+      "intro": "Arched headboards, ribbed cabinets and dressing niches feature in these bedroom views. The rooms use taupe, muted pink and blue.",
+      "detail": "Full-height wardrobes sit beside desks and illuminated wall panels. A separate kitchen view shows pale blue cabinets and veined counters.",
+      "gallery": [
+        {
+          "id": "image-0013",
+          "caption": "Lit arches and bird-patterned panels frame the bed beside tall wardrobes and a bench.",
+          "materials": [
+            "taupe cabinets",
+            "tufted fabric upholstery",
+            "plant-patterned panels",
+            "pale stone-look flooring",
+            "metallic stool legs"
+          ]
+        },
+        {
+          "id": "image-0010",
+          "caption": "A pale blue U-shaped kitchen has veined counters, a lit splashback and a fridge on the right.",
+          "materials": [
+            "pale blue framed cabinets",
+            "frosted-glass-look inserts",
+            "white surfaces with grey veining",
+            "gold-toned handles",
+            "metallic fridge surface",
+            "pale floor tiles"
+          ]
+        },
+        {
+          "id": "image-0004",
+          "caption": "Three rounded plant-patterned panels sit above the bed beside blue ribs and a built-in desk.",
+          "materials": [
+            "blue ribbed panels",
+            "plant-patterned panels",
+            "beige upholstery",
+            "glossy cream cabinets",
+            "white floor tiles",
+            "dark wood-look door"
+          ]
+        },
+        {
+          "id": "image-0000",
+          "caption": "An upholstered bed sits beside tall wardrobes, a mirrored dressing niche and a window-side desk.",
+          "materials": [
+            "smooth taupe cabinets",
+            "ribbed panels",
+            "grey upholstery",
+            "mirror glass",
+            "white floor tiles",
+            "grey curtain fabric"
+          ]
+        },
+        {
+          "id": "image-0001",
+          "caption": "A rounded upholstered headboard sits beside ribbed wardrobes and a desk on the right.",
+          "materials": [
+            "mauve upholstery",
+            "taupe ribbed cabinets",
+            "mirror strips",
+            "beige textured walls",
+            "white floor tiles",
+            "striped rug"
+          ]
+        },
+        {
+          "id": "image-0003",
+          "caption": "A stone-look wall and wood-look slats sit beside pale pink wardrobes and a window-side desk.",
+          "materials": [
+            "grey stone-look wall",
+            "wood-look slats",
+            "mauve upholstery",
+            "glossy pale pink panels",
+            "taupe cabinets",
+            "white floor tiles"
+          ]
+        },
+        {
+          "id": "image-0012",
+          "caption": "Patterned wardrobes and a desk nook sit beside a television above a floating cabinet.",
+          "materials": [
+            "taupe surfaces",
+            "bird-and-branch patterns",
+            "pink upholstery",
+            "pale stone-look flooring",
+            "dark metallic trim"
+          ]
+        },
+        {
+          "id": "image-0002",
+          "caption": "The reverse view shows wardrobes, a recessed desk and tall rounded outlines on the TV wall.",
+          "materials": [
+            "taupe ribbed cabinets",
+            "mirror strips",
+            "smooth dark panels",
+            "mauve upholstery",
+            "pale cabinet surfaces"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Schlafzimmer mit Gerundeten Details",
+      "intro": "Die Schlafzimmeransichten zeigen bogenförmige Kopfteile, gerippte Schränke und Schminknischen. Die Räume sind in Graubraun, gedecktem Rosa und Blau gehalten.",
+      "detail": "Raumhohe Kleiderschränke stehen neben Schreibtischen und beleuchteten Wandpaneelen. Eine separate Küchenansicht zeigt hellblaue Schränke und gemaserte Arbeitsplatten.",
+      "gallery": [
+        {
+          "id": "image-0013",
+          "caption": "Leuchtende Bögen und Vogelmuster rahmen das Bett neben hohen Schränken und einer Bank.",
+          "materials": [
+            "graubraune Schränke",
+            "Stoffpolster mit Knopfheftung",
+            "Paneele mit Pflanzenmustern",
+            "heller Boden in Steinoptik",
+            "metallisch wirkende Hockerbeine"
+          ]
+        },
+        {
+          "id": "image-0010",
+          "caption": "Die hellblaue U-Küche hat gemaserte Arbeitsplatten, eine beleuchtete Rückwand und rechts einen Kühlschrank.",
+          "materials": [
+            "hellblaue Schränke mit Rahmenfronten",
+            "Einsätze in Milchglasoptik",
+            "weisse Flächen mit grauer Maserung",
+            "goldfarbene Griffe",
+            "metallisch wirkende Kühlschrankfläche",
+            "helle Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0004",
+          "caption": "Drei gerundete Paneele mit Pflanzenmustern hängen über dem Bett neben blauen Rippen.",
+          "materials": [
+            "blaue gerippte Paneele",
+            "Paneele mit Pflanzenmustern",
+            "beige Polster",
+            "glänzende cremefarbene Schränke",
+            "weisse Bodenfliesen",
+            "dunkle Tür in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0000",
+          "caption": "Ein Polsterbett steht neben hohen Schränken, einer Spiegelnische und einem Schreibtisch am Fenster.",
+          "materials": [
+            "glatte graubraune Schränke",
+            "gerippte Paneele",
+            "graue Polster",
+            "Spiegelglas",
+            "weisse Bodenfliesen",
+            "grauer Vorhangstoff"
+          ]
+        },
+        {
+          "id": "image-0001",
+          "caption": "Ein gerundetes Polsterkopfteil steht neben gerippten Schränken und einem Schreibtisch rechts.",
+          "materials": [
+            "malvenfarbene Polster",
+            "graubraune gerippte Schränke",
+            "Spiegelstreifen",
+            "beige strukturierte Wände",
+            "weisse Bodenfliesen",
+            "gestreifter Teppich"
+          ]
+        },
+        {
+          "id": "image-0003",
+          "caption": "Eine Wand in Steinoptik und Holzoptik-Lamellen stehen neben rosa Schränken und einem Schreibtisch.",
+          "materials": [
+            "graue Wand in Steinoptik",
+            "Lamellen in Holzoptik",
+            "malvenfarbene Polster",
+            "glänzende hellrosa Paneele",
+            "graubraune Schränke",
+            "weisse Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0012",
+          "caption": "Gemusterte Schränke und eine Schreibtischnische stehen neben einem TV über einem Hängeschrank.",
+          "materials": [
+            "graubraune Flächen",
+            "Vogel- und Zweigmuster",
+            "rosa Polster",
+            "heller Boden in Steinoptik",
+            "dunkle metallisch wirkende Leisten"
+          ]
+        },
+        {
+          "id": "image-0002",
+          "caption": "Die Gegenansicht zeigt Schränke, eine Schreibtischnische und hohe gerundete Linien an der TV-Wand.",
+          "materials": [
+            "graubraune gerippte Schränke",
+            "Spiegelstreifen",
+            "glatte dunkle Paneele",
+            "malvenfarbene Polster",
+            "helle Schrankflächen"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "07": {
+    "en": {
+      "title": "Open-plan living with blue accents",
+      "intro": "The living and dining areas share an open space with a staircase and suspended seat. Wood-look surfaces and blue accents appear throughout.",
+      "detail": "The bedrooms have geometric wall details and built-in storage. Wall lighting highlights textured surfaces.",
+      "gallery": [
+        {
+          "id": "image-0053",
+          "caption": "The living area has a corner sofa, TV wall, staircase and suspended bench above pebbles.",
+          "materials": [
+            "Cream upholstery",
+            "Wood-look stair trim and ceiling ring",
+            "White veined stone-look surfaces",
+            "Clear glass balustrade",
+            "Textured neutral rug"
+          ]
+        },
+        {
+          "id": "image-0044",
+          "caption": "A dining table sits beside a diamond-pattern wall and an illuminated washbasin niche.",
+          "materials": [
+            "Tan raised wall strips",
+            "Wood-look ceiling panels",
+            "Pale tabletop",
+            "Cream and blue upholstery",
+            "Metallic chair legs",
+            "Pale stone-look tiles",
+            "White veined splashback"
+          ]
+        },
+        {
+          "id": "image-0047",
+          "caption": "The L-shaped kitchen has a window-side sink, gas hob and black angled extractor hood.",
+          "materials": [
+            "Glossy taupe cabinets",
+            "White fluted cabinet fronts",
+            "Cream stone-look worktop and splashback",
+            "Metallic sink",
+            "Black glass-look hood",
+            "Pale floor tiles"
+          ]
+        },
+        {
+          "id": "image-0058",
+          "caption": "The pooja niche has a Ganesha figure, stepped altar, paired lamps and a circular backdrop.",
+          "materials": [
+            "White veined stone-look altar steps",
+            "Pale drawer fronts",
+            "Brown metallic-looking frame",
+            "Gold-tone lamps",
+            "Painted decorative backdrop"
+          ]
+        },
+        {
+          "id": "image-0043",
+          "caption": "A dark upholstered bed stands against a lit textured wall, beside wardrobes and plants.",
+          "materials": [
+            "Textured beige wall",
+            "Dark bed upholstery",
+            "Blue rug",
+            "Glossy pale floor tiles",
+            "Smooth taupe and blue cabinets",
+            "Black metal-look lamp"
+          ]
+        },
+        {
+          "id": "image-0037",
+          "caption": "A yellow bed and bench sit beside tall storage, geometric wall details and a window seat.",
+          "materials": [
+            "Glossy cream cabinets",
+            "Beige buttoned upholstery",
+            "Yellow upholstery",
+            "Wood-look slatted panels",
+            "Pale stone-look flooring",
+            "Mirrored surface"
+          ]
+        },
+        {
+          "id": "image-0054",
+          "caption": "Lit wood-look stair edges sit above a raised pebble bed with potted plants.",
+          "materials": [
+            "White veined stone-look stair treads",
+            "Wood-look edging and platform",
+            "Clear glass railing",
+            "White pebbles",
+            "Smooth pale wall panels"
+          ]
+        },
+        {
+          "id": "image-0045",
+          "caption": "The dining area has staggered wall strips, a globe pendant and a washbasin niche.",
+          "materials": [
+            "Brown wall with raised strips",
+            "Wood-look ceiling panels",
+            "Pale tabletop",
+            "Cream and blue upholstery",
+            "Metallic chair legs",
+            "White veined splashback",
+            "Pale floor tiles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Offener Wohnbereich mit blauen Akzenten",
+      "intro": "Wohn- und Essbereich teilen sich einen offenen Raum mit Treppe und hängender Sitzbank. Oberflächen in Holzoptik und blaue Akzente sind in mehreren Bereichen zu sehen.",
+      "detail": "Die Schlafzimmer haben geometrische Wanddetails und Einbauschränke. Wandbeleuchtung hebt strukturierte Oberflächen hervor.",
+      "gallery": [
+        {
+          "id": "image-0053",
+          "caption": "Der Wohnbereich hat ein Ecksofa, eine TV-Wand, eine Treppe und eine Hängesitzbank über Kieseln.",
+          "materials": [
+            "Cremefarbene Polster",
+            "Treppenkanten und Deckenring in Holzoptik",
+            "Weiße geäderte Oberflächen in Steinoptik",
+            "Klares Glasgeländer",
+            "Strukturierter Teppich in neutralen Farben"
+          ]
+        },
+        {
+          "id": "image-0044",
+          "caption": "Der Esstisch steht neben einer Wand mit Rautenmuster und einer beleuchteten Waschbeckennische.",
+          "materials": [
+            "Hellbraune erhabene Wandleisten",
+            "Deckenpaneele in Holzoptik",
+            "Helle Tischplatte",
+            "Cremefarbene und blaue Polster",
+            "Metallisch wirkende Stuhlbeine",
+            "Helle Fliesen in Steinoptik",
+            "Weiße geäderte Rückwand"
+          ]
+        },
+        {
+          "id": "image-0047",
+          "caption": "Die L-förmige Küche hat eine Spüle am Fenster, ein Gaskochfeld und eine schwarze Schräghaube.",
+          "materials": [
+            "Glänzende taupefarbene Schränke",
+            "Weiße gerillte Schrankfronten",
+            "Cremefarbene Arbeitsplatte und Rückwand in Steinoptik",
+            "Metallisch wirkende Spüle",
+            "Schwarze Haube in Glasoptik",
+            "Helle Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0058",
+          "caption": "Die Pooja-Nische hat eine Ganesha-Figur, einen Stufenaltar, zwei Lampen und ein rundes Wandbild.",
+          "materials": [
+            "Weiße geäderte Altarstufen in Steinoptik",
+            "Helle Schubladenfronten",
+            "Brauner metallisch wirkender Rahmen",
+            "Goldfarbene Lampen",
+            "Bemaltes dekoratives Wandbild"
+          ]
+        },
+        {
+          "id": "image-0043",
+          "caption": "Ein dunkles Polsterbett steht vor einer beleuchteten Strukturwand neben Schränken und Pflanzen.",
+          "materials": [
+            "Strukturierte beige Wand",
+            "Dunkle Bettpolster",
+            "Blauer Teppich",
+            "Glänzende helle Bodenfliesen",
+            "Glatte taupefarbene und blaue Schränke",
+            "Schwarze Lampe in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0037",
+          "caption": "Ein gelbes Bett und eine Bank stehen neben hohen Schränken und einem gepolsterten Fenstersitz.",
+          "materials": [
+            "Glänzende cremefarbene Schränke",
+            "Beige Polster mit Knopfheftung",
+            "Gelbe Polster",
+            "Lamellenpaneele in Holzoptik",
+            "Heller Boden in Steinoptik",
+            "Spiegelfläche"
+          ]
+        },
+        {
+          "id": "image-0054",
+          "caption": "Beleuchtete Treppenkanten in Holzoptik liegen über einem erhöhten Kieselbeet mit Topfpflanzen.",
+          "materials": [
+            "Weiße geäderte Stufen in Steinoptik",
+            "Kanten und Podest in Holzoptik",
+            "Klares Glasgeländer",
+            "Weiße Kiesel",
+            "Glatte helle Wandpaneele"
+          ]
+        },
+        {
+          "id": "image-0045",
+          "caption": "Der Essbereich hat versetzte Wandleisten, eine Kugelleuchte und eine Waschbeckennische.",
+          "materials": [
+            "Braune Wand mit erhabenen Leisten",
+            "Deckenpaneele in Holzoptik",
+            "Helle Tischplatte",
+            "Cremefarbene und blaue Polster",
+            "Metallisch wirkende Stuhlbeine",
+            "Weiße geäderte Rückwand",
+            "Helle Bodenfliesen"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "10": {
+    "en": {
+      "title": "Teal kitchen and wood-look details",
+      "intro": "Teal cabinetry, wood-look details and rounded forms feature in the living and dining areas. A screened pooja enclosure sits beside the kitchen.",
+      "detail": "The bedroom has botanical wall panels and green detailing on full-height wardrobes. Recessed storage and wall-mounted cabinets appear in the shared spaces.",
+      "gallery": [
+        {
+          "id": "image-0095",
+          "caption": "An open-plan view shows a cream sofa and TV wall, with dining and kitchen areas beyond.",
+          "materials": [
+            "Cream upholstery",
+            "Wood-grain shelves and cabinets",
+            "Textured pale walls",
+            "Dark vertical tiles",
+            "Speckled tabletops",
+            "Patterned rug",
+            "Grey floor tiles"
+          ]
+        },
+        {
+          "id": "image-0093",
+          "caption": "The living and dining area has a cream corner sofa, wooden wall ornaments and a basin niche.",
+          "materials": [
+            "Cream upholstery",
+            "Textured pale walls",
+            "Wood-grain cabinets and ceiling panels",
+            "Blue chevron-pattern wall",
+            "Speckled tabletops",
+            "Patterned rug",
+            "Woven pendant shade"
+          ]
+        },
+        {
+          "id": "image-0089",
+          "caption": "Blue kitchen cabinets and a rounded counter sit beside a screened pooja enclosure.",
+          "materials": [
+            "Blue and cream cabinet fronts",
+            "Wood-grain panels",
+            "White veined stone-look splashback",
+            "Ribbed translucent panels",
+            "Black metal-look shelves",
+            "Grey tiles"
+          ]
+        },
+        {
+          "id": "image-0086",
+          "caption": "An upholstered bed sits between botanical wall panels and wardrobes with green detailing.",
+          "materials": [
+            "Grey bed upholstery",
+            "Cream bedding",
+            "Green patterned textiles",
+            "Botanical wall panels",
+            "Light wardrobe fronts",
+            "Wood-grain door and bedside unit",
+            "Pale floor tiles"
+          ]
+        },
+        {
+          "id": "image-0087",
+          "caption": "The bedroom has wardrobes with green geometric trim and a small green console.",
+          "materials": [
+            "Grey bed upholstery",
+            "Cream and green textiles",
+            "Light wardrobe fronts",
+            "Botanical wall panels",
+            "Pale textured wall panels",
+            "Green console",
+            "Pale floor tiles"
+          ]
+        },
+        {
+          "id": "image-0094",
+          "caption": "A rounded, lit TV panel stands beside a dining table with four chairs.",
+          "materials": [
+            "Cream upholstery",
+            "Textured pale TV panel",
+            "Dark vertical wall tiles",
+            "Wood-grain console and ceiling inset",
+            "Speckled tabletop",
+            "Woven pendant shade",
+            "Grey floor tiles"
+          ]
+        },
+        {
+          "id": "image-0085",
+          "caption": "Kitchen storage includes a fridge, fitted oven, blue cabinets and a wood-grain sideboard.",
+          "materials": [
+            "Cream and muted blue cabinet fronts",
+            "Wood-grain cabinets",
+            "White stone-look worktop",
+            "Grey floor tiles",
+            "Textured painted wall"
+          ]
+        },
+        {
+          "id": "image-0088",
+          "caption": "The narrow kitchen has blue lower cabinets, overhead storage and a cushioned corner bench.",
+          "materials": [
+            "Matt blue cabinets",
+            "Cream cabinet fronts",
+            "Wood-grain panels",
+            "White veined stone-look surfaces",
+            "Black metal-look shelves",
+            "Grey floor tiles"
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "id": "drawing-10",
+          "caption": "The sketch shows the furniture layout and room arrangement."
+        }
+      ],
+      "videos": []
+    },
+    "de": {
+      "title": "Petrolfarbene Küche und Holzoptik",
+      "intro": "Petrolfarbene Schränke, Holzoptik und abgerundete Formen prägen den Wohn- und Essbereich. Eine Pooja-Nische mit Sichtschutz steht neben der Küche.",
+      "detail": "Das Schlafzimmer hat Wandpaneele mit Pflanzenmotiven und raumhohe Schränke mit grünen Details. Nischen und Wandschränke sind in den gemeinsamen Bereichen zu sehen.",
+      "gallery": [
+        {
+          "id": "image-0095",
+          "caption": "Der offene Raum zeigt ein cremefarbenes Sofa und eine TV-Wand vor dem Ess- und Küchenbereich.",
+          "materials": [
+            "Cremefarbene Polster",
+            "Regale und Schränke mit Holzmaserung",
+            "Strukturierte helle Wände",
+            "Dunkle senkrechte Fliesen",
+            "Gesprenkelte Tischplatten",
+            "Gemusterter Teppich",
+            "Graue Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0093",
+          "caption": "Der Wohn- und Essbereich hat ein cremefarbenes Ecksofa, Holz-Wanddekor und eine Waschbeckennische.",
+          "materials": [
+            "Cremefarbene Polster",
+            "Strukturierte helle Wände",
+            "Schränke und Deckenpaneele mit Holzmaserung",
+            "Blaue Wand mit Zickzackmuster",
+            "Gesprenkelte Tischplatten",
+            "Gemusterter Teppich",
+            "Geflochtener Leuchtenschirm"
+          ]
+        },
+        {
+          "id": "image-0089",
+          "caption": "Blaue Küchenschränke und eine abgerundete Theke stehen neben einer Pooja-Nische mit Sichtschutz.",
+          "materials": [
+            "Blaue und cremefarbene Schrankfronten",
+            "Paneele mit Holzmaserung",
+            "Weiße geäderte Rückwand in Steinoptik",
+            "Gerillte lichtdurchlässige Paneele",
+            "Schwarze Regale in Metalloptik",
+            "Graue Fliesen"
+          ]
+        },
+        {
+          "id": "image-0086",
+          "caption": "Ein Polsterbett steht zwischen Wandpaneelen mit Pflanzenmotiven und Schränken mit grünen Details.",
+          "materials": [
+            "Graue Bettpolster",
+            "Cremefarbene Bettwäsche",
+            "Grüne gemusterte Textilien",
+            "Wandpaneele mit Pflanzenmotiven",
+            "Helle Schrankfronten",
+            "Tür und Nachttisch mit Holzmaserung",
+            "Helle Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0087",
+          "caption": "Das Schlafzimmer hat Schränke mit grünen geometrischen Leisten und eine kleine grüne Konsole.",
+          "materials": [
+            "Graue Bettpolster",
+            "Cremefarbene und grüne Textilien",
+            "Helle Schrankfronten",
+            "Wandpaneele mit Pflanzenmotiven",
+            "Helle strukturierte Wandpaneele",
+            "Grüne Konsole",
+            "Helle Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0094",
+          "caption": "Ein abgerundetes, beleuchtetes TV-Paneel steht neben einem Esstisch mit vier Stühlen.",
+          "materials": [
+            "Cremefarbene Polster",
+            "Helles strukturiertes TV-Paneel",
+            "Dunkle senkrechte Wandfliesen",
+            "Konsole und Deckenfeld mit Holzmaserung",
+            "Gesprenkelte Tischplatte",
+            "Geflochtener Leuchtenschirm",
+            "Graue Bodenfliesen"
+          ]
+        },
+        {
+          "id": "image-0085",
+          "caption": "Die Küchenwand enthält Kühlschrank, Einbauofen, blaue Schränke und ein Sideboard in Holzoptik.",
+          "materials": [
+            "Cremefarbene und gedeckt blaue Schrankfronten",
+            "Schränke mit Holzmaserung",
+            "Weiße Arbeitsplatte in Steinoptik",
+            "Graue Bodenfliesen",
+            "Strukturierte gestrichene Wand"
+          ]
+        },
+        {
+          "id": "image-0088",
+          "caption": "Die schmale Küche hat blaue Unterschränke, Hängeschränke und eine gepolsterte Eckbank.",
+          "materials": [
+            "Mattblaue Schränke",
+            "Cremefarbene Schrankfronten",
+            "Paneele mit Holzmaserung",
+            "Weiße geäderte Oberflächen in Steinoptik",
+            "Schwarze Regale in Metalloptik",
+            "Graue Bodenfliesen"
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "id": "drawing-10",
+          "caption": "Die Skizze zeigt die Möbelanordnung und Raumaufteilung."
+        }
+      ],
+      "videos": []
+    }
+  },
+  "14": {
+    "en": {
+      "title": "Nail studio in sage and blush",
+      "intro": "Manicure tables stand in front of illuminated nail polish shelves. The studio also has a reception counter and separate pedicure seats.",
+      "detail": "Two colour schemes show sage and cream, and blush with gold-tone details. Both include rounded display niches and an open staircase.",
+      "gallery": [
+        {
+          "id": "image-0124",
+          "caption": "Manicure tables face lit polish shelves, with a sage wall and reception counter at the rear.",
+          "materials": [
+            "Cream painted surfaces",
+            "Sage upholstery",
+            "Light wood-look flooring",
+            "Black metal-look frames",
+            "Pale stone-look counters"
+          ]
+        },
+        {
+          "id": "image-0128",
+          "caption": "Lit lettering and hand graphics frame a glazed entrance with manicure seating visible inside.",
+          "materials": [
+            "Cream and sage façade surfaces",
+            "Black door frames",
+            "Clear glass",
+            "Stone-look paving",
+            "Illuminated lettering"
+          ]
+        },
+        {
+          "id": "image-0126",
+          "caption": "Manicure stations face polish shelves, with an upholstered bench along the right wall.",
+          "materials": [
+            "Sage painted surfaces",
+            "Cream upholstery",
+            "Light wood-look floor",
+            "Black metal-look frames",
+            "Pale stone-look tabletops"
+          ]
+        },
+        {
+          "id": "image-0129",
+          "caption": "Blush manicure seats and gold-tone tables face lit polish shelves beside the reception counter.",
+          "materials": [
+            "White and blush painted surfaces",
+            "Mauve upholstery",
+            "Gold-tone metal-look frames",
+            "Pale plank flooring",
+            "White stone-look counters"
+          ]
+        },
+        {
+          "id": "image-0131",
+          "caption": "Three manicure seats face rounded display niches, with a long mauve bench on the right.",
+          "materials": [
+            "Blush and white painted surfaces",
+            "Mauve upholstery",
+            "Gold-tone metal-look legs",
+            "White tabletops",
+            "Pale plank flooring"
+          ]
+        },
+        {
+          "id": "image-0125",
+          "caption": "An open-tread staircase stands beside manicure tables and rounded, lit display niches.",
+          "materials": [
+            "Light wood-look stair treads and flooring",
+            "Black metal-look stair frame",
+            "Sage upholstery",
+            "Cream wall panels",
+            "Pale stone-look tabletops"
+          ]
+        },
+        {
+          "id": "image-0127",
+          "caption": "Two pedicure chairs and basins flank a product display beside a manicure desk.",
+          "materials": [
+            "Sage painted wall",
+            "Cream upholstery",
+            "Light wood-look flooring",
+            "White ceramic-look basins",
+            "Black metal-look fittings",
+            "Pale stone-look platforms"
+          ]
+        },
+        {
+          "id": "image-0130",
+          "caption": "An open staircase stands beside manicure tables opposite illuminated polish shelves.",
+          "materials": [
+            "White stair treads",
+            "Black metal-look stair frame",
+            "Blush upholstery",
+            "Gold-tone metal-look furniture frames",
+            "Pale plank flooring"
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "id": "drawing-14",
+          "caption": "The sketches show the display elevation and section."
+        }
+      ],
+      "videos": []
+    },
+    "de": {
+      "title": "Nagelstudio in Salbeigrün und Rosa",
+      "intro": "Maniküretische stehen vor beleuchteten Nagellackregalen. Das Studio hat außerdem eine Empfangstheke und separate Pediküresitze.",
+      "detail": "Zwei Farbvarianten zeigen Salbeigrün mit Creme und Rosa mit goldfarbenen Details. Beide enthalten abgerundete Präsentationsnischen und eine offene Treppe.",
+      "gallery": [
+        {
+          "id": "image-0124",
+          "caption": "Maniküretische stehen vor beleuchteten Lackregalen, mit salbeigrüner Wand und Empfang dahinter.",
+          "materials": [
+            "Cremefarben gestrichene Flächen",
+            "Salbeigrüne Polster",
+            "Heller Boden in Holzoptik",
+            "Schwarze Rahmen in Metalloptik",
+            "Helle Theken in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0128",
+          "caption": "Leuchtschrift und Handmotive rahmen den Glaseingang mit sichtbaren Maniküreplätzen.",
+          "materials": [
+            "Cremefarbene und salbeigrüne Fassadenflächen",
+            "Schwarze Türrahmen",
+            "Klares Glas",
+            "Pflaster in Steinoptik",
+            "Leuchtende Buchstaben"
+          ]
+        },
+        {
+          "id": "image-0126",
+          "caption": "Maniküreplätze stehen vor Nagellackregalen, mit einer Polsterbank an der rechten Wand.",
+          "materials": [
+            "Salbeigrün gestrichene Flächen",
+            "Cremefarbene Polster",
+            "Heller Boden in Holzoptik",
+            "Schwarze Rahmen in Metalloptik",
+            "Helle Tischplatten in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0129",
+          "caption": "Rosa Maniküresitze und goldfarbene Tische stehen vor beleuchteten Lackregalen neben dem Empfang.",
+          "materials": [
+            "Weiß und rosa gestrichene Flächen",
+            "Mauvefarbene Polster",
+            "Goldfarbene Rahmen in Metalloptik",
+            "Heller Dielenboden",
+            "Weiße Theken in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0131",
+          "caption": "Drei Maniküresitze stehen vor runden Nischen, mit einer langen mauvefarbenen Bank rechts.",
+          "materials": [
+            "Rosa und weiß gestrichene Flächen",
+            "Mauvefarbene Polster",
+            "Goldfarbene Beine in Metalloptik",
+            "Weiße Tischplatten",
+            "Heller Dielenboden"
+          ]
+        },
+        {
+          "id": "image-0125",
+          "caption": "Eine offene Treppe steht neben Maniküretischen und abgerundeten, beleuchteten Nischen.",
+          "materials": [
+            "Helle Treppenstufen und Boden in Holzoptik",
+            "Schwarzes Treppengestell in Metalloptik",
+            "Salbeigrüne Polster",
+            "Cremefarbene Wandpaneele",
+            "Helle Tischplatten in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0127",
+          "caption": "Zwei Pediküresessel mit Becken stehen beidseits eines Produktregals neben einem Maniküretisch.",
+          "materials": [
+            "Salbeigrün gestrichene Wand",
+            "Cremefarbene Polster",
+            "Heller Boden in Holzoptik",
+            "Weiße Becken in Keramikoptik",
+            "Schwarze Armaturen in Metalloptik",
+            "Helle Podeste in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0130",
+          "caption": "Eine offene Treppe steht neben Maniküretischen gegenüber beleuchteten Nagellackregalen.",
+          "materials": [
+            "Weiße Treppenstufen",
+            "Schwarzes Treppengestell in Metalloptik",
+            "Rosa Polster",
+            "Goldfarbene Möbelrahmen in Metalloptik",
+            "Heller Dielenboden"
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "id": "drawing-14",
+          "caption": "Die Skizzen zeigen die Ansicht und den Schnitt der Präsentationswand."
+        }
+      ],
+      "videos": []
+    }
+  },
+  "16": {
+    "en": {
+      "title": "Workspaces in green and graphite",
+      "intro": "Curved green seating sits beside glazed partitions, dark wall grids and wood-look furniture. The views show seating areas, desks and meeting tables.",
+      "detail": "Light and dark colour schemes appear across the spaces. Ribbed walls, coloured chairs and linear lighting add visible detail.",
+      "gallery": [
+        {
+          "id": "image-0141",
+          "caption": "A curved green sofa and wood-framed chairs sit before a glass partition with tall plants.",
+          "materials": [
+            "Green upholstery",
+            "Wood-look chairs with woven inserts",
+            "Black metal-look partition frame",
+            "Clear glass",
+            "Grey carpet tiles"
+          ]
+        },
+        {
+          "id": "image-0163",
+          "caption": "A curved green sofa and two wood-framed chairs sit against a dark panelled wall.",
+          "materials": [
+            "Dark wall panels",
+            "Deep green upholstery",
+            "Wood-look chair frames",
+            "Woven chair inserts",
+            "Grey carpet tiles",
+            "Clear glass"
+          ]
+        },
+        {
+          "id": "image-0144",
+          "caption": "A small dining table stands beside cream kitchen cabinets and windows with horizontal blinds.",
+          "materials": [
+            "Glossy cream cabinets",
+            "Brown stone-look worktop",
+            "Grey tile-look walls",
+            "Dark floor tiles",
+            "Wood-look dining table",
+            "White upholstery"
+          ]
+        },
+        {
+          "id": "image-0139",
+          "caption": "A curved green sofa and two wood-framed chairs sit against a dark grid-panelled wall.",
+          "materials": [
+            "Green sofa upholstery",
+            "Wood-look chairs with woven inserts",
+            "Dark wall panels",
+            "Grey carpet tiles"
+          ]
+        },
+        {
+          "id": "image-0137",
+          "caption": "A meeting table and dark chairs sit beside a green ribbed wall and a window-side counter.",
+          "materials": [
+            "White veined stone-look table",
+            "Dark chair shells",
+            "Green ribbed wall",
+            "Wood-look floor and counter"
+          ]
+        },
+        {
+          "id": "image-0161",
+          "caption": "Stepped, lit wood-look strips cross a green textured wall above glossy dark flooring.",
+          "materials": [
+            "Green grass-like wall covering",
+            "Wood-look vertical strips",
+            "Bright linear lights",
+            "Glossy black veined flooring"
+          ]
+        },
+        {
+          "id": "image-0138",
+          "caption": "A wood-look meeting table has open storage, coloured chairs and a whiteboard behind it.",
+          "materials": [
+            "Wood-look table and floor",
+            "Coloured chair shells",
+            "Yellow metal-look chair bases",
+            "White grooved wall panels"
+          ]
+        },
+        {
+          "id": "image-0140",
+          "caption": "A blue corner sofa and green footstool sit before a mint partition with desks behind it.",
+          "materials": [
+            "Blue upholstery",
+            "Mint panelled partition",
+            "Grey carpet tiles",
+            "Wood-look desk"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Arbeitsbereiche in Grün und Graphit",
+      "intro": "Geschwungene grüne Sitzmöbel stehen neben Glastrennwänden, dunklen Wandrastern und Möbeln in Holzoptik. Die Ansichten zeigen Sitzbereiche, Schreibtische und Besprechungstische.",
+      "detail": "Die Räume zeigen helle und dunkle Farbvarianten. Gerillte Wände, farbige Stühle und Lichtleisten ergänzen die Gestaltung.",
+      "gallery": [
+        {
+          "id": "image-0141",
+          "caption": "Ein grünes Bogensofa und Stühle mit Holzrahmen stehen vor einer Glaswand mit hohen Pflanzen.",
+          "materials": [
+            "Grüne Polster",
+            "Stühle in Holzoptik mit geflochtenen Einsätzen",
+            "Schwarzer Trennwandrahmen in Metalloptik",
+            "Klares Glas",
+            "Graue Teppichfliesen"
+          ]
+        },
+        {
+          "id": "image-0163",
+          "caption": "Ein grünes Bogensofa und zwei Stühle mit Holzrahmen stehen vor einer dunklen Paneelwand.",
+          "materials": [
+            "Dunkle Wandpaneele",
+            "Dunkelgrüne Polster",
+            "Stuhlrahmen in Holzoptik",
+            "Geflochtene Stuhleinsätze",
+            "Graue Teppichfliesen",
+            "Klares Glas"
+          ]
+        },
+        {
+          "id": "image-0144",
+          "caption": "Ein kleiner Esstisch steht neben cremefarbenen Küchenschränken und Fenstern mit Jalousien.",
+          "materials": [
+            "Glänzende cremefarbene Schränke",
+            "Braune Arbeitsplatte in Steinoptik",
+            "Graue Wände in Fliesenoptik",
+            "Dunkle Bodenfliesen",
+            "Esstisch in Holzoptik",
+            "Weiße Polster"
+          ]
+        },
+        {
+          "id": "image-0139",
+          "caption": "Ein grünes Bogensofa und zwei Stühle mit Holzrahmen stehen vor einer dunklen Rasterwand.",
+          "materials": [
+            "Grüne Sofapolster",
+            "Stühle in Holzoptik mit geflochtenen Einsätzen",
+            "Dunkle Wandpaneele",
+            "Graue Teppichfliesen"
+          ]
+        },
+        {
+          "id": "image-0137",
+          "caption": "Ein Besprechungstisch mit dunklen Stühlen steht neben einer grünen Rillenwand und Fenstertheke.",
+          "materials": [
+            "Weißer geäderter Tisch in Steinoptik",
+            "Dunkle Sitzschalen",
+            "Grüne gerillte Wand",
+            "Boden und Theke in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0161",
+          "caption": "Versetzte, beleuchtete Holzoptik-Leisten liegen auf einer grünen Wand über glänzendem Boden.",
+          "materials": [
+            "Grüner grasähnlicher Wandbelag",
+            "Senkrechte Leisten in Holzoptik",
+            "Helle Lichtleisten",
+            "Glänzender schwarzer geäderter Boden"
+          ]
+        },
+        {
+          "id": "image-0138",
+          "caption": "Ein Besprechungstisch in Holzoptik hat offene Fächer, farbige Stühle und ein Whiteboard dahinter.",
+          "materials": [
+            "Tisch und Boden in Holzoptik",
+            "Farbige Sitzschalen",
+            "Gelbe Stuhlgestelle in Metalloptik",
+            "Weiße gerillte Wandpaneele"
+          ]
+        },
+        {
+          "id": "image-0140",
+          "caption": "Ein blaues Ecksofa und ein grüner Hocker stehen vor einer mintfarbenen Trennwand mit Tischen dahinter.",
+          "materials": [
+            "Blaue Polster",
+            "Mintfarbene Trennwand mit Paneelen",
+            "Graue Teppichfliesen",
+            "Schreibtisch in Holzoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "08": {
+    "en": {
+      "title": "Terrace and slatted pergola",
+      "intro": "The terrace has a slatted pergola, lounge seating, a swing and potted plants. A parasol covers a separate seating area.",
+      "detail": "Wood tones and vertical slats feature on both the terrace and the façade.",
+      "gallery": [
+        {
+          "id": "image-0059",
+          "caption": "The terrace has a slatted pergola, swing, lounge seating, plants and a parasol.",
+          "materials": [
+            "Wood-look decking and slats",
+            "Fabric cushions",
+            "Pale textured paving",
+            "Metal-look seating frames"
+          ]
+        },
+        {
+          "id": "image-0061",
+          "caption": "The façade has balconies, slatted screens, roof fins and two ground-level roller shutters.",
+          "materials": [
+            "Cream plaster-look walls",
+            "Dark blue frame",
+            "Wood-look vertical slats",
+            "Glass balcony panels",
+            "Dark stone-look cladding",
+            "Metal-look roller shutters"
+          ]
+        },
+        {
+          "id": "image-0060",
+          "caption": "Seating sits beneath a long slatted pergola, with a swing on the left and a parasol beyond.",
+          "materials": [
+            "Wood-look decking and slats",
+            "Pale tiled paving",
+            "Fabric cushions",
+            "Metal-look furniture frames"
+          ]
+        },
+        {
+          "id": "image-0062",
+          "caption": "The façade has stacked balconies and wood-look screens, with a red car in front.",
+          "materials": [
+            "Cream plaster-look walls",
+            "Blue outer frame",
+            "Wood-look screens",
+            "Glass balcony panels",
+            "Dark stone-look cladding",
+            "Metal-look roller shutters"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Terrasse mit Lamellenpergola",
+      "intro": "Die Terrasse hat eine Lamellenpergola, Loungemöbel, eine Schaukel und Topfpflanzen. Ein Sonnenschirm steht über einem separaten Sitzbereich.",
+      "detail": "Holztöne und senkrechte Lamellen sind auf der Terrasse und an der Fassade zu sehen.",
+      "gallery": [
+        {
+          "id": "image-0059",
+          "caption": "Die Terrasse hat eine Lamellenpergola, Schaukel, Loungemöbel, Pflanzen und einen Sonnenschirm.",
+          "materials": [
+            "Terrassenboden und Lamellen in Holzoptik",
+            "Stoffpolster",
+            "Heller strukturierter Bodenbelag",
+            "Sitzgestelle in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0061",
+          "caption": "Die Fassade hat Balkone, Lamellenelemente, Dachlamellen und zwei Rolltore im Erdgeschoss.",
+          "materials": [
+            "Cremefarbene Wände in Putzoptik",
+            "Dunkelblauer Rahmen",
+            "Senkrechte Lamellen in Holzoptik",
+            "Gläserne Balkonbrüstungen",
+            "Dunkle Verkleidung in Steinoptik",
+            "Rolltore in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0060",
+          "caption": "Unter der langen Lamellenpergola stehen Sitzmöbel, links eine Schaukel und hinten ein Sonnenschirm.",
+          "materials": [
+            "Terrassenboden und Lamellen in Holzoptik",
+            "Heller Fliesenbelag",
+            "Stoffpolster",
+            "Möbelgestelle in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0062",
+          "caption": "Die Fassade zeigt übereinanderliegende Balkone und Lamellen in Holzoptik; davor steht ein rotes Auto.",
+          "materials": [
+            "Cremefarbene Wände in Putzoptik",
+            "Blauer Aussenrahmen",
+            "Lamellenelemente in Holzoptik",
+            "Gläserne Balkonbrüstungen",
+            "Dunkle Verkleidung in Steinoptik",
+            "Rolltore in Metalloptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "02": {
+    "en": {
+      "title": "Bedrooms and bathrooms",
+      "intro": "Compact bedrooms and bathrooms feature pale surfaces, built-in storage and lit niches.",
+      "detail": "The room layouts include blue, teal and pink accents alongside neutral finishes.",
+      "gallery": [
+        {
+          "id": "image-0014",
+          "caption": "A bed sits beneath a window, between ribbed wall panels and full-height white wardrobes.",
+          "materials": [
+            "White cabinetry",
+            "Sage-green ribbed panels",
+            "Textured grey walls",
+            "Brown upholstery",
+            "Pale veined flooring"
+          ]
+        },
+        {
+          "id": "image-0017",
+          "caption": "The bathroom has a floating vanity, oval mirror, high window and wall-hung toilet.",
+          "materials": [
+            "Terrazzo-look wall tiles",
+            "Blue-grey tiles",
+            "White cabinetry",
+            "Black basin and fittings",
+            "Mirror glass"
+          ]
+        },
+        {
+          "id": "image-0015",
+          "caption": "The bedroom has overhead storage, a mirrored dressing corner and ceiling-edge lighting.",
+          "materials": [
+            "White cabinetry",
+            "Reflective wardrobe panels",
+            "Textured grey walls",
+            "Brown upholstery",
+            "Pale stone-look flooring"
+          ]
+        },
+        {
+          "id": "image-0018",
+          "caption": "Pink tiles sit behind a floating vanity and rounded mirror, with a toilet in the foreground.",
+          "materials": [
+            "Pink grid-pattern tiles",
+            "Grey stone-look tiles",
+            "White cabinetry",
+            "White ceramic fittings",
+            "Black metal-look fittings"
+          ]
+        },
+        {
+          "id": "image-0019",
+          "caption": "Pink tiles line the shower and vanity wall, with a wall-hung toilet beneath the window.",
+          "materials": [
+            "Pink grid-pattern tiles",
+            "Grey stone-look tiles",
+            "White cabinetry",
+            "White ceramic fittings",
+            "Black metal-look fittings"
+          ]
+        },
+        {
+          "id": "image-0016",
+          "caption": "The bathroom has a wall-hung toilet, overhead shower and terrazzo-look tiles above blue-grey walls.",
+          "materials": [
+            "Terrazzo-look wall tiles",
+            "Blue-grey wall and floor tiles",
+            "Black metal-look fittings",
+            "White ceramic fittings"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Schlafzimmer und Bäder",
+      "intro": "Kompakte Schlafzimmer und Bäder zeigen helle Oberflächen, Einbauschränke und beleuchtete Nischen.",
+      "detail": "Die Raumvarianten kombinieren neutrale Oberflächen mit blauen, blaugrünen und rosa Akzenten.",
+      "gallery": [
+        {
+          "id": "image-0014",
+          "caption": "Ein Bett steht unter dem Fenster, zwischen gerippten Wandpaneelen und raumhohen weissen Schränken.",
+          "materials": [
+            "Weisse Schrankoberflächen",
+            "Salbeigrüne gerippte Paneele",
+            "Strukturierte graue Wände",
+            "Braune Polster",
+            "Heller Boden mit Maserung"
+          ]
+        },
+        {
+          "id": "image-0017",
+          "caption": "Das Bad hat einen wandhängenden Waschtisch, einen ovalen Spiegel, ein hohes Fenster und ein Wand-WC.",
+          "materials": [
+            "Wandfliesen in Terrazzo-Optik",
+            "Blaugraue Fliesen",
+            "Weisse Schrankoberflächen",
+            "Schwarzes Waschbecken und schwarze Armaturen",
+            "Spiegelglas"
+          ]
+        },
+        {
+          "id": "image-0015",
+          "caption": "Das Schlafzimmer hat Hängeschränke, eine Schminkecke mit Spiegel und Licht am Deckenrand.",
+          "materials": [
+            "Weisse Schrankoberflächen",
+            "Spiegelnde Schrankpaneele",
+            "Strukturierte graue Wände",
+            "Braune Polster",
+            "Heller Boden in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0018",
+          "caption": "Rosa Fliesen liegen hinter einem wandhängenden Waschtisch und runden Spiegel; vorne steht ein WC.",
+          "materials": [
+            "Rosa Fliesen mit Rastermuster",
+            "Graue Fliesen in Steinoptik",
+            "Weisse Schrankoberflächen",
+            "Weisse Keramik",
+            "Schwarze Armaturen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0019",
+          "caption": "Rosa Fliesen bedecken die Dusch- und Waschtischwand; unter dem Fenster hängt ein Wand-WC.",
+          "materials": [
+            "Rosa Fliesen mit Rastermuster",
+            "Graue Fliesen in Steinoptik",
+            "Weisse Schrankoberflächen",
+            "Weisse Keramik",
+            "Schwarze Armaturen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0016",
+          "caption": "Das Bad hat ein Wand-WC, eine Kopfbrause und Fliesen in Terrazzo-Optik über blaugrauen Wandflächen.",
+          "materials": [
+            "Wandfliesen in Terrazzo-Optik",
+            "Blaugraue Wand- und Bodenfliesen",
+            "Schwarze Armaturen in Metalloptik",
+            "Weisse Keramik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "05": {
+    "en": {
+      "title": "Sitting area and bathroom",
+      "intro": "The sitting area has woven-frame seating, blue cushions and potted plants. The bathroom features a teal shower panel and lit niches.",
+      "detail": "Striped walls and wood-look surfaces frame the seating. Ribbed white surfaces surround the glass shower partition.",
+      "gallery": [
+        {
+          "id": "image-0031",
+          "caption": "Two woven-frame sofas with blue cushions sit beside striped walls and a row of potted plants.",
+          "materials": [
+            "Wood-look flooring and vertical panels",
+            "Striped textured walls",
+            "Black open-weave seating frames",
+            "Blue cushions",
+            "Pale shaggy rug"
+          ]
+        },
+        {
+          "id": "image-0032",
+          "caption": "A glass shower partition stands before a teal panel, dark shower column and lit wall niches.",
+          "materials": [
+            "White ribbed marble-look walls",
+            "Teal tile-look shower panel",
+            "Clear glass partition",
+            "Dark fittings",
+            "Pale large-format floor tiles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Sitzbereich und Bad",
+      "intro": "Der Sitzbereich hat Möbel mit geflochtenen Gestellen, blaue Polster und Topfpflanzen. Das Bad zeigt eine blaugrüne Duschwand und beleuchtete Nischen.",
+      "detail": "Gestreifte Wände und Oberflächen in Holzoptik umgeben die Sitzmöbel. Weisse gerippte Flächen rahmen die gläserne Duschabtrennung.",
+      "gallery": [
+        {
+          "id": "image-0031",
+          "caption": "Zwei Sofas mit geflochtenen Gestellen und blauen Polstern stehen neben Streifenwänden und Topfpflanzen.",
+          "materials": [
+            "Boden und senkrechte Paneele in Holzoptik",
+            "Gestreifte strukturierte Wände",
+            "Schwarze offen geflochtene Sitzgestelle",
+            "Blaue Polster",
+            "Heller Hochflorteppich"
+          ]
+        },
+        {
+          "id": "image-0032",
+          "caption": "Die Dusche hat eine Glasabtrennung, eine blaugrüne Rückwand, eine dunkle Duschsäule und beleuchtete Nischen.",
+          "materials": [
+            "Weisse gerippte Wände in Marmoroptik",
+            "Blaugrüne Duschwand in Fliesenoptik",
+            "Klare Glasabtrennung",
+            "Dunkle Armaturen",
+            "Helle grossformatige Bodenfliesen"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "23": {
+    "en": {
+      "title": "Rooms and material palettes",
+      "intro": "These room views feature wood tones, reflective panels and lighting details.",
+      "detail": "Built-in storage and pale flooring appear alongside brown finishes and blue seating.",
+      "gallery": [
+        {
+          "id": "image-0233",
+          "caption": "The bedroom has a pale bed, tall wardrobes, a window seat and lit patterned wall details.",
+          "materials": [
+            "Beige and glossy brown cabinetry",
+            "Wood-look headboard",
+            "Woven bedding",
+            "Pale stone-look flooring",
+            "Patterned rug"
+          ]
+        },
+        {
+          "id": "image-0240",
+          "caption": "Blue sofas and glass tables sit beneath lit patterned ceiling panels and a chandelier.",
+          "materials": [
+            "Blue fabric upholstery",
+            "Wood-look wall panels",
+            "Cream stone-look flooring",
+            "Glass surfaces",
+            "Metal-look trim",
+            "Textured rugs"
+          ]
+        },
+        {
+          "id": "image-0226",
+          "caption": "A cutaway shows bedrooms, bathrooms, dining furniture, blue sofas and a separate recliner room.",
+          "materials": [
+            "Stone-look flooring",
+            "Wood-look flooring and panels",
+            "Blue upholstery",
+            "Glass balustrades"
+          ]
+        },
+        {
+          "id": "image-0237",
+          "caption": "An overhead cutaway shows furnished rooms beside a broad tiled passage and stairs.",
+          "materials": [
+            "Pale stone-look flooring",
+            "Wood-look panels",
+            "Glass surfaces",
+            "Grey upholstery"
+          ]
+        },
+        {
+          "id": "image-0254",
+          "caption": "The bed faces a TV wall, floating console and seating, with a basin visible through the doorway.",
+          "materials": [
+            "Beige stone-look flooring",
+            "Cream cabinetry",
+            "Textured brown walls",
+            "Dark upholstery",
+            "Wood-look ceiling inserts"
+          ]
+        },
+        {
+          "id": "image-0245",
+          "caption": "The office has a desk, three visitor chairs, lounge seating and wall-mounted display boxes.",
+          "materials": [
+            "Wood-look desk panels",
+            "White cabinetry",
+            "Dark upholstery",
+            "Pale stone-look flooring",
+            "Glass surfaces",
+            "Fabric curtains"
+          ]
+        },
+        {
+          "id": "image-0244",
+          "caption": "Double doors face a wood-framed wall with a wave texture and lit display recesses.",
+          "materials": [
+            "Wood-look panels",
+            "White wave-textured wall",
+            "Pale stone-look flooring",
+            "Dark glossy doors"
+          ]
+        },
+        {
+          "id": "image-0242",
+          "caption": "A passage has curved ceiling lights, a relief-front console and blue seating beyond.",
+          "materials": [
+            "Wood-look slats and panels",
+            "Cream stone-look flooring",
+            "White cabinet with a relief-patterned front",
+            "Metal-look legs"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Räume und Materialkombinationen",
+      "intro": "Die Raumansichten zeigen Holztöne, spiegelnde Paneele und verschiedene Beleuchtungsdetails.",
+      "detail": "Einbauschränke und helle Böden stehen neben braunen Oberflächen und blauen Sitzmöbeln.",
+      "gallery": [
+        {
+          "id": "image-0233",
+          "caption": "Das Schlafzimmer hat ein helles Bett, hohe Schränke, eine Fensterbank zum Sitzen und beleuchtete Wandmuster.",
+          "materials": [
+            "Beige und glänzend braune Schrankoberflächen",
+            "Kopfteil in Holzoptik",
+            "Gewebte Bettwäsche",
+            "Heller Boden in Steinoptik",
+            "Gemusterter Teppich"
+          ]
+        },
+        {
+          "id": "image-0240",
+          "caption": "Blaue Sofas und Glastische stehen unter beleuchteten gemusterten Deckenpaneelen und einem Kronleuchter.",
+          "materials": [
+            "Blaue Stoffpolster",
+            "Wandpaneele in Holzoptik",
+            "Cremefarbener Boden in Steinoptik",
+            "Glasflächen",
+            "Leisten in Metalloptik",
+            "Strukturierte Teppiche"
+          ]
+        },
+        {
+          "id": "image-0226",
+          "caption": "Eine Schnittansicht zeigt Schlafräume, Bäder, Essmöbel, blaue Sofas und einen Raum mit Liegesesseln.",
+          "materials": [
+            "Boden in Steinoptik",
+            "Boden und Paneele in Holzoptik",
+            "Blaue Polster",
+            "Glasgeländer"
+          ]
+        },
+        {
+          "id": "image-0237",
+          "caption": "Eine Schnittansicht von oben zeigt möblierte Räume neben einem breiten gefliesten Flur und Treppen.",
+          "materials": [
+            "Heller Boden in Steinoptik",
+            "Paneele in Holzoptik",
+            "Glasflächen",
+            "Graue Polster"
+          ]
+        },
+        {
+          "id": "image-0254",
+          "caption": "Das Bett blickt auf eine TV-Wand, ein Hängesideboard und Sitzmöbel; durch die Tür ist ein Waschbecken zu sehen.",
+          "materials": [
+            "Beiger Boden in Steinoptik",
+            "Cremefarbene Schrankoberflächen",
+            "Strukturierte braune Wände",
+            "Dunkle Polster",
+            "Deckeneinsätze in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0245",
+          "caption": "Das Büro hat einen Schreibtisch, drei Besucherstühle, Loungemöbel und Schaukästen an der Wand.",
+          "materials": [
+            "Schreibtischpaneele in Holzoptik",
+            "Weisse Schrankoberflächen",
+            "Dunkle Polster",
+            "Heller Boden in Steinoptik",
+            "Glasflächen",
+            "Stoffvorhänge"
+          ]
+        },
+        {
+          "id": "image-0244",
+          "caption": "Eine Doppeltür liegt gegenüber einer holzgerahmten Wand mit Wellenstruktur und beleuchteten Nischen.",
+          "materials": [
+            "Paneele in Holzoptik",
+            "Weisse Wand mit Wellenstruktur",
+            "Heller Boden in Steinoptik",
+            "Dunkle glänzende Türen"
+          ]
+        },
+        {
+          "id": "image-0242",
+          "caption": "Der Flur zeigt gebogene Deckenleuchten, ein Sideboard mit Relief und blaue Sitzmöbel im Hintergrund.",
+          "materials": [
+            "Lamellen und Paneele in Holzoptik",
+            "Cremefarbener Boden in Steinoptik",
+            "Weisser Schrank mit Reliefmuster an der Front",
+            "Beine in Metalloptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "25": {
+    "en": {
+      "title": "Residential interiors",
+      "intro": "Bedrooms, kitchens and bathrooms combine dark cabinetry with wood tones and lit wall panels.",
+      "detail": "Patterned surfaces and geometric lighting appear alongside grey and cream finishes.",
+      "gallery": [
+        {
+          "id": "image-0277",
+          "caption": "A compact bedroom has yellow storage, hexagonal shelves and lit cloud-shaped ceiling panels.",
+          "materials": [
+            "yellow cabinet fronts",
+            "wood-grain panels",
+            "grey walls",
+            "aqua headboard upholstery",
+            "patterned bedding",
+            "white shelves"
+          ]
+        },
+        {
+          "id": "image-0281",
+          "caption": "A long living and dining space includes a TV unit and a lit animal-silhouette wall panel.",
+          "materials": [
+            "white veined stone-look flooring",
+            "wood-grain panels",
+            "stone-look wall panels",
+            "black-and-white patterns",
+            "beige upholstery"
+          ]
+        },
+        {
+          "id": "image-0290",
+          "caption": "A narrow pooja alcove contains a Ganesha figure, hanging bells and a lit patterned panel.",
+          "materials": [
+            "wood-grain cabinets and shelves",
+            "white stone-look counter",
+            "marble-look flooring",
+            "metallic chains and bells",
+            "lit decorative panel"
+          ]
+        },
+        {
+          "id": "image-0272",
+          "caption": "A bathroom has exposed shower fittings, a floating vanity and a patterned wall band.",
+          "materials": [
+            "brown textured stone-look walls",
+            "pale patterned tiles",
+            "cream stone-look floor",
+            "dark matt vanity",
+            "white ceramic fittings",
+            "silver-toned shower fittings",
+            "mirror"
+          ]
+        },
+        {
+          "id": "image-0296",
+          "caption": "A kitchen peninsula has two wooden stools beside glazed doors to an outdoor seating area.",
+          "materials": [
+            "charcoal cabinet panels",
+            "dark wood-grain cabinets",
+            "speckled stone-look counter",
+            "geometric splashback tiles",
+            "metallic handles",
+            "marble-look flooring"
+          ]
+        },
+        {
+          "id": "image-0280",
+          "caption": "An entrance wall has a storage bench, a cabinet and a circular niche with a religious figure.",
+          "materials": [
+            "grey stacked-stone-look panels",
+            "reddish wood-grain panels",
+            "grey seat upholstery",
+            "white veined stone-look flooring"
+          ]
+        },
+        {
+          "id": "image-0278",
+          "caption": "A bedroom has a yellow desk and wardrobe opposite the bed, with staggered wall shelves.",
+          "materials": [
+            "yellow cabinets",
+            "wood-grain furniture",
+            "grey walls",
+            "aqua upholstery",
+            "patterned fabric",
+            "white veined stone-look flooring"
+          ]
+        },
+        {
+          "id": "image-0273",
+          "caption": "A bedroom has a double bed, a full-height wardrobe and lit geometric wall and ceiling details.",
+          "materials": [
+            "dark wood-grain cabinets",
+            "charcoal panels",
+            "grey bedding",
+            "mirror",
+            "white veined stone-look flooring"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Innenräume zum Wohnen",
+      "intro": "Schlafzimmer, Küchen und Bäder verbinden dunkle Schränke mit Holztönen und beleuchteten Wandpaneelen.",
+      "detail": "Gemusterte Flächen und geometrische Beleuchtung ergänzen graue und cremefarbene Oberflächen.",
+      "gallery": [
+        {
+          "id": "image-0277",
+          "caption": "Ein kleines Schlafzimmer hat gelbe Schränke, sechseckige Regale und beleuchtete Deckenwolken.",
+          "materials": [
+            "gelbe Schrankfronten",
+            "Paneele mit Holzmaserung",
+            "graue Wände",
+            "aquafarbener Kopfteilbezug",
+            "gemusterte Bettwäsche",
+            "weisse Regale"
+          ]
+        },
+        {
+          "id": "image-0281",
+          "caption": "Ein langer Wohn- und Essbereich hat ein TV-Möbel und ein beleuchtetes Paneel mit Tiersilhouette.",
+          "materials": [
+            "weisser Boden in geäderter Steinoptik",
+            "Paneele mit Holzmaserung",
+            "Wandpaneele in Steinoptik",
+            "schwarz-weisse Muster",
+            "beige Polster"
+          ]
+        },
+        {
+          "id": "image-0290",
+          "caption": "Eine schmale Pooja-Nische enthält eine Ganesha-Figur, hängende Glocken und ein beleuchtetes Paneel.",
+          "materials": [
+            "Schränke und Regale mit Holzmaserung",
+            "weisse Ablage in Steinoptik",
+            "Boden in Marmoroptik",
+            "metallisch glänzende Ketten und Glocken",
+            "beleuchtetes Dekorpaneel"
+          ]
+        },
+        {
+          "id": "image-0272",
+          "caption": "Ein Bad hat sichtbare Duscharmaturen, einen schwebenden Waschtisch und ein gemustertes Wandband.",
+          "materials": [
+            "braune strukturierte Wände in Steinoptik",
+            "helle gemusterte Fliesen",
+            "cremefarbener Boden in Steinoptik",
+            "dunkler matter Waschtisch",
+            "weisse Keramik",
+            "silberfarbene Duscharmaturen",
+            "Spiegel"
+          ]
+        },
+        {
+          "id": "image-0296",
+          "caption": "Eine Küchenhalbinsel mit zwei Holzhockern steht neben Glastüren zu einem Sitzbereich im Freien.",
+          "materials": [
+            "anthrazitfarbene Schrankpaneele",
+            "dunkle Schränke mit Holzmaserung",
+            "gesprenkelte Arbeitsplatte in Steinoptik",
+            "geometrische Fliesen an der Rückwand",
+            "metallisch glänzende Griffe",
+            "Boden in Marmoroptik"
+          ]
+        },
+        {
+          "id": "image-0280",
+          "caption": "Die Eingangswand hat eine Stauraumbank, einen Schrank und eine runde Nische mit religiöser Figur.",
+          "materials": [
+            "graue Paneele in geschichteter Steinoptik",
+            "rötliche Paneele mit Holzmaserung",
+            "grauer Sitzbezug",
+            "weisser Boden in geäderter Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0278",
+          "caption": "Gelber Schreibtisch und Kleiderschrank stehen gegenüber dem Bett, daneben versetzte Wandregale.",
+          "materials": [
+            "gelbe Schränke",
+            "Möbel mit Holzmaserung",
+            "graue Wände",
+            "aquafarbene Polster",
+            "gemusterter Stoff",
+            "weisser Boden in geäderter Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0273",
+          "caption": "Ein Schlafzimmer hat ein Doppelbett, einen raumhohen Schrank und beleuchtete geometrische Details.",
+          "materials": [
+            "dunkle Schränke mit Holzmaserung",
+            "anthrazitfarbene Paneele",
+            "graue Bettwäsche",
+            "Spiegel",
+            "weisser Boden in geäderter Steinoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "24": {
+    "en": {
+      "title": "Facade and balcony options",
+      "intro": "The facades feature glass balcony railings, vertical fins and projecting sections.",
+      "detail": "Stone-look panels contrast with wood-look surfaces. The views show different balcony surrounds and wall arrangements.",
+      "gallery": [
+        {
+          "id": "image-0262",
+          "caption": "An angled facade view shows two glass-fronted balconies, stone-look panels and vertical fins.",
+          "materials": [
+            "grey and white painted surfaces",
+            "grey stone-look panels",
+            "horizontal wood-look panels",
+            "blue-tinted glass",
+            "metal railings and gate"
+          ]
+        },
+        {
+          "id": "image-0264",
+          "caption": "An angled facade view shows a projecting wood-look balcony surround and an upper glass railing.",
+          "materials": [
+            "grey and white painted surfaces",
+            "stone-look panels",
+            "wood-look panels",
+            "blue-tinted glass",
+            "metal gate and roof rails"
+          ]
+        },
+        {
+          "id": "image-0263",
+          "caption": "A front view shows a rectangular wood-look balcony surround, tall glazing and white roof rails.",
+          "materials": [
+            "grey and white painted surfaces",
+            "stone-look panels",
+            "wood-look panels",
+            "blue-tinted glass",
+            "metal gate and roof rails"
+          ]
+        },
+        {
+          "id": "image-0268",
+          "caption": "A narrow facade has two glass-railed balconies, vertical fins and a tall glazed bay.",
+          "materials": [
+            "grey and white painted surfaces",
+            "stone-look panels",
+            "wood-look panels",
+            "blue-tinted glass",
+            "metal gate and roof rails"
+          ]
+        },
+        {
+          "id": "image-0270",
+          "caption": "A front view shows stacked glass balconies, wood-look bands and a gated entrance beside plants.",
+          "materials": [
+            "grey and white painted surfaces",
+            "stone-look panels",
+            "wood-look panels",
+            "blue-tinted glass",
+            "metal gate and roof rails"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Fassaden- und Balkonvarianten",
+      "intro": "Die Fassaden zeigen Balkongeländer aus Glas, vertikale Lamellen und vorspringende Bauteile.",
+      "detail": "Paneele in Steinoptik stehen neben Flächen in Holzoptik. Die Ansichten zeigen verschiedene Balkonrahmen und Wandaufteilungen.",
+      "gallery": [
+        {
+          "id": "image-0262",
+          "caption": "Eine schräge Fassadenansicht zeigt zwei Glasbalkone, Paneele in Steinoptik und vertikale Lamellen.",
+          "materials": [
+            "graue und weisse gestrichene Flächen",
+            "graue Paneele in Steinoptik",
+            "waagerechte Paneele in Holzoptik",
+            "bläulich getöntes Glas",
+            "Metallgeländer und Tor"
+          ]
+        },
+        {
+          "id": "image-0264",
+          "caption": "Eine schräge Ansicht zeigt einen vorspringenden Balkonrahmen in Holzoptik und ein Glasgeländer.",
+          "materials": [
+            "graue und weisse gestrichene Flächen",
+            "Paneele in Steinoptik",
+            "Paneele in Holzoptik",
+            "bläulich getöntes Glas",
+            "Metalltor und Dachgeländer"
+          ]
+        },
+        {
+          "id": "image-0263",
+          "caption": "Die Frontansicht zeigt einen eckigen Balkonrahmen in Holzoptik, hohe Fenster und weisse Dachgeländer.",
+          "materials": [
+            "graue und weisse gestrichene Flächen",
+            "Paneele in Steinoptik",
+            "Paneele in Holzoptik",
+            "bläulich getöntes Glas",
+            "Metalltor und Dachgeländer"
+          ]
+        },
+        {
+          "id": "image-0268",
+          "caption": "Eine schmale Fassade hat zwei Balkone mit Glasgeländern, vertikale Lamellen und hohe Glasflächen.",
+          "materials": [
+            "graue und weisse gestrichene Flächen",
+            "Paneele in Steinoptik",
+            "Paneele in Holzoptik",
+            "bläulich getöntes Glas",
+            "Metalltor und Dachgeländer"
+          ]
+        },
+        {
+          "id": "image-0270",
+          "caption": "Die Frontansicht zeigt Glasbalkone übereinander, Bänder in Holzoptik und ein Eingangstor neben Pflanzen.",
+          "materials": [
+            "graue und weisse gestrichene Flächen",
+            "Paneele in Steinoptik",
+            "Paneele in Holzoptik",
+            "bläulich getöntes Glas",
+            "Metalltor und Dachgeländer"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "27": {
+    "en": {
+      "title": "Hall with illuminated columns",
+      "intro": "Rows of columns line a patterned central aisle beneath recessed ceiling lights.",
+      "detail": "Two views show the floor pattern, lit column bands and gridded doors around the hall.",
+      "gallery": [
+        {
+          "id": "image-0312",
+          "caption": "A wide hall view shows patterned flooring, illuminated column bands and recessed ceiling lights.",
+          "materials": [
+            "polished stone-look flooring",
+            "beige stone-look column panels",
+            "glass-like chandelier drops",
+            "metallic trim"
+          ]
+        },
+        {
+          "id": "image-0314",
+          "caption": "A symmetrical hall view shows a geometric aisle, lit columns and gridded doors.",
+          "materials": [
+            "polished stone-look flooring",
+            "beige stone-look column panels",
+            "glass-like chandelier drops",
+            "metal door grilles"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Halle mit beleuchteten Säulen",
+      "intro": "Säulenreihen stehen entlang eines gemusterten Mittelgangs unter eingelassenen Deckenleuchten.",
+      "detail": "Zwei Ansichten zeigen das Bodenmuster, die Lichtbänder an den Säulen und die Gittertüren der Halle.",
+      "gallery": [
+        {
+          "id": "image-0312",
+          "caption": "Eine weite Hallenansicht zeigt einen gemusterten Boden, Lichtbänder an Säulen und Deckenleuchten.",
+          "materials": [
+            "glänzender Boden in Steinoptik",
+            "beige Säulenpaneele in Steinoptik",
+            "glasartige Kronleuchter-Anhänger",
+            "metallisch glänzende Zierleisten"
+          ]
+        },
+        {
+          "id": "image-0314",
+          "caption": "Eine symmetrische Hallenansicht zeigt einen geometrischen Mittelgang, beleuchtete Säulen und Gittertüren.",
+          "materials": [
+            "glänzender Boden in Steinoptik",
+            "beige Säulenpaneele in Steinoptik",
+            "glasartige Kronleuchter-Anhänger",
+            "Metallgitter an Türen"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "28": {
+    "en": {
+      "title": "Office interiors and terrace",
+      "intro": "Brick-look walls, glass partitions and coloured seating feature in lounges and workspaces.",
+      "detail": "The views include desks, a kitchenette, a meeting room and a planted terrace. Rounded seating sits alongside straight-edged furniture and shelving.",
+      "gallery": [
+        {
+          "id": "image-0363",
+          "caption": "A lounge has two pale sofas, a glass-topped table and brick-look walls beneath a dark ceiling.",
+          "materials": [
+            "pale upholstery",
+            "brick-look walls",
+            "concrete-look panels",
+            "black-framed glass",
+            "glossy black stone-look flooring",
+            "wood and glass table"
+          ]
+        },
+        {
+          "id": "image-0360",
+          "caption": "A compact kitchenette has wood-grain cabinets, open shelves, a narrow counter and stools.",
+          "materials": [
+            "glossy wood-grain cabinets",
+            "white counter and shelves",
+            "black stone-look flooring",
+            "glass"
+          ]
+        },
+        {
+          "id": "image-0342",
+          "caption": "A reception counter and lounge sit beside a glass partition and a wall niche with a deity figure.",
+          "materials": [
+            "wood-look counter",
+            "white panels",
+            "brick-look panels",
+            "concrete-look wall panels",
+            "polished black stone-look flooring",
+            "glass",
+            "pink upholstery"
+          ]
+        },
+        {
+          "id": "image-0392",
+          "caption": "A white workspace has an X-legged desk, corner shelves, pink seating and wall mouldings.",
+          "materials": [
+            "white painted desk and shelves",
+            "pink and white upholstery",
+            "gold-toned chair legs",
+            "grey wood-look flooring",
+            "dark wood-look doors"
+          ]
+        },
+        {
+          "id": "image-0383",
+          "caption": "A shared computer desk has teal chairs, wood-grain wall panels and lit open shelves.",
+          "materials": [
+            "wood-grain surfaces",
+            "white painted surfaces",
+            "teal upholstery",
+            "glass",
+            "glossy dark stone-look flooring"
+          ]
+        },
+        {
+          "id": "image-0368",
+          "caption": "A meeting room has a long table, eight swivel chairs and a black-framed glass partition.",
+          "materials": [
+            "wood-grain flooring and tabletop",
+            "black chair upholstery",
+            "white metal-look chair bases",
+            "grey concrete-look wall",
+            "black-framed glass"
+          ]
+        },
+        {
+          "id": "image-0378",
+          "caption": "A terrace has a plant-covered pergola, wall planters and rounded seats behind a railing.",
+          "materials": [
+            "black pergola frame",
+            "glass panels",
+            "metal-look railing",
+            "wood-look wall strips",
+            "fabric-covered stools",
+            "green turf-look surface"
+          ]
+        },
+        {
+          "id": "image-0394",
+          "caption": "A white X-legged desk has a partly open drawer, with pale chairs and tall corner shelves nearby.",
+          "materials": [
+            "white painted desk and shelves",
+            "pink and white upholstery",
+            "gold-toned chair legs",
+            "grey wood-look flooring",
+            "dark wood-look doors"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Büroräume und Terrasse",
+      "intro": "Wände in Ziegeloptik, Glastrennwände und farbige Sitzmöbel prägen die Aufenthalts- und Arbeitsbereiche.",
+      "detail": "Die Ansichten zeigen Schreibtische, eine Teeküche, einen Besprechungsraum und eine bepflanzte Terrasse. Runde Sitzmöbel stehen neben geradlinigen Möbeln und Regalen.",
+      "gallery": [
+        {
+          "id": "image-0363",
+          "caption": "Ein Sitzbereich hat zwei helle Sofas, einen Tisch mit Glasplatte und Wände in Ziegeloptik.",
+          "materials": [
+            "helle Polster",
+            "Wände in Ziegeloptik",
+            "Paneele in Betonoptik",
+            "Glas mit schwarzen Rahmen",
+            "glänzender schwarzer Boden in Steinoptik",
+            "Tisch aus Holz und Glas"
+          ]
+        },
+        {
+          "id": "image-0360",
+          "caption": "Eine kleine Teeküche hat Schränke mit Holzmaserung, offene Regale, eine schmale Theke und Hocker.",
+          "materials": [
+            "glänzende Schränke mit Holzmaserung",
+            "weisse Arbeitsplatte und Regale",
+            "schwarzer Boden in Steinoptik",
+            "Glas"
+          ]
+        },
+        {
+          "id": "image-0342",
+          "caption": "Empfangstheke und Sitzbereich stehen neben einer Glastrennwand und einer Nische mit Götterfigur.",
+          "materials": [
+            "Theke in Holzoptik",
+            "weisse Paneele",
+            "Paneele in Ziegeloptik",
+            "Wandpaneele in Betonoptik",
+            "glänzender schwarzer Boden in Steinoptik",
+            "Glas",
+            "rosa Polster"
+          ]
+        },
+        {
+          "id": "image-0392",
+          "caption": "Ein weisser Arbeitsbereich hat einen Tisch mit X-Beinen, Eckregale, rosa Stühle und Wandleisten.",
+          "materials": [
+            "weiss gestrichener Schreibtisch und Regale",
+            "rosa und weisse Polster",
+            "goldfarbene Stuhlbeine",
+            "grauer Boden in Holzoptik",
+            "dunkle Türen in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0383",
+          "caption": "Ein gemeinsamer Computertisch hat petrolfarbene Stühle, Holzmaserpaneele und beleuchtete Regale.",
+          "materials": [
+            "Flächen mit Holzmaserung",
+            "weisse gestrichene Flächen",
+            "petrolfarbene Polster",
+            "Glas",
+            "glänzender dunkler Boden in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0368",
+          "caption": "Ein Besprechungsraum hat einen langen Tisch, acht Drehstühle und eine schwarz gerahmte Glaswand.",
+          "materials": [
+            "Boden und Tischplatte mit Holzmaserung",
+            "schwarze Stuhlpolster",
+            "weisse Stuhlgestelle in Metalloptik",
+            "graue Wand in Betonoptik",
+            "Glas mit schwarzen Rahmen"
+          ]
+        },
+        {
+          "id": "image-0378",
+          "caption": "Eine Terrasse hat eine begrünte Pergola, Wandpflanzgefässe und runde Sitzmöbel hinter einem Geländer.",
+          "materials": [
+            "schwarzer Pergolarahmen",
+            "Glaspaneele",
+            "Geländer in Metalloptik",
+            "Wandleisten in Holzoptik",
+            "stoffbezogene Hocker",
+            "grüne Fläche in Rasenoptik"
+          ]
+        },
+        {
+          "id": "image-0394",
+          "caption": "Ein weisser Tisch mit X-Beinen und offener Schublade steht neben hellen Stühlen und hohen Eckregalen.",
+          "materials": [
+            "weiss gestrichener Schreibtisch und Regale",
+            "rosa und weisse Polster",
+            "goldfarbene Stuhlbeine",
+            "grauer Boden in Holzoptik",
+            "dunkle Türen in Holzoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "29": {
+    "en": {
+      "title": "Tableware displays and interiors",
+      "intro": "Freestanding display tables sit between illuminated wall niches.",
+      "detail": "Other views show retail aisles, an office, a bathroom and a refreshment niche.",
+      "gallery": [
+        {
+          "id": "image-0404",
+          "caption": "Curved-leg display tables sit beneath a ceiling grid beside illuminated wall niches.",
+          "materials": [
+            "glossy brown wood-effect furniture",
+            "white marble-effect tiles",
+            "white ceiling panels",
+            "ceramic-looking tableware"
+          ]
+        },
+        {
+          "id": "image-0412",
+          "caption": "A narrow bathroom contains a toilet, countertop basin, mirror and open shelves.",
+          "materials": [
+            "beige stone-effect wall tiles",
+            "pale flooring",
+            "white ceramic-looking fittings",
+            "white cabinet fronts",
+            "grey stone-effect worktop",
+            "mirrored surface"
+          ]
+        },
+        {
+          "id": "image-0409",
+          "caption": "An office contains a desk chair, framed prints, tall shelving and a whiteboard.",
+          "materials": [
+            "white walls",
+            "dark wood-effect panels and cabinet",
+            "glass-looking shelves",
+            "black mesh upholstery"
+          ]
+        },
+        {
+          "id": "image-0407",
+          "caption": "The shopfront has large signage, glazed displays and an open entrance.",
+          "materials": [
+            "brown fascia",
+            "glazed shopfront",
+            "grey tile-effect paving",
+            "white shelving"
+          ]
+        },
+        {
+          "id": "image-0410",
+          "caption": "A narrow refreshment niche contains cabinets, open shelves and a water dispenser.",
+          "materials": [
+            "dark wood-effect cabinets",
+            "metal-looking handles",
+            "white walls",
+            "wood-effect flooring",
+            "glass-looking shelves"
+          ]
+        },
+        {
+          "id": "image-0405",
+          "caption": "Plates and stacked bowls cover display tables in front of illuminated wall shelving.",
+          "materials": [
+            "glossy brown wood-effect displays",
+            "white marble-effect flooring",
+            "white ceiling panels",
+            "ceramic-looking tableware"
+          ]
+        },
+        {
+          "id": "image-0415",
+          "caption": "A retail aisle has hanging shelves, lit wall units and seating beside patterned glazing.",
+          "materials": [
+            "patterned wallpaper",
+            "grey wood-effect flooring",
+            "dark wood-effect shelves",
+            "glass partition",
+            "pale upholstery"
+          ]
+        },
+        {
+          "id": "image-0400",
+          "caption": "Display tables stand between illuminated wall niches above wood-effect flooring.",
+          "materials": [
+            "dark wood-effect display furniture",
+            "wood-effect plank flooring",
+            "glossy white ceiling",
+            "glass surfaces",
+            "ceramic-looking tableware"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Geschirrpräsentation und Innenräume",
+      "intro": "Freistehende Präsentationstische stehen zwischen beleuchteten Wandnischen.",
+      "detail": "Weitere Ansichten zeigen Verkaufsbereiche, ein Büro, ein Bad und eine Getränkenische.",
+      "gallery": [
+        {
+          "id": "image-0404",
+          "caption": "Tische mit geschwungenen Beinen stehen neben beleuchteten Wandnischen unter einer Rasterdecke.",
+          "materials": [
+            "glänzende braune Möbel in Holzoptik",
+            "weiße Fliesen in Marmoroptik",
+            "weiße Deckenplatten",
+            "Geschirr in Keramikoptik"
+          ]
+        },
+        {
+          "id": "image-0412",
+          "caption": "Das schmale Bad hat eine Toilette, ein Aufsatzwaschbecken, einen Spiegel und offene Regale.",
+          "materials": [
+            "beige Wandfliesen in Steinoptik",
+            "heller Boden",
+            "weiße Sanitärobjekte in Keramikoptik",
+            "weiße Schrankfronten",
+            "graue Platte in Steinoptik",
+            "Spiegelfläche"
+          ]
+        },
+        {
+          "id": "image-0409",
+          "caption": "Das Büro enthält einen Schreibtischstuhl, gerahmte Bilder, hohe Regale und ein Whiteboard.",
+          "materials": [
+            "weiße Wände",
+            "dunkle Paneele und Schrank in Holzoptik",
+            "Regalböden in Glasoptik",
+            "schwarzer Netzbezug"
+          ]
+        },
+        {
+          "id": "image-0407",
+          "caption": "Die Ladenfront hat große Beschriftungen, verglaste Auslagen und einen offenen Eingang.",
+          "materials": [
+            "braune Fassadenblende",
+            "verglaste Ladenfront",
+            "grauer Belag in Fliesenoptik",
+            "weiße Regale"
+          ]
+        },
+        {
+          "id": "image-0410",
+          "caption": "Eine schmale Getränkenische enthält Schränke, offene Regale und einen Wasserspender.",
+          "materials": [
+            "dunkle Schränke in Holzoptik",
+            "Griffe in Metalloptik",
+            "weiße Wände",
+            "Boden in Holzoptik",
+            "Regalböden in Glasoptik"
+          ]
+        },
+        {
+          "id": "image-0405",
+          "caption": "Teller und gestapelte Schalen stehen auf Tischen vor beleuchteten Wandregalen.",
+          "materials": [
+            "glänzende braune Präsentationsmöbel in Holzoptik",
+            "weißer Boden in Marmoroptik",
+            "weiße Deckenplatten",
+            "Geschirr in Keramikoptik"
+          ]
+        },
+        {
+          "id": "image-0415",
+          "caption": "Ein Verkaufsgang hat Hängeregale, beleuchtete Wandmöbel und Sitze neben gemustertem Glas.",
+          "materials": [
+            "gemusterte Tapete",
+            "grauer Boden in Holzoptik",
+            "dunkle Regale in Holzoptik",
+            "Glastrennwand",
+            "helle Polster"
+          ]
+        },
+        {
+          "id": "image-0400",
+          "caption": "Präsentationstische stehen zwischen beleuchteten Wandnischen auf einem Boden in Holzoptik.",
+          "materials": [
+            "dunkle Präsentationsmöbel in Holzoptik",
+            "Dielenboden in Holzoptik",
+            "glänzende weiße Decke",
+            "Glasflächen",
+            "Geschirr in Keramikoptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "30": {
+    "en": {
+      "title": "Display and seating interiors",
+      "intro": "Wood-toned shelves and display tables sit alongside paired seating areas.",
+      "detail": "Reflective panels, patterned walls and ceiling lights appear throughout the interiors.",
+      "gallery": [
+        {
+          "id": "image-0423",
+          "caption": "A wooden table and six upholstered chairs stand beside dark cabinets and reflective panels.",
+          "materials": [
+            "dark wood-effect table and cabinets",
+            "pale fabric upholstery",
+            "wood-effect flooring",
+            "cream walls",
+            "reflective wall panels"
+          ]
+        },
+        {
+          "id": "image-0417",
+          "caption": "Floral-upholstered chairs and a sofa surround tables holding tea ware.",
+          "materials": [
+            "wood-effect flooring",
+            "brown wooden furniture frames",
+            "grey and white floral upholstery",
+            "grey walls"
+          ]
+        },
+        {
+          "id": "image-0431",
+          "caption": "A long meeting table faces chevron wall panels and a wall-mounted screen.",
+          "materials": [
+            "wood-grain table and chevron panels",
+            "glossy grey wall panels",
+            "light fabric upholstery"
+          ]
+        },
+        {
+          "id": "image-0425",
+          "caption": "Paired armchairs and round tables line a chevron wall beside tall glazed cabinets.",
+          "materials": [
+            "chevron-pattern wood-effect panels",
+            "wood-effect flooring",
+            "pale floral upholstery",
+            "wood-effect tables",
+            "glazed wood-effect cabinets"
+          ]
+        },
+        {
+          "id": "image-0426",
+          "caption": "Ornaments fill wooden shelves beside small tables, reflective trim and a chandelier.",
+          "materials": [
+            "wood-effect flooring and shelves",
+            "cream surfaces",
+            "reflective trim",
+            "metal- and crystal-looking chandelier",
+            "ceramic-looking ornaments"
+          ]
+        },
+        {
+          "id": "image-0427",
+          "caption": "Shelves and curved-leg tables sit beneath a chandelier in a circular ceiling recess.",
+          "materials": [
+            "wood-effect plank flooring",
+            "wood-effect shelves and tables",
+            "cream walls",
+            "reflective trim",
+            "metal- and crystal-looking chandelier",
+            "ceramic-looking ornaments"
+          ]
+        },
+        {
+          "id": "image-0428",
+          "caption": "Repeated seating bays line a corridor beneath geometric illuminated ceiling panels.",
+          "materials": [
+            "wood-effect plank flooring",
+            "cream wall panels",
+            "reflective vertical trim",
+            "patterned illuminated ceiling panels",
+            "pale fabric upholstery"
+          ]
+        },
+        {
+          "id": "image-0416",
+          "caption": "A panelled wooden counter stands in front of a geometric reflective screen.",
+          "materials": [
+            "wood-effect flooring",
+            "brown wood-effect counter and doors",
+            "patterned reflective glass",
+            "white walls"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Präsentationsflächen und Sitzbereiche",
+      "intro": "Regale und Präsentationstische in Holztönen stehen neben paarweise angeordneten Sitzbereichen.",
+      "detail": "Die Innenräume zeigen spiegelnde Paneele, gemusterte Wände und Deckenleuchten.",
+      "gallery": [
+        {
+          "id": "image-0423",
+          "caption": "Ein Holztisch und sechs Polsterstühle stehen neben dunklen Schränken und spiegelnden Paneelen.",
+          "materials": [
+            "dunkler Tisch und Schränke in Holzoptik",
+            "helle Stoffpolster",
+            "Boden in Holzoptik",
+            "cremefarbene Wände",
+            "spiegelnde Wandpaneele"
+          ]
+        },
+        {
+          "id": "image-0417",
+          "caption": "Stühle und ein Sofa mit Blumenpolstern stehen um Tische mit Teegeschirr.",
+          "materials": [
+            "Boden in Holzoptik",
+            "braune Holzmöbelrahmen",
+            "grau-weiße Polster mit Blumenmuster",
+            "graue Wände"
+          ]
+        },
+        {
+          "id": "image-0431",
+          "caption": "Ein langer Besprechungstisch steht vor Zickzack-Wandpaneelen und einem Wandbildschirm.",
+          "materials": [
+            "Tisch und Zickzack-Paneele mit Holzmaserung",
+            "glänzende graue Wandpaneele",
+            "helle Stoffpolster"
+          ]
+        },
+        {
+          "id": "image-0425",
+          "caption": "Sesselpaare und runde Tische stehen entlang einer Zickzack-Wand neben hohen Vitrinenschränken.",
+          "materials": [
+            "Wandpaneele in Holzoptik mit Zickzack-Muster",
+            "Boden in Holzoptik",
+            "helle Polster mit Blumenmuster",
+            "Tische in Holzoptik",
+            "verglaste Schränke in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0426",
+          "caption": "Dekorationsobjekte stehen in Holzregalen neben kleinen Tischen und einem Kronleuchter.",
+          "materials": [
+            "Boden und Regale in Holzoptik",
+            "cremefarbene Flächen",
+            "spiegelnde Leisten",
+            "Kronleuchter in Metall- und Kristalloptik",
+            "Dekorationsobjekte in Keramikoptik"
+          ]
+        },
+        {
+          "id": "image-0427",
+          "caption": "Regale und Tische mit geschwungenen Beinen stehen unter einem Kronleuchter in einer Deckennische.",
+          "materials": [
+            "Dielenboden in Holzoptik",
+            "Regale und Tische in Holzoptik",
+            "cremefarbene Wände",
+            "spiegelnde Leisten",
+            "Kronleuchter in Metall- und Kristalloptik",
+            "Dekorationsobjekte in Keramikoptik"
+          ]
+        },
+        {
+          "id": "image-0428",
+          "caption": "Sitznischen säumen einen Flur unter geometrischen, beleuchteten Deckenpaneelen.",
+          "materials": [
+            "Dielenboden in Holzoptik",
+            "cremefarbene Wandpaneele",
+            "spiegelnde senkrechte Leisten",
+            "gemusterte beleuchtete Deckenpaneele",
+            "helle Stoffpolster"
+          ]
+        },
+        {
+          "id": "image-0416",
+          "caption": "Eine verkleidete Holztheke steht vor einer geometrischen, spiegelnden Trennwand.",
+          "materials": [
+            "Boden in Holzoptik",
+            "braune Theke und Türen in Holzoptik",
+            "gemustertes spiegelndes Glas",
+            "weiße Wände"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "22": {
+    "en": {
+      "title": "Office layout and cutaways",
+      "intro": "Groups of desks and enclosed meeting rooms form a long office layout.",
+      "detail": "Overhead cutaways show the desk and partition arrangement. Interior views show shared workspaces and meeting rooms.",
+      "gallery": [
+        {
+          "id": "image-0217",
+          "caption": "An overhead cutaway shows central desk groups and enclosed rooms along both sides.",
+          "materials": [
+            "grey carpet",
+            "white desktops",
+            "glass partitions",
+            "wood-effect trim"
+          ]
+        },
+        {
+          "id": "image-0218",
+          "caption": "An angled cutaway shows repeated desk groups and meeting rooms in a narrow office.",
+          "materials": [
+            "grey carpet with yellow bands",
+            "white desktops",
+            "glass partitions",
+            "wood-effect trim"
+          ]
+        },
+        {
+          "id": "image-0220",
+          "caption": "A white desk and three chairs sit beside geometric wall panels, a whiteboard and a bulb graphic.",
+          "materials": [
+            "concrete-effect wall",
+            "faceted yellow and grey wall panels",
+            "grey carpet",
+            "white desktop",
+            "black chair upholstery",
+            "grey blinds"
+          ]
+        },
+        {
+          "id": "image-0215",
+          "caption": "Shared desks sit beside striped glass and a cream wall with teamwork lettering.",
+          "materials": [
+            "grey carpet with yellow bands",
+            "glass partitions",
+            "wood-effect fascia",
+            "white speckled desktops",
+            "black chair upholstery"
+          ]
+        },
+        {
+          "id": "image-0222",
+          "caption": "A white meeting table and black chairs sit beside grey blinds and a monochrome city mural.",
+          "materials": [
+            "white tabletop",
+            "black chair upholstery",
+            "grey horizontal blinds",
+            "grey patterned carpet",
+            "glass partition"
+          ]
+        },
+        {
+          "id": "image-0223",
+          "caption": "A meeting table and black chairs face blue triangle graphics beside horizontal blinds.",
+          "materials": [
+            "white tabletop",
+            "black chair upholstery",
+            "grey horizontal blinds",
+            "grey patterned carpet",
+            "white wall"
+          ]
+        },
+        {
+          "id": "image-0214",
+          "caption": "Shared desks stand between striped glass partitions and a large lettering graphic.",
+          "materials": [
+            "grey carpet with yellow bands",
+            "glass partitions",
+            "wood-effect fascia",
+            "white speckled desktops",
+            "black chair upholstery"
+          ]
+        },
+        {
+          "id": "image-0216",
+          "caption": "Paired desk rows sit between glass partitions beneath linear lights.",
+          "materials": [
+            "striped glass partitions",
+            "grey carpet",
+            "yellow floor bands",
+            "wood-effect upper trim",
+            "white speckled desktops",
+            "black chair upholstery"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Büroaufteilung und Schnittansichten",
+      "intro": "Tischgruppen und geschlossene Besprechungsräume bilden eine langgestreckte Büroaufteilung.",
+      "detail": "Schnittansichten von oben zeigen die Anordnung der Tische und Trennwände. Innenansichten zeigen gemeinsame Arbeitsbereiche und Besprechungsräume.",
+      "gallery": [
+        {
+          "id": "image-0217",
+          "caption": "Eine Schnittansicht von oben zeigt mittige Tischgruppen und geschlossene Räume an beiden Seiten.",
+          "materials": [
+            "grauer Teppich",
+            "weiße Tischplatten",
+            "Glastrennwände",
+            "Leisten in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0218",
+          "caption": "Eine schräge Schnittansicht zeigt Tischgruppen und Besprechungsräume in einem schmalen Büro.",
+          "materials": [
+            "grauer Teppich mit gelben Streifen",
+            "weiße Tischplatten",
+            "Glastrennwände",
+            "Leisten in Holzoptik"
+          ]
+        },
+        {
+          "id": "image-0220",
+          "caption": "Ein weißer Tisch und drei Stühle stehen neben geometrischen Wandpaneelen und einem Whiteboard.",
+          "materials": [
+            "Wand in Betonoptik",
+            "facettierte gelbe und graue Wandpaneele",
+            "grauer Teppich",
+            "weiße Tischplatte",
+            "schwarze Stuhlpolster",
+            "graue Jalousien"
+          ]
+        },
+        {
+          "id": "image-0215",
+          "caption": "Gemeinsame Arbeitstische stehen neben gestreiftem Glas und einer Wand mit Teamwork-Schriftzug.",
+          "materials": [
+            "grauer Teppich mit gelben Streifen",
+            "Glastrennwände",
+            "Blende in Holzoptik",
+            "weiß gesprenkelte Tischplatten",
+            "schwarze Stuhlpolster"
+          ]
+        },
+        {
+          "id": "image-0222",
+          "caption": "Ein weißer Tisch und schwarze Stühle stehen neben grauen Jalousien und einem Stadtbild.",
+          "materials": [
+            "weiße Tischplatte",
+            "schwarze Stuhlpolster",
+            "graue Horizontaljalousien",
+            "grauer gemusterter Teppich",
+            "Glastrennwand"
+          ]
+        },
+        {
+          "id": "image-0223",
+          "caption": "Ein Besprechungstisch und schwarze Stühle stehen vor blauen Dreiecksgrafiken neben Jalousien.",
+          "materials": [
+            "weiße Tischplatte",
+            "schwarze Stuhlpolster",
+            "graue Horizontaljalousien",
+            "grauer gemusterter Teppich",
+            "weiße Wand"
+          ]
+        },
+        {
+          "id": "image-0214",
+          "caption": "Gemeinsame Arbeitstische stehen zwischen gestreiften Glastrennwänden und einer großen Schriftgrafik.",
+          "materials": [
+            "grauer Teppich mit gelben Streifen",
+            "Glastrennwände",
+            "Blende in Holzoptik",
+            "weiß gesprenkelte Tischplatten",
+            "schwarze Stuhlpolster"
+          ]
+        },
+        {
+          "id": "image-0216",
+          "caption": "Paarweise Tischreihen stehen zwischen Glastrennwänden unter linearen Leuchten.",
+          "materials": [
+            "gestreifte Glastrennwände",
+            "grauer Teppich",
+            "gelbe Bodenstreifen",
+            "obere Leisten in Holzoptik",
+            "weiß gesprenkelte Tischplatten",
+            "schwarze Stuhlpolster"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "06": {
+    "en": {
+      "title": "Landscape by day and night",
+      "intro": "The landscape views show planted areas and paved paths in daylight and after dark.",
+      "detail": "Two animated walkthroughs show the layout and planting under different lighting conditions.",
+      "gallery": [
+        {
+          "id": "landscape-day",
+          "caption": "A daylight overview shows planted areas and paved paths.",
+          "materials": [
+            "green planting",
+            "paved paths"
+          ]
+        },
+        {
+          "id": "landscape-night",
+          "caption": "Paths and planted areas are illuminated after dark.",
+          "materials": [
+            "green planting",
+            "paved paths"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": [
+        {
+          "label": "Daylight walkthrough"
+        },
+        {
+          "label": "Night-time walkthrough"
+        }
+      ]
+    },
+    "de": {
+      "title": "Landschaft bei Tag und Nacht",
+      "intro": "Die Landschaftsansichten zeigen bepflanzte Flächen und befestigte Wege bei Tageslicht und im Dunkeln.",
+      "detail": "Zwei animierte Rundgänge zeigen die Anordnung und Bepflanzung bei unterschiedlicher Beleuchtung.",
+      "gallery": [
+        {
+          "id": "landscape-day",
+          "caption": "Eine Übersicht bei Tageslicht zeigt bepflanzte Flächen und befestigte Wege.",
+          "materials": [
+            "grüne Bepflanzung",
+            "befestigte Wege"
+          ]
+        },
+        {
+          "id": "landscape-night",
+          "caption": "Wege und bepflanzte Flächen sind im Dunkeln beleuchtet.",
+          "materials": [
+            "grüne Bepflanzung",
+            "befestigte Wege"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": [
+        {
+          "label": "Rundgang bei Tageslicht"
+        },
+        {
+          "label": "Rundgang bei Nacht"
+        }
+      ]
+    }
+  },
+  "17": {
+    "en": {
+      "title": "Exhibition Stand Colour Studies",
+      "intro": "Green and yellow versions show the same exhibition stand with pale wood-look slats and angled supports.",
+      "detail": "A compact counter sits beneath suspended boxes. The views show the entrance, lighting and placeholder lettering.",
+      "gallery": [
+        {
+          "id": "image-0164",
+          "caption": "A yellow counter sits before pale slats and angled supports beneath suspended boxes.",
+          "materials": [
+            "pale wood-look slats and supports",
+            "white panels",
+            "yellow counter front",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0165",
+          "caption": "A green counter and pale slats sit beneath suspended white and green boxes.",
+          "materials": [
+            "pale wood-look slats and supports",
+            "white panels",
+            "green counter front",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0166",
+          "caption": "Crossing supports frame a yellow counter beneath illuminated white and yellow boxes.",
+          "materials": [
+            "pale wood-look platform and slats",
+            "yellow counter front",
+            "white overhead panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0167",
+          "caption": "Crossing pale supports frame a green counter, slatted walls and suspended boxes.",
+          "materials": [
+            "pale wood-look platform and slats",
+            "green counter front",
+            "white overhead panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0168",
+          "caption": "A side view shows a yellow counter, slatted walls and overhead placeholder lettering.",
+          "materials": [
+            "pale wood-look platform and slats",
+            "white framing",
+            "yellow counter panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0169",
+          "caption": "Pale slats frame a green counter beneath a white overhead lighting structure.",
+          "materials": [
+            "pale wood-look platform and slats",
+            "white framing",
+            "green counter panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0170",
+          "caption": "Tall pale slats stand beside a yellow counter and white panels with placeholder lettering.",
+          "materials": [
+            "pale wood-look vertical slats",
+            "yellow counter front",
+            "white signage panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0171",
+          "caption": "A green counter stands beside tall pale slats beneath white signage and suspended boxes.",
+          "materials": [
+            "pale wood-look vertical slats",
+            "green counter front",
+            "white signage panels",
+            "metal-look lighting tracks"
+          ]
+        },
+        {
+          "id": "image-0172",
+          "caption": "An overhead view shows slatted sides and a square arrangement of white and yellow panels.",
+          "materials": [
+            "pale wood-look slats and flooring",
+            "smooth white panels",
+            "yellow panels"
+          ]
+        },
+        {
+          "id": "image-0173",
+          "caption": "An overhead view shows green and white squares above a partly covered slatted stand.",
+          "materials": [
+            "pale wood-look slats and flooring",
+            "smooth white panels",
+            "green panels"
+          ]
+        },
+        {
+          "id": "image-0174",
+          "caption": "The entrance has vertical wood-look slats, yellow placeholder signage and a scale figure.",
+          "materials": [
+            "pale wood-look flooring and slats",
+            "smooth white panels",
+            "yellow surfaces"
+          ]
+        },
+        {
+          "id": "image-0175",
+          "caption": "The entrance has green placeholder signage, open slatted walls and ceiling spotlights.",
+          "materials": [
+            "pale wood-look flooring and slats",
+            "smooth white panels",
+            "green surfaces"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Messestand in Grün und Gelb",
+      "intro": "Grüne und gelbe Varianten zeigen denselben Messestand mit hellen Lamellen in Holzoptik und schrägen Stützen.",
+      "detail": "Eine kompakte Theke steht unter abgehängten Kästen. Die Ansichten zeigen den Eingang, die Beleuchtung und Platzhalterbeschriftungen.",
+      "gallery": [
+        {
+          "id": "image-0164",
+          "caption": "Eine gelbe Theke steht vor hellen Lamellen und schrägen Stützen unter abgehängten Kästen.",
+          "materials": [
+            "helle Lamellen und Stützen in Holzoptik",
+            "weisse Platten",
+            "gelbe Thekenfront",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0165",
+          "caption": "Eine grüne Theke und helle Lamellen stehen unter abgehängten weissen und grünen Kästen.",
+          "materials": [
+            "helle Lamellen und Stützen in Holzoptik",
+            "weisse Platten",
+            "grüne Thekenfront",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0166",
+          "caption": "Gekreuzte Stützen rahmen eine gelbe Theke unter beleuchteten weissen und gelben Kästen.",
+          "materials": [
+            "helle Plattform und Lamellen in Holzoptik",
+            "gelbe Thekenfront",
+            "weisse Deckenplatten",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0167",
+          "caption": "Gekreuzte helle Stützen rahmen eine grüne Theke, Lamellenwände und abgehängte Kästen.",
+          "materials": [
+            "helle Plattform und Lamellen in Holzoptik",
+            "grüne Thekenfront",
+            "weisse Deckenplatten",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0168",
+          "caption": "Die Seitenansicht zeigt eine gelbe Theke, Lamellenwände und Platzhalterbeschriftungen darüber.",
+          "materials": [
+            "helle Plattform und Lamellen in Holzoptik",
+            "weisser Rahmen",
+            "gelbe Thekenplatten",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0169",
+          "caption": "Helle Lamellen rahmen eine grüne Theke unter einer weissen Lichtkonstruktion.",
+          "materials": [
+            "helle Plattform und Lamellen in Holzoptik",
+            "weisser Rahmen",
+            "grüne Thekenplatten",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0170",
+          "caption": "Hohe helle Lamellen stehen neben einer gelben Theke und weissen beschrifteten Tafeln.",
+          "materials": [
+            "helle senkrechte Lamellen in Holzoptik",
+            "gelbe Thekenfront",
+            "weisse Schilder",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0171",
+          "caption": "Eine grüne Theke steht neben hohen hellen Lamellen unter weissen Schildern und Kästen.",
+          "materials": [
+            "helle senkrechte Lamellen in Holzoptik",
+            "grüne Thekenfront",
+            "weisse Schilder",
+            "Lichtschienen in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0172",
+          "caption": "Die Ansicht von oben zeigt Lamellenwände und quadratisch angeordnete weisse und gelbe Platten.",
+          "materials": [
+            "helle Lamellen und Bodenflächen in Holzoptik",
+            "glatte weisse Platten",
+            "gelbe Platten"
+          ]
+        },
+        {
+          "id": "image-0173",
+          "caption": "Grüne und weisse Quadrate liegen über dem teilweise überdeckten Stand mit Lamellenwänden.",
+          "materials": [
+            "helle Lamellen und Bodenflächen in Holzoptik",
+            "glatte weisse Platten",
+            "grüne Platten"
+          ]
+        },
+        {
+          "id": "image-0174",
+          "caption": "Der Eingang zeigt senkrechte Lamellen, gelbe Platzhalterschilder und eine Massstabsfigur.",
+          "materials": [
+            "helle Bodenflächen und Lamellen in Holzoptik",
+            "glatte weisse Platten",
+            "gelbe Flächen"
+          ]
+        },
+        {
+          "id": "image-0175",
+          "caption": "Der Eingang hat grüne Platzhalterschilder, offene Lamellenwände und Deckenstrahler.",
+          "materials": [
+            "helle Bodenflächen und Lamellen in Holzoptik",
+            "glatte weisse Platten",
+            "grüne Flächen"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "19": {
+    "en": {
+      "title": "Rooms in 360°",
+      "intro": "Panoramic views show living, dining, kitchen and bedroom spaces.",
+      "detail": "The rooms feature curved ceiling details, pale surfaces and warm wood tones.",
+      "gallery": [
+        {
+          "id": "image-0203",
+          "caption": "A panoramic view shows cream seating, green-backed television storage, dining and kitchen areas.",
+          "materials": [
+            "cream upholstery",
+            "wood-look trim and cabinets",
+            "green ribbed panel",
+            "glass cabinet fronts",
+            "pale stone-look flooring"
+          ]
+        },
+        {
+          "id": "image-0207",
+          "caption": "An L-shaped kitchen sits beside a wood-framed shrine niche, with dining seating to the right.",
+          "materials": [
+            "cream cabinet fronts",
+            "dark stone-look worktop and splashback",
+            "wood-look shrine doors and trim",
+            "glass cabinet fronts",
+            "pale flooring"
+          ]
+        },
+        {
+          "id": "image-0204",
+          "caption": "A bedroom has a central bed, blue and orange wardrobe, small desk and wall-mounted television.",
+          "materials": [
+            "white bedding",
+            "blue and orange cabinet surfaces",
+            "wood-look trim",
+            "pale textured walls",
+            "pale glossy flooring"
+          ]
+        },
+        {
+          "id": "image-0205",
+          "caption": "A bed faces a curved patterned wardrobe beside curtained sliding doors to outdoor seating.",
+          "materials": [
+            "cream bedding",
+            "wood-look wardrobe trim",
+            "pale ribbed wall panels",
+            "dark patterned curtains",
+            "glass sliding doors"
+          ]
+        },
+        {
+          "id": "image-0206",
+          "caption": "An oval table and pink chairs sit beside display storage and a mirror in an open dining area.",
+          "materials": [
+            "pale stone-look tabletop and flooring",
+            "pink upholstery",
+            "wood-look trim",
+            "glass-front storage",
+            "light curtains"
+          ]
+        },
+        {
+          "id": "image-0208",
+          "caption": "Curved seating faces a green television wall beside display cabinets and a dining area.",
+          "materials": [
+            "cream upholstery",
+            "pale stone-look flooring",
+            "wood-look trim",
+            "green ribbed panels",
+            "glass-front cabinets"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Räume in 360°",
+      "intro": "Panoramaansichten zeigen Wohnbereiche, Essbereiche, Küchen und Schlafzimmer.",
+      "detail": "Die Räume haben geschwungene Deckendetails, helle Flächen und warme Holztöne.",
+      "gallery": [
+        {
+          "id": "image-0203",
+          "caption": "Die Panoramaansicht zeigt cremefarbene Sitzmöbel, eine grüne TV-Wand, Essbereich und Küche.",
+          "materials": [
+            "cremefarbene Polster",
+            "Leisten und Schränke in Holzoptik",
+            "grüne gerippte Platte",
+            "Schrankfronten aus Glas",
+            "heller Boden in Steinoptik"
+          ]
+        },
+        {
+          "id": "image-0207",
+          "caption": "Eine L-förmige Küche liegt neben einer holzgerahmten Schreinnische und einem Essbereich.",
+          "materials": [
+            "cremefarbene Schrankfronten",
+            "dunkle Arbeitsplatte und Rückwand in Steinoptik",
+            "Schreintüren und Leisten in Holzoptik",
+            "Schrankfronten aus Glas",
+            "heller Boden"
+          ]
+        },
+        {
+          "id": "image-0204",
+          "caption": "Das Schlafzimmer zeigt ein Bett, einen blau-orangen Schrank, einen kleinen Schreibtisch und TV.",
+          "materials": [
+            "weisse Bettwäsche",
+            "blaue und orange Schrankflächen",
+            "Leisten in Holzoptik",
+            "helle strukturierte Wände",
+            "heller glänzender Boden"
+          ]
+        },
+        {
+          "id": "image-0205",
+          "caption": "Neben dem Bett stehen ein geschwungener Schrank und verglaste Türen mit Vorhängen.",
+          "materials": [
+            "cremefarbene Bettwäsche",
+            "Schrankleisten in Holzoptik",
+            "helle gerippte Wandplatten",
+            "dunkle gemusterte Vorhänge",
+            "Glasschiebetüren"
+          ]
+        },
+        {
+          "id": "image-0206",
+          "caption": "Ein ovaler Tisch und rosa Stühle stehen neben Vitrinen und einem Spiegel im offenen Essbereich.",
+          "materials": [
+            "helle Tischplatte und Boden in Steinoptik",
+            "rosa Polster",
+            "Leisten in Holzoptik",
+            "Schränke mit Glasfronten",
+            "helle Vorhänge"
+          ]
+        },
+        {
+          "id": "image-0208",
+          "caption": "Geschwungene Sitzmöbel stehen vor einer grünen TV-Wand neben Vitrinen und einem Essbereich.",
+          "materials": [
+            "cremefarbene Polster",
+            "heller Boden in Steinoptik",
+            "Leisten in Holzoptik",
+            "grüne gerippte Platten",
+            "Schränke mit Glasfronten"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "26": {
+    "en": {
+      "title": "Plant Motifs and Geometric Details",
+      "intro": "Bedroom, living and kitchen studies combine plant motifs, blue geometric details and wood-look surfaces.",
+      "detail": "The views show fitted storage, lighting and open connections between rooms.",
+      "gallery": [
+        {
+          "id": "image-0310",
+          "caption": "Seating faces a television wall beside a backlit decorative panel, with dining beyond.",
+          "materials": [
+            "cream fabric upholstery",
+            "wood-look wall panels",
+            "marble-look floor and wall panel",
+            "metallic decoration",
+            "grey cabinetry"
+          ]
+        },
+        {
+          "id": "image-0300",
+          "caption": "A view towards the dining area and kitchen passes twin basins, a TV unit and fitted storage.",
+          "materials": [
+            "white marble-look floors and walls",
+            "wood-grain panels",
+            "grey cabinetry",
+            "upholstered chairs",
+            "glass"
+          ]
+        },
+        {
+          "id": "image-0306",
+          "caption": "A quilted headboard sits against a floral panel, between a window bench and dressing table.",
+          "materials": [
+            "cream quilted upholstery",
+            "wood-grain cabinetry",
+            "floral wall panel",
+            "striped bedding",
+            "marble-look flooring",
+            "patterned seat upholstery"
+          ]
+        },
+        {
+          "id": "image-0303",
+          "caption": "A dining table sits before an open kitchen, pendant lights, lit niches and a slatted divider.",
+          "materials": [
+            "wood-grain cabinetry and slats",
+            "grey cabinet fronts",
+            "marble-look surfaces",
+            "upholstered chairs",
+            "glass"
+          ]
+        },
+        {
+          "id": "image-0305",
+          "caption": "An L-shaped kitchen has grey and wood-grain cabinets and a peninsula beneath pendant lights.",
+          "materials": [
+            "wood-grain cabinet fronts",
+            "grey panels",
+            "translucent cabinet doors",
+            "white marble-look worktops and flooring",
+            "white ribbed splashback",
+            "metal-look handles"
+          ]
+        },
+        {
+          "id": "image-0309",
+          "caption": "A wall-mounted TV cabinet sits beneath wood-look strips and illuminated ceiling recesses.",
+          "materials": [
+            "wood-look panels",
+            "grey cabinet fronts",
+            "marble-look floor and wall panel",
+            "fabric upholstery",
+            "metallic accents"
+          ]
+        },
+        {
+          "id": "image-0301",
+          "caption": "A dining table stands beside a wood-and-grey TV wall, with twin basins and a mirror to the left.",
+          "materials": [
+            "wood-grain wall panels",
+            "grey cabinet fronts",
+            "marble-look flooring and worktops",
+            "upholstery",
+            "mirror"
+          ]
+        },
+        {
+          "id": "image-0304",
+          "caption": "An orange headboard wall sits between display shelves beside a wardrobe with floral doors.",
+          "materials": [
+            "wood-grain cabinetry",
+            "cream and brown panels",
+            "orange textured wall finish",
+            "woven bedding",
+            "marble-look flooring"
+          ]
+        },
+        {
+          "id": "image-0297",
+          "caption": "A tree-and-bird mural sits beside angular shelves and a corner desk under recessed lighting.",
+          "materials": [
+            "mint-green and grey painted surfaces",
+            "wood-grain furniture",
+            "patterned textiles",
+            "white marble-look flooring",
+            "mirror"
+          ]
+        },
+        {
+          "id": "image-0299",
+          "caption": "A green-and-grey sliding wardrobe faces a bed beside hexagonal mirrors and a tree mural.",
+          "materials": [
+            "glossy green and grey panels",
+            "wood-grain cabinetry",
+            "patterned fabric",
+            "marble-look flooring",
+            "hexagonal mirrors"
+          ]
+        },
+        {
+          "id": "image-0307",
+          "caption": "A blue-and-white bedroom has hexagonal wall details, a window-side desk and a tufted headboard.",
+          "materials": [
+            "blue-grey textured walls",
+            "blue upholstered headboard",
+            "white and blue cabinetry",
+            "patterned bedding",
+            "wood-grain door",
+            "marble-look flooring"
+          ]
+        },
+        {
+          "id": "image-0308",
+          "caption": "A blue tufted headboard sits between a desk and a full-height blue-and-white geometric wardrobe.",
+          "materials": [
+            "blue-grey textured walls",
+            "glossy white and blue wardrobe panels",
+            "tufted upholstery",
+            "patterned bedding",
+            "marble-look flooring"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Pflanzenmotive und geometrische Details",
+      "intro": "Schlafzimmer, Wohnbereiche und Küchen verbinden Pflanzenmotive, blaue geometrische Details und Flächen in Holzoptik.",
+      "detail": "Die Ansichten zeigen Einbauschränke, Beleuchtung und offene Übergänge zwischen den Räumen.",
+      "gallery": [
+        {
+          "id": "image-0310",
+          "caption": "Sitzmöbel stehen vor einer TV-Wand neben einer hinterleuchteten Dekorplatte.",
+          "materials": [
+            "cremefarbene Stoffpolster",
+            "Wandplatten in Holzoptik",
+            "Boden und Wandplatte in Marmoroptik",
+            "metallisch wirkende Dekoration",
+            "graue Schränke"
+          ]
+        },
+        {
+          "id": "image-0300",
+          "caption": "Der Blick zum Essbereich und zur Küche führt an zwei Waschbecken, TV-Möbel und Schränken vorbei.",
+          "materials": [
+            "weisse Böden und Wände in Marmoroptik",
+            "Platten mit Holzmaserung",
+            "graue Schränke",
+            "gepolsterte Stühle",
+            "Glas"
+          ]
+        },
+        {
+          "id": "image-0306",
+          "caption": "Ein gestepptes Kopfteil steht vor einer Blumenwand zwischen Fensterbank und Schminktisch.",
+          "materials": [
+            "cremefarbene gesteppte Polster",
+            "Schränke mit Holzmaserung",
+            "Wandplatte mit Blumenmuster",
+            "gestreifte Bettwäsche",
+            "Boden in Marmoroptik",
+            "gemusterte Sitzpolster"
+          ]
+        },
+        {
+          "id": "image-0303",
+          "caption": "Ein Esstisch steht vor einer offenen Küche, Pendelleuchten, beleuchteten Nischen und Lamellen.",
+          "materials": [
+            "Schränke und Lamellen mit Holzmaserung",
+            "graue Schrankfronten",
+            "Flächen in Marmoroptik",
+            "gepolsterte Stühle",
+            "Glas"
+          ]
+        },
+        {
+          "id": "image-0305",
+          "caption": "Die L-Küche hat graue Schränke, Fronten mit Holzmaserung und eine Halbinsel unter Pendelleuchten.",
+          "materials": [
+            "Schrankfronten mit Holzmaserung",
+            "graue Platten",
+            "lichtdurchlässige Schranktüren",
+            "weisse Arbeitsplatten und Boden in Marmoroptik",
+            "weisse gerippte Rückwand",
+            "Griffe in Metalloptik"
+          ]
+        },
+        {
+          "id": "image-0309",
+          "caption": "Ein wandhängendes TV-Möbel sitzt unter Leisten in Holzoptik und beleuchteten Deckennischen.",
+          "materials": [
+            "Platten in Holzoptik",
+            "graue Schrankfronten",
+            "Boden und Wandplatte in Marmoroptik",
+            "Stoffpolster",
+            "metallisch wirkende Details"
+          ]
+        },
+        {
+          "id": "image-0301",
+          "caption": "Ein Esstisch steht neben einer grau-holzfarbenen TV-Wand; links sind zwei Waschbecken.",
+          "materials": [
+            "Wandplatten mit Holzmaserung",
+            "graue Schrankfronten",
+            "Boden und Arbeitsplatten in Marmoroptik",
+            "Polster",
+            "Spiegel"
+          ]
+        },
+        {
+          "id": "image-0304",
+          "caption": "Eine orange Wand am Kopfende liegt zwischen Regalen neben einem Schrank mit Blumentüren.",
+          "materials": [
+            "Schränke mit Holzmaserung",
+            "cremefarbene und braune Platten",
+            "orange strukturierte Wand",
+            "gewebte Bettwäsche",
+            "Boden in Marmoroptik"
+          ]
+        },
+        {
+          "id": "image-0297",
+          "caption": "Ein Wandbild mit Baum und Vögeln liegt neben eckigen Regalen und einem Eckschreibtisch.",
+          "materials": [
+            "mintgrüne und graue gestrichene Flächen",
+            "Möbel mit Holzmaserung",
+            "gemusterte Textilien",
+            "weisser Boden in Marmoroptik",
+            "Spiegel"
+          ]
+        },
+        {
+          "id": "image-0299",
+          "caption": "Ein grün-grauer Schiebetürenschrank steht gegenüber dem Bett neben sechseckigen Spiegeln.",
+          "materials": [
+            "glänzende grüne und graue Platten",
+            "Schränke mit Holzmaserung",
+            "gemusterter Stoff",
+            "Boden in Marmoroptik",
+            "sechseckige Spiegel"
+          ]
+        },
+        {
+          "id": "image-0307",
+          "caption": "Das blau-weisse Schlafzimmer hat sechseckige Wanddetails, einen Schreibtisch und Polsterkopfteil.",
+          "materials": [
+            "blaugraue strukturierte Wände",
+            "blaues gepolstertes Kopfteil",
+            "weisse und blaue Schränke",
+            "gemusterte Bettwäsche",
+            "Tür mit Holzmaserung",
+            "Boden in Marmoroptik"
+          ]
+        },
+        {
+          "id": "image-0308",
+          "caption": "Ein blaues Polsterkopfteil steht zwischen Schreibtisch und hohem blau-weissem Schrank.",
+          "materials": [
+            "blaugraue strukturierte Wände",
+            "glänzende weisse und blaue Schrankplatten",
+            "Polster mit Knopfheftung",
+            "gemusterte Bettwäsche",
+            "Boden in Marmoroptik"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  },
+  "33": {
+    "en": {
+      "title": "Bedrooms with Geometric Lighting",
+      "intro": "Three bedroom views show geometric lighting, decorative bed walls and workspaces.",
+      "detail": "Desks, storage and television walls sit around the beds.",
+      "gallery": [
+        {
+          "id": "image-0446",
+          "caption": "A platform bed sits beside a sliding wardrobe and window-side desk with lit wall patterns.",
+          "materials": [
+            "wood-look bed frame and trim",
+            "white cabinetry",
+            "frosted-glass-look wardrobe fronts",
+            "marble-look flooring",
+            "light bedding",
+            "textured ceiling"
+          ]
+        },
+        {
+          "id": "image-0447",
+          "caption": "A dark wood-look bed sits against an angular lit wall beside a white desk and patterned rug.",
+          "materials": [
+            "dark wood-look bed and bedside units",
+            "white wall panels and desk",
+            "gold-toned patterned wall covering",
+            "light bedding",
+            "marble-look flooring",
+            "multicoloured geometric rug"
+          ]
+        },
+        {
+          "id": "image-0448",
+          "caption": "The reverse view shows a white wardrobe, wall-mounted television, shelves and a desk.",
+          "materials": [
+            "glossy white wardrobe and desk surfaces",
+            "brown textured wall finish",
+            "wood-look door",
+            "light fabric bedding",
+            "gold-toned patterned panels",
+            "geometric rug"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    },
+    "de": {
+      "title": "Schlafzimmer mit geometrischer Beleuchtung",
+      "intro": "Drei Schlafzimmeransichten zeigen geometrische Beleuchtung, dekorative Wände am Bett und Arbeitsplätze.",
+      "detail": "Schreibtische, Schränke und TV-Wände sind um die Betten angeordnet.",
+      "gallery": [
+        {
+          "id": "image-0446",
+          "caption": "Ein Podestbett steht neben einem Schiebetürenschrank und Schreibtisch mit beleuchteten Wandmustern.",
+          "materials": [
+            "Bettrahmen und Leisten in Holzoptik",
+            "weisse Schränke",
+            "Schrankfronten in Milchglasoptik",
+            "Boden in Marmoroptik",
+            "helle Bettwäsche",
+            "strukturierte Decke"
+          ]
+        },
+        {
+          "id": "image-0447",
+          "caption": "Ein dunkles Bett steht vor einer eckigen Lichtwand neben weissem Schreibtisch und Musterteppich.",
+          "materials": [
+            "Bett und Nachttische in dunkler Holzoptik",
+            "weisse Wandplatten und Schreibtisch",
+            "goldfarbener gemusterter Wandbelag",
+            "helle Bettwäsche",
+            "Boden in Marmoroptik",
+            "mehrfarbiger geometrischer Teppich"
+          ]
+        },
+        {
+          "id": "image-0448",
+          "caption": "Die Gegenansicht zeigt einen weissen Schrank, einen Wandfernseher, Regale und einen Schreibtisch.",
+          "materials": [
+            "glänzende weisse Schrank- und Schreibtischflächen",
+            "braune strukturierte Wand",
+            "Tür in Holzoptik",
+            "helle Stoffbettwäsche",
+            "goldfarbene gemusterte Platten",
+            "geometrischer Teppich"
+          ]
+        }
+      ],
+      "drawings": [],
+      "videos": []
+    }
+  }
+}

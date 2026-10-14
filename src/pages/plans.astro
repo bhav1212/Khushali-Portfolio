@@ -1,0 +1,20 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Arrow from '../components/Arrow.astro';
+import collections from '../data/plans.json';
+import {ui, type Language} from '../lib/i18n';
+interface Props {language?:Language;}
+const language=Astro.props.language||'en', text=ui[language];
+---
+<SiteLayout language={language} title={text.plans} description={text.plansCopy}>
+  <section class="plans-intro page-gutter"><h1>{text.plansTitle}</h1><p>{text.plansCopy}</p></section>
+  <section class="plan-collections section-space page-gutter" aria-label={text.planCollection}>
+    {collections.map(collection=><details class="plan-collection" name="plan-collections" id={`collection-${collection.id}`}>
+      <summary><img src={collection.sheets[0].src} width="180" height="120" alt="" loading="lazy"/><span><h2>{collection.title[language]}</h2><span class="plan-count">{collection.sheets.length} {collection.sheets.length===1?text.sheet:text.sheets}</span></span><Arrow direction="down"/></summary>
+      <div class="plan-sheets">{collection.sheets.map(sheet=><figure id={sheet.id}>
+        <a href={sheet.src} target="_blank" rel="noopener" aria-label={`${text.openPlan}: ${sheet.title[language]}`}><img src={sheet.src} width={sheet.width} height={sheet.height} alt={sheet.title[language]} loading="lazy"/></a>
+        <figcaption><h3>{sheet.title[language]}</h3><a class="inline-link" href={sheet.src} target="_blank" rel="noopener">{text.openPlan}<Arrow/></a></figcaption>
+      </figure>)}</div>
+    </details>)}
+  </section>
+</SiteLayout>
