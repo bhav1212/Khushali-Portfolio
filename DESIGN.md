@@ -174,7 +174,7 @@ components:
     backgroundColor: "{colors.canvas}"
     textColor: "{colors.ink}"
     rounded: "{rounded.square}"
-    padding: "0 28px 28px"
+    padding: "0"
     width: "min(1400px, calc(100vw - 40px))"
     height: "calc(100dvh - 40px)"
   board-room-filter:
@@ -208,7 +208,7 @@ components:
 
 **Creative North Star: "Editorial photo essay and room atlas"**
 
-The interiors are the visual material. An expressive serif supplies an authored voice; a clear sans-serif carries the practical information around it. The interface is quiet and editorial, with image scale and alignment creating the hierarchy. View boards, focused indexes and disclosures keep the work easy to compare. Opening a picture leads into a continuous image reader, so the project remains one coherent sequence.
+The interiors are the visual material. An expressive serif supplies an authored voice; a clear sans-serif carries the practical information around it. The interface is quiet and editorial, with image scale and alignment creating the hierarchy. View boards, focused indexes and disclosures keep the work easy to compare. Opening a picture leads to a fixed proof table with a persistent overview and optional side-by-side comparison.
 
 Sage-white and green ink provide a stable ground. Subdued stone, blue-grey and sage fields extend colours found in the work, while rectangular image windows retain room context. Depth comes from these tonal fields and the photographs and visualisations themselves. Borders mark controls and useful separations rather than enclosing every piece of content. Motion follows an architectural opening: a shutter, lateral picture movement and a caption reveal preserve continuity within a stable frame.
 
@@ -230,7 +230,7 @@ The palette is a muted green framework with image-derived neutral surfaces and l
 
 ### Neutral
 
-- **Sage-white paper** (`canvas`): the page ground, language menu, carousel image controls and continuous image reader.
+- **Sage-white paper** (`canvas`): the page ground, language menu, carousel image controls and fixed proof table.
 - **Green ink** (`ink`): principal text and the inverted footer ground.
 - **Muted green-grey** (`muted`): secondary copy, captions and unselected filters.
 - **Pale green rule** (`rule`): quiet content dividers and plan collections. Use the darker `control-border` for facet, panorama-zoom and open-language-menu boundaries.
@@ -280,9 +280,9 @@ Both fonts are self-hosted WOFF2 files with `font-display: swap`. Gloock is regu
 | `micro-label` | Image kind, carousel authorship and footer notes. |
 | `control` | Main navigation, inline links and category controls. |
 
-The exact role values are in the frontmatter. This is a role-based ramp with deliberate page and component overrides, rather than a single geometric scale. The source-mapped sidecar records those overrides: case-study titles use `clamp(42px, 5vw, 70px)`, About titles use `clamp(45px, 4.6vw, 68px)`, and case-story headings use `clamp(34px, 3.5vw, 50px)`. Browse-view controls are (23px); chapter links are (16px). The wordmark is (25px, weight 500); the compact language code is (13px), with (16px) menu names and (12px) suffixes. Plan-sheet headings are (22px). View-board captions and room filters use (15px), their supplemental counts (12px), reader copy (17px), and panorama actions (14px).
+The exact role values are in the frontmatter. This is a role-based ramp with deliberate page and component overrides, rather than a single geometric scale. The source-mapped sidecar records those overrides: case-study titles use `clamp(42px, 5vw, 70px)`, About titles use `clamp(45px, 4.6vw, 68px)`, and case-story headings use `clamp(34px, 3.5vw, 50px)`. Browse-view controls are (23px); chapter links are (16px). The wordmark is (25px, weight 500); the compact language code is (13px), with (16px) menu names and (12px) suffixes. Plan-sheet headings are (22px). View-board captions and room filters use (15px), their supplemental counts (12px), proof-table titles (17px), captions (15px), overview guidance (13px), and panorama actions (14px).
 
-Body copy becomes (17px) on phones; the opening name becomes `clamp(47px, 12.7vw, 68px)`. General project-caption titles become (26px), while the more specific index title remains (23px). Carousel titles become (28px) when stacked and (27px) on phones. Plan-collection titles become (25px); the wordmark becomes (20px). Short contextual metadata becomes (14px), view-board captions (14px), reader copy (15px), and carousel authorship (12px). These smaller labels accompany images or controls; they do not replace narrative copy. Narrative blocks commonly stop at (42–48ch); reader captions allow (65ch). Headings balance their lines and use `overflow-wrap: anywhere` and `hyphens: auto`, including long German compounds; prose uses pretty wrapping.
+Body copy becomes (17px) on phones; the opening name becomes `clamp(47px, 12.7vw, 68px)`. General project-caption titles become (26px), while the more specific index title remains (23px). Carousel titles become (28px) when stacked and (27px) on phones. Plan-collection titles become (25px); the wordmark becomes (20px). Short contextual metadata becomes (14px), view-board captions (14px), proof-table titles (15px), captions and actions (13px), and carousel authorship (12px). These smaller labels accompany images or controls; they do not replace narrative copy. Narrative blocks commonly stop at (42–48ch); proof-table title lines allow (55ch). Headings balance their lines and use `overflow-wrap: anywhere` and `hyphens: auto`, including long German compounds; prose uses pretty wrapping.
 
 ### Named Rules
 
@@ -296,15 +296,15 @@ Wide layouts place the carousel image and caption in a shared field with (2.3:1)
 
 Indexes use three columns with consistent landscape image windows. At (1100px) and below, room results reduce to two columns, room shortcuts use two columns, and career content stacks. At (900px) and below, project results reduce to two columns and the carousel stacks a contained (16:9) image above a (148px) caption; the story and palette are omitted from that compact caption. At (700px) and below, result grids, plan sheets and primary content sequences become one column, filters expand within document flow, and footer/contact layouts stack. The header uses two rows: wordmark and language control above all four navigation links. The carousel caption reserves (184px), with (94px / 44px) rows. The gutter becomes (22px), reducing to (18px) at (360px) and below.
 
-View boards show all project pictures by default in horizontal, wrapping flex rows, with (22px) gaps on wide screens and (18px / 14px) row/column gaps on phones. The default wide row uses three pictures; count-specific arrangements balance two- and four-picture rows. At (900px) and below, rows use two pictures. Two-picture filtered sets stay side by side at every size. Each picture retains its aspect ratio and source-width cap. Captions reserve up to two lines without forcing every image into one crop.
+View boards show all project pictures by default in horizontal, wrapping flex rows, with (22px) gaps on wide screens and (18px / 14px) row/column gaps on phones. The default wide row uses three pictures; count-specific arrangements balance two- and four-picture rows. At (900px) and below, rows use two pictures. Two-picture filtered sets use an explicit two-column CSS grid and stay side by side at every size. Each picture retains its aspect ratio and source-width cap. Captions reserve up to two lines without forcing every image into one crop.
 
-Opening a board picture enters a native, vertically scrolling reader with a sticky header, image count and close action. Its desktop frame is bounded by the reader token; phones leave (8px) at each viewport edge and use (14px) internal gutters. Reader images use their native-width caps and a maximum height of (74dvh), reducing to (65dvh) on phones. Small-source case-study heroes use two-picture spreads when the first source is narrower than (1000px); phone layouts show the first image. Collection `33` uses this spread; collection `26` keeps its (1136px) first view with native-width caps. Project and room indexes initially show eight projects or twelve spaces, then expand on request. Career information, sketches and plan collections use disclosure. Contact places direct email and telephone links in a two-column composition that stacks on phones. Plan sheets use two columns on wide screens.
+Opening a board picture enters a fixed-screen native proof table: a title/action row, one focused image and a persistent overview grid. Desktop overview columns are (230px), reducing to (180px) below (900px). On phones the overview moves beneath the image and is capped at (150px), with six thumbnail columns. Two-view comparison uses two equal image columns at every size. The single focused view keeps an (84px) scrollable caption slot. In comparison, each contained (16:10) image sits directly with its naturally sized caption, and the two picture/caption groups are vertically centred. Only the overview and single-focus long captions can scroll; the table is not a vertical photo sequence. The modal frame keeps its existing reader-window bounds, leaving (8px) at each phone viewport edge. Small-source case-study heroes use two-picture spreads when the first source is narrower than (1000px); phone layouts show the first image. Collection `33` uses this spread; collection `26` keeps its (1136px) first view with native-width caps. Project and room indexes initially show eight projects or twelve spaces, then expand on request. Career information, sketches and plan collections use disclosure. Contact places direct email and telephone links in a two-column composition that stacks on phones. Plan sheets use two columns on wide screens.
 
 Dedicated text, filter and gallery controls reserve a (44px) target. Primary actions have a minimum height of (56px). Images reserve their dimensions, later images load lazily, and the first main image loads eagerly. Keep these layout behaviours when adding content.
 
 ## Elevation & Depth
 
-There are no card or control shadows. Tonal page fields, a dark footer and the imagery create depth. The continuous image reader uses a nearly opaque green-ink backdrop (`#26332EEB`), with a flat sage-white interior and a sticky tonal header. Focus is an outline, not a shadow.
+There are no card or control shadows. Tonal page fields, a dark footer and the imagery create depth. The fixed proof table uses a nearly opaque green-ink backdrop (`#26332EEB`), with a flat sage-white interior, a fixed title/action row and an image-derived viewing field. Focus is an outline, not a shadow.
 
 ### Named Rules
 
@@ -358,19 +358,19 @@ The carousel presents eight projects through image-overlay previous/next control
 
 Slide changes coordinate a directional shutter and lateral image/frame movement over (850ms), a title reveal over (600ms), and a palette stagger over (400ms). The adjacent project field changes over (650ms). Reduced motion removes movement while retaining the new project. The carousel advances automatically every six seconds. Hover, focus within it, hidden/offscreen content and reduced-motion preferences pause playback; leaving those states allows it to resume. The accessible P shortcut toggles an explicit pause, described for assistive technology through `aria-keyshortcuts` and hidden instructional text. There is no visible tour button or toolbar. The position status is polite while hovered, focused or reduced motion is active, and otherwise remains off. Inactive slides remain hidden from focus and assistive technology.
 
-### View board and continuous reader
+### View board and proof table
 
-All project pictures are visible together by default. Room filters are derived from the actual image tags; each text action shows its count and uses an underline plus `aria-pressed` for selection. Filtering rearranges the board through GSAP Flip over (450ms), with a (350ms) entering mask. Hover or focus opens a (34px) caption rail through clipping over (350ms); the image does not zoom. The active picture has a green outline. On touch devices the opening affordance is a small authored arrow rather than a text rail.
+All project pictures remain visible together by default. Room filters derive from actual image tags; each text action shows its count and uses an underline plus `aria-pressed`. Filtering uses scale-based GSAP Flip over (300ms), while a two-picture result uses a short partial mask over (200ms). Hover or focus opens the existing (34px) caption rail over (350ms); the image does not zoom. The active picture has a green outline. Touch devices use a small authored opening arrow.
 
-Opening a picture records its image fragment and enters a native dialog containing all views in the current room selection. Native vertical scrolling moves continuously through them; the sticky count and URL fragment follow the image in view. Arrow keys jump to the adjacent view without wrapping. Escape closes the reader and restores focus to the selected board picture. Palette links or restored fragments clear the room filter and bring the matching board image into view. There is no thumbnail strip, gesture-based picture carousel or visible previous/next gallery control.
+The fixed-screen native dialog opens with one focused view and a persistent overview grid. Selecting an overview image changes the focused view. Compare views pins the first picture and uses overview choices to replace only the companion; both pictures remain side by side on phones. Comparison disables still-image zoom and shows panorama entries as image alternatives. The focused still image supports a (2×) zoom toggle, double-click zoom and bounded pointer or arrow-key panning. At fit size, Left/Right select adjacent images with wrapping. Escape closes the table and restores focus to the board opener. Each focused selection records its image fragment; restored fragments or palette links clear the room filter and bring the matching board picture into view.
 
-The reader’s opening image uses a bounded (500ms) mask reveal. Reduced motion removes Flip and mask movement while keeping comparison, native scrolling, keyboard navigation and all images available. Sketches start closed; career entries share an exclusive native disclosure group and start closed. Career content records Oneiro Interiors from December 2018 to the present, and the tools list includes D5 Render. Both landscape films retain source audio in native controls, play only on user action and use `preload="none"`.
+Opening uses a partial (6%) mask and a small (12px) movement over (240ms), rather than masking the whole image. Zoom settles over (200ms). The cached board/overview preview appears immediately and is replaced only after its higher-resolution source decodes; a request guard prevents an earlier decode from replacing a newer selection. Failed decoding retains the available preview. Image geometry stays fixed through selection and loading. Reduced motion skips Flip, mask and zoom movement while keeping the same controls and image state available.
 
-The opening name uses a (700ms) shutter reveal from already-visible content. Shared project-image navigation uses a (600ms) reveal. Content never waits for a scroll entrance to become available.
+Sketches start closed; career entries share an exclusive native disclosure group and start closed. Career content records Oneiro Interiors from December 2018 to the present, and the tools list includes D5 Render. Both landscape films retain source audio in native controls, play only on user action and use `preload="none"`. The opening name and shared project-image navigation retain their existing bounded reveals. Content never waits for a scroll entrance to become available.
 
-### Panorama reader
+### Panorama view
 
-Only collection `19` carries six self-hosted 360° views. Its still image remains the default and fallback. A visitor explicitly activates exploration; the Pannellum assets load locally on demand, with no external embed or automatic rotation. The viewer uses a bounded landscape stage, a pale action rail, (44px) native zoom buttons and a return-to-image action. Dragging changes the viewpoint; arrow keys adjust yaw and pitch within the active panorama instead of navigating the image reader. Zoom changes the field of view between (30°) and (120°). Leaving the visible reader area or returning to the image destroys the active viewer. Failed loading leaves the image and a readable status available.
+Only collection `19` carries six self-hosted 360° views. Its still image remains the default and fallback. A visitor explicitly activates exploration; the Pannellum assets load locally on demand, with no external embed or automatic rotation. The viewer uses a bounded landscape stage, a pale action rail, (44px) native zoom buttons and a return-to-image action. Dragging changes the viewpoint; arrow keys adjust yaw and pitch within the active panorama instead of selecting another proof-table image. Zoom changes the field of view between (30°) and (120°). Leaving the visible proof-table media area or returning to the image destroys the active viewer. The scoped panorama stage fills its containing media area with absolute positioning and a (1) layer above the preview, so late vendor CSS cannot move it into the caption. Once ready, the preview is hidden; failed loading retains the image and readable status.
 
 Source-width caps preserve the small studies’ useful detail. The case-study spread is a source-size adaptation, not an instruction to enlarge small files until they fill the viewport. The expanded portfolio contains 28 stories and 187 views; its four added collections are `17`, `19`, `26` and `33`, and the image/story and planning libraries together represent all 33 source folders, including five planning-only folders.
 
@@ -388,8 +388,8 @@ Public previews crop identifying title blocks and mask other client, email and p
 - **Do** preserve room context, mixed image proportions and aligned factual captions.
 - **Do** keep the serif/sans roles and stable green text/control palette across project fields.
 - **Do** retain visible focus, native labels, state attributes and comfortable touch targets.
-- **Do** preserve two-picture comparisons on phones and keep the image reader naturally scrollable.
-- **Do** keep carousel geometry stable and preserve source proportions in view boards and readers.
+- **Do** preserve two-picture comparisons on phones and keep the focused proof table and its overview visible together.
+- **Do** keep carousel geometry stable and preserve source proportions in view boards and proof tables.
 - **Do** keep motion bounded, automatic carousel playback pausable and all content available without movement.
 - **Do** offer filter choices with matching imagery and keep saved state coherent.
 - **Do** keep language destinations coherent with query and image state, and allow German headings to wrap and hyphenate.
