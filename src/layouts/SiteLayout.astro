@@ -58,8 +58,7 @@ const person = { '@context': 'https://schema.org', '@graph':[
     <header class="site-header">
       <a class="wordmark" href={localPath('/',language)} aria-label={`Khushali Jain, ${text.home}`}>Khushali Jain<span class="wordmark-dot" aria-hidden="true"></span></a>
       <nav class="primary-nav" aria-label={text.mainNav}>
-        <a href={localPath('/projects',language)} aria-current={path.startsWith('/projects') ? 'page' : undefined}>{text.projects}</a>
-        <a href={localPath('/plans',language)} aria-current={path.startsWith('/plans') ? 'page' : undefined}>{text.plans}</a>
+        <a href={localPath('/projects',language)} aria-current={(path.startsWith('/projects')||path.startsWith('/plans')) ? 'page' : undefined}>{text.projects}</a>
         <a href={localPath('/about',language)} aria-current={path === '/about' ? 'page' : undefined}>{text.about}</a>
         <a href={localPath('/contact',language)} aria-current={path === '/contact' ? 'page' : undefined}>{text.contact}</a>
         <span class="nav-position" aria-hidden="true"></span>

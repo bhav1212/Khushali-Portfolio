@@ -58,11 +58,11 @@ typography:
     lineHeight: 1.25
     letterSpacing: "-.015em"
   project-index-title:
-    fontFamily: "'Hanken Grotesk', sans-serif"
-    fontSize: "23px"
+    fontFamily: "Gloock, Georgia, serif"
+    fontSize: "25px"
     fontWeight: 400
     lineHeight: 1.25
-    letterSpacing: "-.015em"
+    letterSpacing: "-.025em"
   carousel-title:
     fontFamily: "Gloock, Georgia, serif"
     fontSize: "clamp(28px, 2.7vw, 39px)"
@@ -164,6 +164,15 @@ components:
     textColor: "{colors.ink}"
     typography: "{typography.project-title}"
     rounded: "{rounded.square}"
+  project-catalogue-row:
+    textColor: "{colors.ink}"
+    typography: "{typography.project-index-title}"
+    rounded: "{rounded.square}"
+  project-category-nav:
+    textColor: "{colors.muted}"
+    padding: "8px 0"
+  project-category-selected:
+    textColor: "{colors.ink}"
   carousel-window:
     rounded: "{rounded.square}"
     height: "max(410px, calc(100svh - var(--header-height, 74px) - 108px))"
@@ -208,7 +217,7 @@ components:
 
 **Creative North Star: "Editorial photo essay and room atlas"**
 
-The interiors are the visual material. An expressive serif supplies an authored voice; a clear sans-serif carries the practical information around it. The interface is quiet and editorial, with image scale and alignment creating the hierarchy. The project catalogue pairs a leading room image with a smaller complementary view. Project pages show an image overview and the full board before the narrative. Selected images expand inline with optional side-by-side comparison, without a modal or page-scroll lock.
+The interiors are the visual material. An expressive serif supplies an authored voice; a clear sans-serif carries the practical information around it. The interface is quiet and editorial, with image scale and alignment creating the hierarchy. The project catalogue uses one image per entry, with a serif title beside it on desktop and above it on phones. Four direct project-category links organise the overview. Project pages show an image overview and the full board before the narrative. Selected images expand inline with optional side-by-side comparison, without a modal or page-scroll lock.
 
 Sage-white and green ink provide a stable ground. Subdued stone, blue-grey and sage fields extend colours found in the work, while rectangular image windows retain room context. Depth comes from these tonal fields and the photographs and visualisations themselves. Borders mark controls and useful separations rather than enclosing every piece of content. Motion follows an architectural opening: a shutter, lateral picture movement and a caption reveal preserve continuity within a stable frame.
 
@@ -269,7 +278,7 @@ Both fonts are self-hosted WOFF2 files with `font-display: swap`. Gloock is regu
 | `headline` | Editorial section headings. |
 | `title` | Sans-serif subsection headings. |
 | `project-title` | The project-caption baseline, used by related work and inherited by the index. |
-| `project-index-title` | The compact, fixed-size project-index title. |
+| `project-index-title` | The compact serif title beside a single catalogue image. |
 | `carousel-title` | The serif project title in the carousel caption window. |
 | `carousel-story` | The bounded project introduction beside the carousel image. |
 | `plan-title` | Serif collection titles in the Plans & sketches library. |
@@ -282,7 +291,7 @@ Both fonts are self-hosted WOFF2 files with `font-display: swap`. Gloock is regu
 
 The exact role values are in the frontmatter. This is a role-based ramp with deliberate page and component overrides, rather than a single geometric scale. The source-mapped sidecar records those overrides: case-study titles use `clamp(42px, 5vw, 70px)`, About titles use `clamp(45px, 4.6vw, 68px)`, and case-story headings use `clamp(34px, 3.5vw, 50px)`. Browse-view controls are (23px); chapter links are (16px). The wordmark is (25px, weight 500); the compact language code is (13px), with (16px) menu names and (12px) suffixes. Plan-sheet headings are (22px). View-board captions and room filters use (15px), their supplemental counts (12px), proof-table titles (17px), captions (15px), overview guidance (13px), and panorama actions (14px).
 
-Body copy becomes (17px) on phones; the opening name becomes `clamp(47px, 12.7vw, 68px)`. General project-caption titles become (26px), while the more specific index title remains (23px). Carousel titles become (28px) when stacked and (27px) on phones. Plan-collection titles become (25px); the wordmark becomes (20px). Short contextual metadata becomes (14px), view-board captions (14px), proof-table titles (15px), captions and actions (13px), and carousel authorship (12px). These smaller labels accompany images or controls; they do not replace narrative copy. Narrative blocks commonly stop at (42–48ch); proof-table title lines allow (55ch). Headings balance their lines and use `overflow-wrap: anywhere` and `hyphens: auto`, including long German compounds; prose uses pretty wrapping.
+Body copy becomes (17px) on phones; the opening name becomes `clamp(47px, 12.7vw, 68px)`. General project-caption titles become (26px), while the catalogue title becomes (23px). Carousel titles become (28px) when stacked and (27px) on phones. Plan-collection titles become (25px); the wordmark becomes (20px). Short contextual metadata becomes (14px), view-board captions (14px), proof-table titles (15px), captions and actions (13px), and carousel authorship (12px). These smaller labels accompany images or controls; they do not replace narrative copy. Narrative blocks commonly stop at (42–48ch); proof-table title lines allow (55ch). Headings balance their lines and use `overflow-wrap: anywhere` and `hyphens: auto`, including long German compounds; prose uses pretty wrapping.
 
 ### Named Rules
 
@@ -294,13 +303,15 @@ The shared gutter and section interval are fluid values in the frontmatter. The 
 
 The homepage uses a full-width image scene with the name over a pale upper scrim and project information in a translucent (116px) bottom band. The image window follows the frontmatter height with an (840px) maximum. The name uses discrete sizes of (88px), (96px) above (1600px), and (72px) below (1100px). Previous/next arrows sit at the image edges. The thumbnail strip remains outside the image. Changing projects must not move the frame, controls or strip. The complete image remains available in the project gallery.
 
-Indexes use three columns with consistent landscape image windows. At (1100px) and below, room results reduce to two columns, room shortcuts use two columns, and career content stacks. At (900px) and below, project results reduce to two columns. Below (700px), result grids, plan sheets and primary content sequences become one column, filters expand within document flow, and footer/contact layouts stack. The header uses two rows. The homepage keeps its full-width image with a (110px) caption band, (52px) name and (23px) project title; below (360px) those become (44px) and (21px). Its palette is omitted on phones. The gutter becomes (22px), reducing to (18px) below (360px).
+Indexes use three columns with consistent landscape image windows. At (1100px) and below, room results reduce to two columns, room shortcuts use two columns, and career content stacks. The default project catalogue remains a title/image list rather than a result grid. Below (700px), result grids, plan sheets and primary content sequences become one column, filters expand within document flow, and footer/contact layouts stack. The header uses two rows on phones, with its three page links on the second row. The homepage keeps its full-width image with a (110px) caption band, (52px) name and (23px) project title; below (360px) those become (44px) and (21px). Its palette is omitted on phones. The gutter becomes (22px), reducing to (18px) below (360px).
 
 View boards show all project pictures by default in horizontal, wrapping flex rows, with (22px) gaps on wide screens and (18px / 14px) row/column gaps on phones. The default wide row uses three pictures; count-specific arrangements balance two- and four-picture rows. At (900px) and below, rows use two pictures. Two-picture filtered sets use an explicit two-column CSS grid and stay side by side at every size. Each picture retains its aspect ratio and source-width cap. Captions reserve up to two lines without forcing every image into one crop.
 
-Opening a board picture expands an inline section above the complete image grid. The page keeps native scrolling and the board remains rendered. A compact action row, focused image and persistent overview support direct selection and comparison. The overview is (230px) wide on desktop, (180px) below (900px), and moves below the image on phones with a (130px) scrollable area. Comparison uses two equal image columns at every size and a (600px) section height, reducing to (500px) on phones. Closing restores focus to the board opener. Palette links sit immediately above the expanded section. Project and room indexes initially show eight projects or twelve spaces, then expand on request. Career information, sketches and plan collections use disclosure. Contact and plan layouts retain their responsive behavior.
+Opening a board picture expands an inline section above the complete image grid. The page keeps native scrolling and the board remains rendered. A compact action row, focused image and persistent overview support direct selection and comparison. The overview is (230px) wide on desktop, (180px) below (900px), and moves below the image on phones with a (130px) scrollable area. Comparison uses two equal image columns at every size and a (600px) section height, reducing to (500px) on phones. Closing restores focus to the board opener. Palette links sit immediately above the expanded section. The default project catalogue starts with six entries and adds six through Show more projects; separate room discovery starts with twelve spaces. Career information and project sketches use disclosure; the Plans overview is a flat list. Contact and plan layouts retain their responsive behavior.
 
-The catalogue uses two editorial columns on desktop and one on phones. Each entry pairs a leading image and a smaller view in a (3:1) composition, reversed for alternate entries. Images retain their natural proportions; a contained alternate angle reveals on desktop hover or keyboard focus without resizing the entry. Phone taps open the project directly. Only the browse modes and Filters disclosure stick beneath the site header, taking about 57px on phones and 64px on desktop. Category, room, concept and mood choices stay in a closed-by-default, viewport-bounded panel. View results closes the panel; nested Escape handling and outside clicks preserve keyboard control. Counts and the Films link remain below the toolbar in normal page flow. The compact project introduction brings images into the first phone viewport.
+The default project catalogue is a centred list with a maximum width of (1000px) and (28px) between entries. Each row uses (1:1.8) title/image columns with a (36px) gap; below (700px), the title stacks above its single image with a (12px) gap. Images retain natural proportions. Residential is the default. The shared category navigation exposes only Residential, Commercial, Exterior and Plans & sketches; phones use a balanced (2×2) grid. It appears above the project list and the plans library. There are no paired detail/alternate images, browse-mode controls, filter drawer, Films link or result-count row in this default overview.
+
+Existing room/mood links continue into `RoomDiscovery` through `view=rooms`. That separate flow retains matching facets, saved query state, counts and its viewport-bounded Filters disclosure. Those controls are not part of the default project catalogue.
 
 Case-study openings show a main view and two complementary images where available, using contained imagery rather than forced crops. The landscape project has two still images and uses a balanced pair. Both landscape films remain before the story, with native controls, original audio and clear links near the project title. The image board precedes long descriptions on every project.
 
@@ -332,11 +343,17 @@ All keyboard-focusable controls use a green (2px) outline with a (5px) offset. D
 
 ### Chips
 
-Category and mood choices are text controls rather than pill containers. Unselected category text is muted; selected text is green with an underline. Mood choices include a labelled circular colour sample; selected text is underlined. `aria-pressed` carries the state so colour is not the only signal.
+In the separate room-discovery flow, category and mood choices are text controls rather than pill containers. Unselected category text is muted; selected text is green with an underline. Mood choices include a labelled circular colour sample; selected text is underlined. `aria-pressed` carries the state so colour is not the only signal.
 
 ### Cards / Containers
 
-Project entries are flat image-and-caption compositions. Their image area inherits the project's stone, blue-grey or sage field; titles and arrows sit below, aligned to the image. There is no shadow, surrounding border or card padding. Captions begin (20px) below the image on wide screens and (14px) on phones. A fine-pointer hover or keyboard focus clips the bottom (38px) of the image while opening a caption rail over (400ms). The image does not zoom. Index images use a (16:11) landscape window; the full project gallery preserves their proportions.
+Related-work and room-discovery entries are flat image-and-caption compositions. Their image area inherits the project's stone, blue-grey or sage field; titles and arrows sit below, aligned to the image. There is no shadow, surrounding border or card padding. Captions begin (20px) below the image on wide screens and (14px) on phones. A fine-pointer hover or keyboard focus clips the bottom (38px) of the image while opening a caption rail over (400ms). The image does not zoom. Index images use a (16:11) landscape window; the full project gallery preserves their proportions.
+
+### Project catalogue
+
+Each catalogue entry is a serif title and one project image, with the title on the left and image on the right on desktop. Titles use the project-index role, reducing to (23px) on phones. Both title and image open the same project. No complementary image or hover substitution is used in this overview. Six entries appear initially; a plain Show more projects action with an authored plus adds six more.
+
+Four shared category links use `aria-current` and an underline for the active section. Commercial combines commercial and workspace projects; Exterior covers landscape/outdoor work. Plans / Sketches opens `/plans`, where the same navigation marks the plans section current. Its 20 anonymised sheets use the same flat image-and-title list, without collection accordions or sheet-count controls. Category URLs preserve the selected section, native modified-link navigation and browser history. Category changes use a short scale-based Flip transition over (280ms), skipped for reduced motion. All 28 stories remain reachable through their category.
 
 ### Direct contact
 
@@ -344,7 +361,7 @@ The email address is a prominent, wrapping text link with an arrow; telephone an
 
 ### Navigation
 
-The name and green dot are the home link. The header stays at the top as the page scrolls, with a (2px) reading-progress line along its lower edge. Projects, Plans & sketches, About and Contact remain visible, with the current page underlined through `aria-current`. Wide navigation gaps are (36px); phones use (17px) gaps and (15px) text on their own second row. The footer inverts the text palette and repeats practical links without a decorative overline. Its small closing line contains the copyright; the former 3D-image sentence is removed.
+The name and green dot are the home link. The header stays at the top as the page scrolls, with a (2px) reading-progress line along its lower edge. Projects, About and Contact remain visible, with the current page underlined through `aria-current`. Wide navigation gaps are (36px); phones use (17px) gaps and (15px) text on their own second row. The Projects header link remains current on the plans page; Plans & sketches is reached through the four-category navigation. The footer inverts the text palette and repeats practical links without a decorative overline. Its small closing line contains the copyright; the former 3D-image sentence is removed.
 
 English is the default at `/`; every page has a German equivalent under `/de`. The compact native `details` language menu uses a (16px) authored globe and the visible EN/DE code within a minimum (44px) target, without a large bordered trigger. Its open menu shows English and Deutsch as endonyms; the current language has a sage field. Language-link destinations retain query parameters and the image fragment before ordinary or new-tab navigation. Outside interaction and Escape close the menu; Escape returns focus to its summary. Location and search metadata describe Khushali Jain in Heilbronn, Germany, with canonical, hreflang, schema and sitemap alternatives for the planned `iamkhushali.com` domain; this does not introduce a separate business identity.
 
@@ -352,7 +369,7 @@ Case-study chapters stick beneath the measured header height. Links have a (48px
 
 ### Room facets
 
-Room and concept facets use native `details` and checkboxes. On wide screens their bordered options sit beneath the trigger; on phones they open inline at full width. Opening one closes the other; clicking outside closes menus; Escape closes the open menu and returns focus to its summary.
+The separate `RoomDiscovery` flow under `view=rooms` uses native `details` and checkboxes for room and concept facets. On wide screens their bordered options sit beneath the trigger; on phones they open inline at full width. Opening one closes the other; clicking outside closes menus; Escape closes the open menu and returns focus to its summary.
 
 Category, room, concept and mood choices appear only when images match under the other active facets. Values within a facet combine with OR, and facets combine with AND. Unavailable selections and invalid saved combinations normalise to usable matches. Counts, reset, result announcements, query parameters and browser history stay consistent. A room result links to its parent case study at the matching image. Filter changes use scale-based GSAP Flip over (420ms), with a (350ms) partial-mask reveal and a total entering stagger capped at (120ms). Reduced motion applies the same state without movement.
 
