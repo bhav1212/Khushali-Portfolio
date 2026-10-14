@@ -42,3 +42,5 @@ The sitewide motion pass adds an immersive opening, scroll-linked image framing,
 The 14 October 2026 production build passed 163 interaction assertions across English/German desktop, phone and iPad layouts, plus 204 layout checks over all 68 pages. Six representative accessibility scans reported no violations. The final suite reported no browser errors. JavaScript-disabled homepage navigation and touch comparison without View Transitions passed. These checks use Chromium device emulation, not physical devices or field-performance measurements.
 
 The Projects overview uses four categories—Residential, Commercial (including offices), Exterior, and Plans / Sketches—with clean single-image/title rows. Plans uses the same flat list, and the main header has only Projects, About and Contact.
+
+Colour discovery uses labelled themes and a native horizontal photo ribbon inspired by the supplied Adolfo Fonseca reference. The homepage samples up to six different matching projects; full colour results retain progressive expansion and direct case-study image links. Touch, trackpad, buttons and keyboard navigation are supported.

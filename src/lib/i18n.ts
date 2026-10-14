@@ -1,6 +1,7 @@
 export type Language = 'de' | 'en';
 export const ui = {
   en: {
+    colourThemes:'Colour and atmosphere',colourBrowseHint:'Swipe, scroll or use the arrows.',previousColourPhotos:'Previous photos',nextColourPhotos:'Next photos',allColourSpaces:'See all spaces',
     residential:'Residential',commercial:'Commercial',exterior:'Exterior',projectCategories:'Project categories',projects:'Projects',plans:'Plans / Sketches',plansTitle:'From plan to space.',plansCopy:'Floor plans, furniture layouts and technical studies from my work.',planCollection:'Open a collection',openPlan:'Open sheet',sheet:'sheet',sheets:'sheets',about:'About',contact:'Contact',home:'Home',language:'Language',role:'Interior designer',
     homeSeoTitle:'Interior Designer in Heilbronn | Khushali Jain',siteDescription:'Interior designer in Heilbronn, Germany. Explore Khushali Jain’s homes, workplaces, space planning, material studies and 3D visualisations.',skip:'Skip to content',mainNav:'Main navigation',footerNav:'Footer navigation',
     invitation:'Let’s discuss your project.',city:'Heilbronn, Germany',resume:'Résumé (German)',visualisation:'Design visualisation',
@@ -22,6 +23,7 @@ export const ui = {
     notFound:'Page not found',notFoundTitle:'This page is not available.',notFoundCopy:'Browse the projects or return to the home page.',
   },
   de: {
+    colourThemes:'Farben und Stimmung',colourBrowseHint:'Wischen, scrollen oder die Pfeile nutzen.',previousColourPhotos:'Vorherige Bilder',nextColourPhotos:'Nächste Bilder',allColourSpaces:'Alle Räume ansehen',
     residential:'Wohnen',commercial:'Geschäftsräume',exterior:'Außenräume',projectCategories:'Projektbereiche',projects:'Projekte',plans:'Pläne / Skizzen',plansTitle:'Vom Plan zum Raum.',plansCopy:'Grundrisse, Möbelpläne und technische Studien aus meiner Arbeit.',planCollection:'Sammlung öffnen',openPlan:'Plan öffnen',sheet:'Plan',sheets:'Pläne',about:'Über mich',contact:'Kontakt',home:'Startseite',language:'Sprache',role:'Innenraumdesignerin',
     homeSeoTitle:'Innenraumdesign in Heilbronn | Khushali Jain',siteDescription:'Khushali Jain: Innenraumdesign in Heilbronn, Deutschland. Entwürfe für Wohnräume und Geschäftsräume, Raumplanung, Materialien und 3D-Visualisierung.',skip:'Zum Inhalt',mainNav:'Hauptnavigation',footerNav:'Weitere Links',
     invitation:'Lassen Sie uns Ihr Projekt besprechen.',city:'Heilbronn, Deutschland',resume:'Lebenslauf',visualisation:'3D-Entwurf',

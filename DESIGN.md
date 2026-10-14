@@ -251,13 +251,15 @@ The palette is a muted green framework with image-derived neutral surfaces and l
 
 Each project's palette is content derived from its edited gallery images. Case-study swatches link to the image that supplies their evidence. Keep these per-project values in project data; they do not add global brand primitives or claim manufacturer paint or installed-material specifications.
 
+Colour discovery mixes the selected existing mood sample into sage-white paper at (18%) for a restrained related field. Green ink, captions and control colours stay consistent; the mixed field is local to colour browsing rather than a new brand primitive.
+
 The supporting sentence in a landscape-film section uses green ink on its sage field to retain contrast.
 
 ### Named Rules
 
 **The Image Field Rule.** Select the subdued project field from the imagery and keep the text and control palette consistent across it.
 
-**The Boundary Rule.** Pale editorial rules separate content; darker control boundaries identify facet menus, the open language menu, panorama zoom controls and carousel image-navigation buttons.
+**The Boundary Rule.** Pale editorial rules separate content; darker control boundaries identify facet menus, the open language menu, panorama zoom controls, carousel image-navigation buttons and colour-ribbon arrows.
 
 ## Typography
 
@@ -313,6 +315,8 @@ The default project catalogue is a centred list with a maximum width of (1000px)
 
 Existing room/mood links continue into `RoomDiscovery` through `view=rooms`. That separate flow retains matching facets, saved query state, counts and its viewport-bounded Filters disclosure. Those controls are not part of the default project catalogue.
 
+Colour browsing uses a horizontal photo ribbon on the homepage and whenever the separate discovery flow has an active mood. Pictures share a fluid height (`clamp(220px, 38vw, 440px)`) while retaining their natural widths and proportions. The rail has (14px) gaps, reducing to (10px) on phones, and uses the shared gutter. Theme navigation and pictures scroll natively; the ordinary room-results board and four-category Projects overview retain their existing layouts.
+
 Case-study openings show a main view and two complementary images where available, using contained imagery rather than forced crops. The landscape project has two still images and uses a balanced pair. Both landscape films remain before the story, with native controls, original audio and clear links near the project title. The image board precedes long descriptions on every project.
 
 Dedicated text, filter and gallery controls reserve a (44px) target. Primary actions have a minimum height of (56px). Images reserve their dimensions, later images load lazily, and the first main image loads eagerly. Keep these layout behaviours when adding content.
@@ -327,9 +331,9 @@ There are no card or control shadows. Tonal page fields, a dark footer and the i
 
 ## Shapes
 
-Images, buttons, menus and dialogs use square corners. Circles are reserved for material or mood samples and the small wordmark dot. Project images remain open image-and-caption compositions rather than padded card shells. Borders are (1px) except selected view underlines and keyboard outlines, which are (2px).
+Images, buttons, menus and dialogs use square corners. Circles are reserved for material or room-filter mood samples and the small wordmark dot. Project images remain open image-and-caption compositions rather than padded card shells. Borders are (1px) except selected view underlines and keyboard outlines, which are (2px).
 
-The circular mood swatch is (22px), reducing to (16px) in phone discovery links. Case-study material samples are rectangular (44px × 44px); carousel samples are (30px × 25px). Arrow and close symbols are authored SVGs with consistent (1.5px) strokes.
+Room-filter mood samples are circular (22px); homepage colour-theme samples are square (20px × 20px) with green-ink boundaries. Case-study material samples are rectangular (44px × 44px); carousel samples are (30px × 25px). Arrow and close symbols are authored SVGs with consistent (1.5px) strokes.
 
 ## Components
 
@@ -372,6 +376,12 @@ Case-study chapters stick beneath the measured header height. Links have a (48px
 The separate `RoomDiscovery` flow under `view=rooms` uses native `details` and checkboxes for room and concept facets. On wide screens their bordered options sit beneath the trigger; on phones they open inline at full width. Opening one closes the other; clicking outside closes menus; Escape closes the open menu and returns focus to its summary.
 
 Category, room, concept and mood choices appear only when images match under the other active facets. Values within a facet combine with OR, and facets combine with AND. Unavailable selections and invalid saved combinations normalise to usable matches. Counts, reset, result announcements, query parameters and browser history stay consistent. A room result links to its parent case study at the matching image. Filter changes use scale-based GSAP Flip over (420ms), with a (350ms) partial-mask reveal and a total entering stagger capped at (120ms). Reduced motion applies the same state without movement.
+
+### Colour discovery
+
+Eight existing, labelled mood themes sit above the homepage photo ribbon as plain text actions with square samples. Selected text is underlined and uses `aria-pressed`; controls retain (44px) targets. Each theme shows the first matching image from each of up to six distinct projects, derived from actual gallery tags. Project-title captions and images link to the same case-study image; an All colour spaces link opens the complete matching results. Those results reuse the ribbon, begin with twelve images and add twelve per request while retaining the existing facets and counts.
+
+The focusable photo region keeps native touch scrolling and proximity snapping. Left/Right keys on the region and outlined (44px × 44px) arrows move through the rail; boundary buttons disable with opacity (.35). Arrows below the pictures and captions provide the chrome without enclosing the photographs in cards. Theme changes transition the related field over (350ms) and reveal pictures through a partial mask over (400ms). Reduced motion removes those effects and makes arrow scrolling immediate; every picture remains available.
 
 ### Project carousel
 

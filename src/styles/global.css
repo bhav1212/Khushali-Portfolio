@@ -276,10 +276,6 @@ section[id], .view-board { scroll-margin-top: 95px; }
 .showcase-strip button[data-current="true"] img { clip-path: inset(4px); }
 .showcase-strip button[data-current="true"]::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 65px; border: 1px solid var(--color-accent); }
 .showcase-strip button > span { display: block; font-size: 12px; padding-top: 6px; }
-.mood-image-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 25px; }
-.mood-image-link img { width: 100%; height: 165px; object-fit: cover; }
-.mood-image-link > span { display: flex; align-items: center; gap: 12px; padding-top: 13px; min-height: 44px; font-size: 19px; }
-.mood-image-link > span > svg { margin-left: auto; }
 .practice-links { display: flex; flex-wrap: wrap; gap: 12px 25px; margin-top: 20px; }
 .case-chapters { display: flex; gap: 30px; align-items: center; overflow-x: auto; position: sticky; top: var(--header-height, 74px); z-index: 8; background: var(--project-surface); border-block: 1px solid #AEBAB0; }
 .case-chapters a { display: inline-flex; min-height: 48px; align-items: center; white-space: nowrap; font-size: 16px; }
@@ -365,11 +361,6 @@ section[id], .view-board { scroll-margin-top: 95px; }
   .showcase-strip button { min-width: 86px; flex-basis: 86px; }
   .showcase-strip button img, .showcase-strip button[data-current="true"]::before { height: 50px; }
   .intro-navigation nav { gap: 0 18px; font-size: 13px; margin-top: 8px; }
-  .mood-image-grid { gap: 12px; }
-  .mood-image-link img { height: 90px; }
-  .mood-image-link > span { font-size: 14px; flex-wrap: wrap; gap: 6px; }
-  .mood-image-link > span > svg { display: none; }
-  .mood-image-link .mood-swatch { height: 16px; width: 16px; }
   .home-about .portrait-visual img { max-height: 240px; }
   .about-portrait img { max-height: 330px; }
   .drawing-details > summary { font-size: 22px; }
@@ -657,8 +648,6 @@ html { scrollbar-gutter: stable; }
 .home-scene .showcase-strip button { min-width: 76px; flex-basis: 76px; }
 .home-scene .showcase-strip button img, .home-scene .showcase-strip button[data-current="true"]::before { height: 46px; }
 .home-scene .showcase-strip button > span { padding-top: 3px; }
-.mood-image-link { min-width: 0; }
-.mood-image-link img { height: 230px; }
 .intro-navigation a, .site-nav a, .case-chapters a, .board-rooms button { text-underline-offset: 7px; text-decoration-thickness: 1px; }
 .inline-link > svg, .text-control > svg { transition: transform var(--motion-quick) var(--motion-arrive); }
 .inline-link:hover > svg { transform: translateX(4px); }
@@ -679,7 +668,6 @@ html { scrollbar-gutter: stable; }
   .home-scene .showcase-image-controls { inset-inline: 12px; }
   .home-scene .showcase-strip { gap: 10px; }
   .home-scene .showcase-strip button { min-width: 64px; flex-basis: 64px; }
-  .mood-image-link img { height: 130px; }
 }
 @media (max-width:360px) { .home-scene .intro-name { font-size: 44px; } .home-scene .intro-navigation nav { gap: 0 12px; } .home-scene .showcase-caption-title { font-size: 21px; } }
 @media (prefers-reduced-motion:reduce) { .inline-link > svg, .text-control > svg { transition: none; } }
@@ -791,3 +779,28 @@ html { scrollbar-gutter: stable; }
 @media (max-width:700px) { .project-sections { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2px 16px; } }
 
 .simple-plan-list .simple-project-image img { max-height: 440px; object-fit: contain; }
+
+.colour-discovery { background: var(--color-canvas); background: color-mix(in srgb, var(--colour-tone) 18%, var(--color-canvas)); padding-block: 12px 20px; transition: background-color 350ms var(--motion-arrive); }
+.colour-theme-controls { display: flex; gap: 10px 26px; overflow-x: auto; scrollbar-width: thin; padding-block: 8px; }
+.colour-theme-controls button { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; flex-shrink: 0; padding: 4px 0; border: 0; background: transparent; color: var(--color-ink); font-size: 14px; }
+.colour-theme-controls button span { width: 20px; height: 20px; border: 1px solid var(--color-ink); }
+.colour-theme-controls button[aria-pressed="true"] { text-decoration: underline; text-underline-offset: 7px; }
+.colour-photo-rail { --colour-image-height: clamp(220px,38vw,440px); display: flex; align-items: start; gap: 14px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scroll-padding-inline: var(--gutter); scrollbar-width: thin; padding: 14px var(--gutter) 12px; }
+.colour-photo { flex: 0 0 auto; min-width: 0; scroll-snap-align: start; }
+.colour-photo > a { display: block; }
+.colour-photo img { width: auto; max-width: none; height: var(--colour-image-height); }
+.colour-photo figcaption { width: 0; min-width: 100%; padding-top: 12px; }
+.colour-photo figcaption a { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 44px; max-width: 75vw; font-size: 16px; }
+.colour-photo figcaption svg { width: 18px; flex-shrink: 0; }
+.colour-ribbon-controls { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.colour-ribbon-controls > span { font-size: 14px; }
+.colour-ribbon-controls > div { display: flex; gap: 8px; }
+.colour-ribbon-controls button { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--color-ink); background: transparent; color: var(--color-ink); }
+.colour-ribbon-controls button:hover:not(:disabled) { background: var(--color-canvas); }
+.colour-ribbon-controls button:disabled { opacity: .35; cursor: default; }
+.colour-all { margin: 10px var(--gutter) 0; min-height: 44px; }
+.explorer[data-colour-browsing="true"] .colour-ribbon { margin-inline: calc(-1 * var(--gutter)); background: var(--color-canvas); background: color-mix(in srgb, var(--colour-tone) 18%, var(--color-canvas)); }
+.colour-discovery .colour-photo { animation: colour-arrive 400ms var(--motion-arrive); }
+@keyframes colour-arrive { from { clip-path: inset(0 8% 0 0); } to { clip-path: inset(0); } }
+@media (max-width:700px) { .colour-theme-controls { gap: 22px; } .colour-photo-rail { gap: 10px; } .colour-photo figcaption a { font-size: 14px; } .colour-ribbon-controls { gap: 12px; } .colour-ribbon-controls > span { max-width: 22ch; font-size: 12px; } .colour-all { font-size: 14px; } }
+@media (prefers-reduced-motion:reduce) { .colour-discovery { transition: none; } .colour-discovery .colour-photo { animation: none; } }

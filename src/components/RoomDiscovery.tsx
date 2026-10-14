@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import gsap from 'gsap';
 import { Flip } from 'gsap/Flip';
 import { useGSAP } from '@gsap/react';
 import type { Project } from '../data/portfolio';
+import {ColourRibbon} from './ColourDiscovery';
 import {ui,localPath,categoryText,deRooms,deMoods,deConcepts,type Language} from '../lib/i18n';
 import { availableOptions, categories, conceptLabels, emptyFilters, matchingItems, moodColours, moodLabels, normaliseFilters, parseFilters, roomLabels, serializeFilters, type Facet, type Filters } from '../lib/discovery';
 
@@ -81,7 +82,7 @@ export default function RoomDiscovery({ projects, language='en' }: { projects:Pr
   const availableCategories = availableOptions(entries, filters, 'categories');
   const filmProject=projects.find(project=>project.videos.length>0);
 
-  return <div className="explorer" data-ready={ready} ref={root}>
+  return <div className="explorer" data-ready={ready} data-colour-browsing={filters.moods.length>0} style={filters.moods.length?{'--colour-tone':moodColours[filters.moods[0]]} as CSSProperties:undefined} ref={root}>
     <div className="catalogue-controls">
     <div className="explorer-toolbar">
       <a className="inline-link" href={localPath('/projects',language)}>{text.projects}<Arrow/></a>
@@ -113,13 +114,13 @@ export default function RoomDiscovery({ projects, language='en' }: { projects:Pr
       </details>
     </div>
     </div>
-    <div className="catalogue-results-summary"><p className="result-count" role="status" aria-live="polite">{results.length} {filters.view === 'projects' ? language==='de'?text.projects:text.projects.toLowerCase() : text.spaces}</p>{filmProject&&<a className="catalogue-films" href={localPath(`/projects/${filmProject.slug}#walkthroughs`,language)}>{text.films}<Arrow/></a>}</div>
+    <div className="catalogue-results-summary"><p className="result-count" role="status" aria-live="polite">{results.length} {text.spaces}{filters.moods.length>0&&' · '+filters.moods.map(key=>moodText[key]).join(', ')}</p>{filmProject&&<a className="catalogue-films" href={localPath(`/projects/${filmProject.slug}#walkthroughs`,language)}>{text.films}<Arrow/></a>}</div>
     {results.length === 0 ? <div className="empty-results"><h2>{text.emptyTitle}</h2><p>{text.emptyCopy}</p><button className="button-link" type="button" onClick={clear}>{text.clear}<Arrow /></button></div> :
       <>
-        <div className="room-index-grid">{rooms.slice(0, limit).map(image => <figure className="room-entry" key={image.id}>
+        {filters.moods.length>0?<ColourRibbon key={serializeFilters(filters)} images={rooms.slice(0,limit)} language={language} label={filters.moods.map(key=>moodText[key]).join(', ')}/>:<div className="room-index-grid">{rooms.slice(0, limit).map(image => <figure className="room-entry" key={image.id}>
           <a className="project-visual" href={localPath(`/projects/${image.projectSlug}#${image.id}`,language)} aria-label={`${text.exploreRoom}: ${image.projectTitle}`}><img src={image.src} srcSet={image.srcSet} sizes="(max-width: 700px) 100vw, 40vw" width={image.width} height={image.height} alt={image.caption} loading="lazy" decoding="async" /><span className="project-open">{text.exploreRoom}<Arrow /></span></a>
           <figcaption><a href={localPath(`/projects/${image.projectSlug}#${image.id}`,language)}>{image.projectTitle}</a><p>{image.rooms.filter(key => roomText[key]).map(key => roomText[key]).join(', ') || text.interiorStudy}</p></figcaption>
-        </figure>)}</div>
+        </figure>)}</div>}
       </>}
     {results.length > limit && <div className="load-more"><button type="button" className="button-link" onClick={() => { captureLayout(); setLimit(value => value + (filters.view === 'projects' ? 8 : 12)); }}>{filters.view === 'projects' ? text.moreProjects : text.moreSpaces}<Arrow /></button><span>{Math.min(limit, results.length)} {text.of} {results.length}</span></div>}
   </div>;

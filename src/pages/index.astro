@@ -2,17 +2,17 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import HeroCarousel from '../components/HeroCarousel';
 import DesignSequence from '../components/DesignSequence';
+import ColourDiscovery from '../components/ColourDiscovery';
 import Arrow from '../components/Arrow.astro';
 import {portrait,translatedProjects} from '../data/portfolio';
-import {ui,localPath,deRooms,deMoods,type Language} from '../lib/i18n';
-import {roomLabels,moodLabels} from '../lib/discovery';
+import {ui,localPath,deRooms,type Language} from '../lib/i18n';
+import {roomLabels} from '../lib/discovery';
 interface Props {language?:Language;}
 const language=Astro.props.language||'en',text=ui[language];
 const projects=translatedProjects(language),featured=projects.filter(project=>project.featured);
 const films=projects.find(project=>project.id==='06')!;
 const showcase=[...featured.slice(0,5),...['03','12','01'].map(id=>projects.find(project=>project.id===id)!)];
-const rooms=language==='de'?deRooms:roomLabels,moods=language==='de'?deMoods:moodLabels;
-const colourLinks=[{key:'warm-neutrals',image:projects.find(p=>p.id==='09')!.gallery[0],colour:'#AA9580'},{key:'blue-cool',image:projects.find(p=>p.id==='12')!.gallery[0],colour:'#6B8793'},{key:'green-botanical',image:projects.find(p=>p.id==='14')!.gallery[0],colour:'#7C8C72'}];
+const rooms=language==='de'?deRooms:roomLabels;
 ---
 <SiteLayout language={language} image={featured[0].gallery[0].src}>
   <div class="home-scene">
@@ -21,7 +21,7 @@ const colourLinks=[{key:'warm-neutrals',image:projects.find(p=>p.id==='09')!.gal
   </div>
   <div class="film-invitation page-gutter"><a class="inline-link" href={localPath(`/projects/${films.slug}#walkthroughs`,language)}>{text.filmLink}<Arrow /></a><span>{text.filmNote}</span></div>
   <DesignSequence project={projects.find(project=>project.id==='10')!} language={language} client:load />
-  <section id="discover" class="discovery-section section-space" aria-labelledby="discovery-title"><div class="discovery-heading page-gutter"><h2 id="discovery-title">{text.discover}</h2><a class="inline-link" href={localPath('/projects?view=rooms',language)}>{text.findSpace}<Arrow /></a></div><div class="room-shortcuts page-gutter">{['living','bedroom','kitchen','office'].map(key=><a href={localPath(`/projects?view=rooms&room=${key}`,language)}>{rooms[key]}<Arrow /></a>)}</div><div class="mood-image-grid page-gutter">{colourLinks.map(mood=><a href={localPath(`/projects?view=rooms&mood=${mood.key}`,language)} class="mood-image-link"><img src={mood.image.src} srcset={mood.image.srcSet} sizes="(max-width:700px) 45vw,30vw" width={mood.image.width} height={mood.image.height} alt={mood.image.caption} loading="lazy"/><span><span class="mood-swatch" style={`background:${mood.colour}`} aria-hidden="true"></span>{moods[mood.key]}<Arrow /></span></a>)}</div></section>
+  <section id="discover" class="discovery-section section-space" aria-labelledby="discovery-title"><div class="discovery-heading page-gutter"><h2 id="discovery-title">{text.discover}</h2><a class="inline-link" href={localPath('/projects?view=rooms',language)}>{text.findSpace}<Arrow /></a></div><div class="room-shortcuts page-gutter">{['living','bedroom','kitchen','office'].map(key=><a href={localPath(`/projects?view=rooms&room=${key}`,language)}>{rooms[key]}<Arrow /></a>)}</div><ColourDiscovery projects={projects} language={language} client:load /></section>
   <section id="practice" class="home-about section-space page-gutter" aria-labelledby="approach-title"><div class="portrait-visual"><img src={portrait.src} srcset={portrait.srcSet} sizes="(max-width:700px) 35vw,25vw" width={portrait.width} height={portrait.height} alt={text.portrait} loading="lazy"/></div><div class="home-about-copy"><h2 id="approach-title">{text.practiceTitle}</h2><p>{text.practiceCopy}</p><div class="practice-links"><a class="inline-link" href={localPath('/about',language)}>{text.aboutPractice}<Arrow /></a><a class="inline-link" href="/downloads/khushali-jain-resume.pdf" download>{text.resume}<Arrow direction="down"/></a></div></div></section>
   <script>
     import gsap from 'gsap';
@@ -37,7 +37,6 @@ const colourLinks=[{key:'warm-neutrals',image:projects.find(p=>p.id==='09')!.gal
         .to('.home-intro',{y:-65,opacity:.2},0)
         .to('.home-scene .showcase-stage',{clipPath:'inset(0% 3% 0%)'},0)
         .to('.home-scene .showcase-caption',{y:-18},0);
-      gsap.fromTo('.mood-image-link',{clipPath:'inset(0 12% 0 0)'},{clipPath:'inset(0)',ease:'none',stagger:.08,scrollTrigger:{trigger:'.discovery-section',start:'top 90%',end:'center 75%',scrub:.3}});
     });
     document.fonts.ready.then(()=>ScrollTrigger.refresh());
     window.addEventListener('pagehide',event=>{if(!event.persisted)motion.revert();});
