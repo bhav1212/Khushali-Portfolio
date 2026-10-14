@@ -1,6 +1,7 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
 import HeroCarousel from '../components/HeroCarousel';
+import DesignSequence from '../components/DesignSequence';
 import Arrow from '../components/Arrow.astro';
 import {portrait,translatedProjects} from '../data/portfolio';
 import {ui,localPath,deRooms,deMoods,type Language} from '../lib/i18n';
@@ -14,10 +15,31 @@ const rooms=language==='de'?deRooms:roomLabels,moods=language==='de'?deMoods:moo
 const colourLinks=[{key:'warm-neutrals',image:projects.find(p=>p.id==='09')!.gallery[0],colour:'#AA9580'},{key:'blue-cool',image:projects.find(p=>p.id==='12')!.gallery[0],colour:'#6B8793'},{key:'green-botanical',image:projects.find(p=>p.id==='14')!.gallery[0],colour:'#7C8C72'}];
 ---
 <SiteLayout language={language} image={featured[0].gallery[0].src}>
-  <section class="home-intro page-gutter" aria-labelledby="home-title"><div><h1 id="home-title" class="intro-name">Khushali Jain</h1><p class="professional-line">{text.subtitle}</p></div><div class="intro-navigation"><p class="intro-statement">{text.statement}</p><nav aria-label={text.onPage}><a href="#showcase">{text.selected}</a><a href="#discover">{text.roomsMoods}</a><a href="#practice">{text.practice}</a></nav></div></section>
-  <HeroCarousel projects={showcase} language={language} client:load />
+  <div class="home-scene">
+    <section class="home-intro page-gutter" aria-labelledby="home-title"><div><h1 id="home-title" class="intro-name">Khushali Jain</h1><p class="professional-line">{text.subtitle}</p></div><div class="intro-navigation"><p class="intro-statement">{text.statement}</p><nav aria-label={text.onPage}><a href="#showcase">{text.selected}</a><a href="#discover">{text.roomsMoods}</a><a href="#practice">{text.practice}</a></nav></div></section>
+    <HeroCarousel projects={showcase} language={language} client:load />
+  </div>
   <div class="film-invitation page-gutter"><a class="inline-link" href={localPath(`/projects/${films.slug}#walkthroughs`,language)}>{text.filmLink}<Arrow /></a><span>{text.filmNote}</span></div>
+  <DesignSequence project={projects.find(project=>project.id==='10')!} language={language} client:load />
   <section id="discover" class="discovery-section section-space" aria-labelledby="discovery-title"><div class="discovery-heading page-gutter"><h2 id="discovery-title">{text.discover}</h2><a class="inline-link" href={localPath('/projects?view=rooms',language)}>{text.findSpace}<Arrow /></a></div><div class="room-shortcuts page-gutter">{['living','bedroom','kitchen','office'].map(key=><a href={localPath(`/projects?view=rooms&room=${key}`,language)}>{rooms[key]}<Arrow /></a>)}</div><div class="mood-image-grid page-gutter">{colourLinks.map(mood=><a href={localPath(`/projects?view=rooms&mood=${mood.key}`,language)} class="mood-image-link"><img src={mood.image.src} srcset={mood.image.srcSet} sizes="(max-width:700px) 45vw,30vw" width={mood.image.width} height={mood.image.height} alt={mood.image.caption} loading="lazy"/><span><span class="mood-swatch" style={`background:${mood.colour}`} aria-hidden="true"></span>{moods[mood.key]}<Arrow /></span></a>)}</div></section>
   <section id="practice" class="home-about section-space page-gutter" aria-labelledby="approach-title"><div class="portrait-visual"><img src={portrait.src} srcset={portrait.srcSet} sizes="(max-width:700px) 35vw,25vw" width={portrait.width} height={portrait.height} alt={text.portrait} loading="lazy"/></div><div class="home-about-copy"><h2 id="approach-title">{text.practiceTitle}</h2><p>{text.practiceCopy}</p><div class="practice-links"><a class="inline-link" href={localPath('/about',language)}>{text.aboutPractice}<Arrow /></a><a class="inline-link" href="/downloads/khushali-jain-resume.pdf" download>{text.resume}<Arrow direction="down"/></a></div></div></section>
-  <script>import gsap from 'gsap';const motion=gsap.matchMedia();motion.add('(prefers-reduced-motion: no-preference)',()=>{gsap.fromTo('.intro-name',{clipPath:'inset(0 0 100% 0)'},{clipPath:'inset(0 0 0% 0)',duration:.7,ease:'expo.out',clearProps:'clipPath'});});</script>
+  <script>
+    import gsap from 'gsap';
+    import {ScrollTrigger} from 'gsap/ScrollTrigger';
+    gsap.registerPlugin(ScrollTrigger);
+    const motion=gsap.matchMedia();
+    motion.add('(prefers-reduced-motion: no-preference)',()=>{
+      gsap.timeline({defaults:{ease:'expo.out'}})
+        .fromTo('.home-scene .showcase-window',{clipPath:'inset(0 7% 0 7%)'},{clipPath:'inset(0)',duration:.9,clearProps:'clipPath'},0)
+        .fromTo('.intro-name',{y:24,clipPath:'inset(0 0 30% 0)'},{y:0,clipPath:'inset(0)',duration:.75,clearProps:'transform,clipPath'},.08)
+        .fromTo('.professional-line',{y:10},{y:0,duration:.55,clearProps:'transform'},.18);
+      gsap.timeline({scrollTrigger:{trigger:'.home-scene',start:'top top',end:'bottom top',scrub:.35},defaults:{ease:'none'}})
+        .to('.home-intro',{y:-65,opacity:.2},0)
+        .to('.home-scene .showcase-stage',{clipPath:'inset(0% 3% 0%)'},0)
+        .to('.home-scene .showcase-caption',{y:-18},0);
+      gsap.fromTo('.mood-image-link',{clipPath:'inset(0 12% 0 0)'},{clipPath:'inset(0)',ease:'none',stagger:.08,scrollTrigger:{trigger:'.discovery-section',start:'top 90%',end:'center 75%',scrub:.3}});
+    });
+    document.fonts.ready.then(()=>ScrollTrigger.refresh());
+    window.addEventListener('pagehide',event=>{if(!event.persisted)motion.revert();});
+  </script>
 </SiteLayout>

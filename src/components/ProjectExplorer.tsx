@@ -62,7 +62,7 @@ export default function ProjectExplorer({ projects, language='en' }: { projects:
     const previous = layout.current;
     layout.current = null;
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    Flip.from(previous, { duration: .5, ease: 'power3.inOut', prune: true, onEnter: elements => gsap.fromTo(elements, { clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0 0 0% 0)', duration: .4, clearProps: 'clipPath' }) });
+    Flip.from(previous, { duration: .42, scale: true, ease: 'power3.out', prune: true, onEnter: elements => gsap.fromTo(elements, { clipPath: 'inset(0 14% 0 0)', y: 12 }, { clipPath: 'inset(0)', y: 0, duration: .35, stagger: {amount: .12}, ease: 'power3.out', clearProps: 'clipPath,transform' }) });
   }, { scope: root, dependencies: [filters, limit], revertOnUpdate: true });
   const selected = projects.filter(project => !filters.categories.length || filters.categories.includes(project.category));
   const rooms = matchingItems(entries, filters);

@@ -33,4 +33,6 @@ DESIGN.md and .impeccable/design.json document the visual system. PRODUCT.md rec
 
 ## Gallery verification
 
-The 14 October 2026 gallery release passed 79 focused browser assertions across English and German desktop, phone, iPad and 320px phone layouts. Six further checks cover nonblank, interactive panorama rendering and reduced-motion operation with mouse or touch. The suite reported no browser errors; automated accessibility scans of the tested board and panorama surfaces reported no violations. These checks use Chromium device emulation, not physical devices.
+The sitewide motion pass adds an immersive opening, scroll-linked image framing, connected board/viewer/comparison transitions, quicker filter reflow and animated native disclosures. The homepage and two matching projects include a real sketch-to-space sequence with a fixed colour palette. No smooth-scroll hijacking or long pinned sections are used.
+
+The 14 October 2026 production build passed 163 interaction assertions across English/German desktop, phone and iPad layouts, plus 204 layout checks over all 68 pages. Six representative accessibility scans reported no violations. The final suite reported no browser errors. JavaScript-disabled homepage navigation and touch comparison without View Transitions passed. These checks use Chromium device emulation, not physical devices or field-performance measurements.

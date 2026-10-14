@@ -17,10 +17,15 @@ export default function HeroCarousel({ projects, language='en' }: { projects: Pr
   const root = useRef<HTMLDivElement>(null);
   const direction = useRef(1);
   const gesture = useRef<number | null>(null);
+  const selection = useRef(0);
   const project = projects[index];
-  const select = (next: number) => {
+  const select = async (next: number) => {
     const target = (next + projects.length) % projects.length;
     if (target === index) return;
+    const version = ++selection.current;
+    const image = root.current?.querySelector<HTMLImageElement>(`[data-slide="${target}"] img`);
+    if (image) { image.loading='eager'; try { await image.decode(); } catch { return; } }
+    if (version !== selection.current) return;
     direction.current = next >= index ? 1 : -1;
     setOutgoing(index); setIndex(target);
   };
@@ -50,10 +55,10 @@ export default function HeroCarousel({ projects, language='en' }: { projects: Pr
     const frame = root.current.querySelector('.showcase-frame');
     const start = direction.current > 0 ? 'inset(0 100% 0 0)' : 'inset(0 0 0 100%)';
     gsap.timeline({ onComplete: () => setOutgoing(null) })
-      .fromTo(incoming, { clipPath: start, xPercent: direction.current * 8 }, { clipPath: 'inset(0 0% 0 0%)', xPercent: 0, duration: .85, ease: 'power3.inOut', clearProps: 'clipPath,transform' }, 0)
-      .fromTo(previous, { xPercent: 0 }, { xPercent: direction.current * -10, duration: .85, ease: 'power3.inOut', clearProps: 'transform' }, 0)
-      .fromTo(frame, { x: direction.current * -(stage?.clientWidth || 800) }, { x: 0, duration: .85, ease: 'power3.inOut', clearProps: 'transform' }, 0)
-      .fromTo('.showcase-caption-title', { yPercent: 110 }, { yPercent: 0, duration: .6, ease: 'expo.out', clearProps: 'transform' }, .12)
+      .fromTo(incoming, { clipPath: start, xPercent: direction.current * 5 }, { clipPath: 'inset(0 0% 0 0%)', xPercent: 0, duration: .7, ease: 'power3.inOut', clearProps: 'clipPath,transform' }, 0)
+      .fromTo(previous, { xPercent: 0 }, { xPercent: direction.current * -5, duration: .7, ease: 'power3.inOut', clearProps: 'transform' }, 0)
+      .fromTo(frame, { x: direction.current * -(stage?.clientWidth || 800) }, { x: 0, duration: .7, ease: 'power3.inOut', clearProps: 'transform' }, 0)
+      .fromTo('.showcase-caption-title', { yPercent: 65 }, { yPercent: 0, duration: .5, ease: 'expo.out', clearProps: 'transform' }, .1)
       .fromTo('.showcase-palette span', { y: 12 }, { y: 0, duration: .4, stagger: .04, ease: 'power2.out', clearProps: 'transform' }, .2);
   }, { scope: root, dependencies: [index], revertOnUpdate: true });
 
@@ -75,7 +80,7 @@ export default function HeroCarousel({ projects, language='en' }: { projects: Pr
       gesture.current = null;
     }}>
       {projects.map((item, position) => <div key={item.slug} data-slide={position} className={`showcase-slide ${position === index ? 'is-current' : ''}`} hidden={position !== index && position !== outgoing} inert={position !== index} aria-hidden={position !== index} role="group" aria-roledescription={text.slide} aria-label={`${position + 1} ${text.of} ${projects.length}: ${item.title}`}>
-        <a href={localPath(`/projects/${item.slug}`,language)} aria-label={`${text.explore} ${item.title}`}><img src={item.gallery[0].src} srcSet={item.gallery[0].srcSet} sizes="(max-width:900px) 100vw, 70vw" width={item.gallery[0].width} height={item.gallery[0].height} alt={item.gallery[0].caption} loading={position === 0 ? 'eager' : 'lazy'} fetchPriority={position === 0 ? 'high' : 'auto'} decoding="async" /></a>
+        <a href={localPath(`/projects/${item.slug}`,language)} aria-label={`${text.explore} ${item.title}`}><img src={item.gallery[0].src} srcSet={item.gallery[0].srcSet} sizes="max(100vw, 160svh)" width={item.gallery[0].width} height={item.gallery[0].height} alt={item.gallery[0].caption} loading={position === index || position === (index + 1) % projects.length ? 'eager' : 'lazy'} fetchPriority={position === 0 ? 'high' : 'auto'} decoding="async" /></a>
       </div>)}
       <span className="showcase-frame" aria-hidden="true"></span>
       <div className="showcase-image-controls"><button type="button" onClick={() => select(index - 1)} aria-label={text.previousProject}><Arrow left /></button><button type="button" onClick={() => select(index + 1)} aria-label={text.nextProject}><Arrow /></button></div>

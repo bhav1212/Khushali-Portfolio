@@ -26,6 +26,13 @@ const person = { '@context': 'https://schema.org', '@graph':[
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#F3F5F2" />
+    <style is:inline>@view-transition { navigation: auto; }</style>
+    <script is:inline>
+      for (const name of ['pagereveal', 'pageswap']) window.addEventListener(name, event => {
+        event.viewTransition?.ready.catch(() => {});
+        event.viewTransition?.finished.catch(() => {});
+      });
+    </script>
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={noIndex?'noindex, follow':'index, follow'} />
@@ -50,11 +57,12 @@ const person = { '@context': 'https://schema.org', '@graph':[
     <a class="skip-link" href="#main">{text.skip}</a>
     <header class="site-header">
       <a class="wordmark" href={localPath('/',language)} aria-label={`Khushali Jain, ${text.home}`}>Khushali Jain<span class="wordmark-dot" aria-hidden="true"></span></a>
-      <nav aria-label={text.mainNav}>
+      <nav class="primary-nav" aria-label={text.mainNav}>
         <a href={localPath('/projects',language)} aria-current={path.startsWith('/projects') ? 'page' : undefined}>{text.projects}</a>
         <a href={localPath('/plans',language)} aria-current={path.startsWith('/plans') ? 'page' : undefined}>{text.plans}</a>
         <a href={localPath('/about',language)} aria-current={path === '/about' ? 'page' : undefined}>{text.about}</a>
         <a href={localPath('/contact',language)} aria-current={path === '/contact' ? 'page' : undefined}>{text.contact}</a>
+        <span class="nav-position" aria-hidden="true"></span>
       </nav>
       <details class="language-menu"><summary aria-label={`${text.language}: ${language==='de'?'Deutsch':'English'}`}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z" stroke="currentColor" stroke-width="1.5"/></svg><span>{language.toUpperCase()}</span></summary><nav aria-label={text.language}><a data-language-link href={localPath(path,'en')} lang="en" hreflang="en" aria-current={language==='en'?'true':undefined}>English<span>EN</span></a><a data-language-link href={localPath(path,'de')} lang="de" hreflang="de" aria-current={language==='de'?'true':undefined}>Deutsch<span>DE</span></a></nav></details>
       <span class="reading-progress" aria-hidden="true"></span>
@@ -70,6 +78,14 @@ const person = { '@context': 'https://schema.org', '@graph':[
       <p class="footer-note">© {new Date().getFullYear()} Khushali Jain.</p>
     </footer>
     <script>
+      import gsap from 'gsap';
+      import {ScrollTrigger} from 'gsap/ScrollTrigger';
+      gsap.registerPlugin(ScrollTrigger);
+      const arrival=location.hash?document.getElementById(location.hash.slice(1))?.querySelector<HTMLImageElement>('img'):null;
+      if(arrival&&arrival.closest('.view-board')){
+        document.querySelectorAll<HTMLImageElement>('.case-hero img').forEach(image=>image.style.viewTransitionName='none');
+        arrival.style.viewTransitionName='project-image';
+      }
       const languageMenu=document.querySelector<HTMLDetailsElement>('.language-menu');
       const syncLanguageLinks=()=>document.querySelectorAll<HTMLAnchorElement>('[data-language-link]').forEach(link=>{const destination=new URL(link.href);destination.search=location.search;destination.hash=location.hash;link.href=destination.href;});
       languageMenu?.addEventListener('toggle',syncLanguageLinks);
@@ -90,6 +106,7 @@ const person = { '@context': 'https://schema.org', '@graph':[
         frame = requestAnimationFrame(() => {
           const distance = document.documentElement.scrollHeight - innerHeight;
           if (progress) progress.style.transform = `scaleX(${distance > 0 ? Math.min(1, scrollY / distance) : 0})`;
+          if (header) header.dataset.scrolled=String(scrollY>24);
           const boundary = (header?.offsetHeight || 74) + 70;
           const active = [...chapterLinks].reverse().find(link => (document.getElementById(link.hash.slice(1))?.getBoundingClientRect().top ?? Infinity) <= boundary) || chapterLinks[0];
           chapterLinks.forEach(link => { if (link === active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current'); });
@@ -109,6 +126,37 @@ const person = { '@context': 'https://schema.org', '@graph':[
           image.style.viewTransitionName = 'project-image';
         }
       });
+      const pageMotion=gsap.matchMedia();
+      pageMotion.add({animated:'(prefers-reduced-motion: no-preference)',still:'(prefers-reduced-motion: reduce)'},context=>{
+        const animated=Boolean(context.conditions?.animated);
+        const navigation=document.querySelector<HTMLElement>('.primary-nav');
+        const marker=navigation?.querySelector<HTMLElement>('.nav-position');
+        const current=navigation?.querySelector<HTMLElement>('[aria-current="page"]');
+        const moveMarker=(element:HTMLElement|null|undefined)=>{
+          if(!navigation||!marker)return;
+          const bounds=element?.getBoundingClientRect(),container=navigation.getBoundingClientRect();
+          gsap.to(marker,{x:bounds?bounds.left-container.left:0,scaleX:bounds?.width||0,autoAlpha:bounds?1:0,duration:animated?.25:0,ease:'power3.out',overwrite:true});
+        };
+        const follow=(event:Event)=>{const element=(event.target as Element).closest<HTMLElement>('.primary-nav a');if(element)moveMarker(element);};
+        const restore=()=>moveMarker(navigation?.querySelector<HTMLElement>(':focus-visible')||current);
+        navigation?.addEventListener('pointerover',follow);navigation?.addEventListener('focusin',follow);
+        navigation?.addEventListener('pointerleave',restore);navigation?.addEventListener('focusout',restore);
+        const observer=new ResizeObserver(restore);if(navigation)observer.observe(navigation);restore();
+        if(animated){
+          if(!document.querySelector('.home-scene'))gsap.fromTo('main h1',{y:14,clipPath:'inset(0 0 22% 0)'},{y:0,clipPath:'inset(0)',duration:.5,ease:'expo.out',clearProps:'transform,clipPath'});
+          const hero=document.querySelector('.case-hero');
+          if(hero)gsap.to(hero,{clipPath:'inset(0 3% 0)',ease:'none',scrollTrigger:{trigger:hero,start:'top top+=90',end:'bottom top',scrub:.35}});
+          const portrait=document.querySelector('.about-portrait');
+          if(portrait)gsap.fromTo(portrait,{clipPath:'inset(4% 0 0 8%)'},{clipPath:'inset(0)',ease:'none',scrollTrigger:{trigger:portrait,start:'top 80%',end:'center 55%',scrub:.3}});
+          const palette=document.querySelector('.material-palette');
+          if(palette)gsap.fromTo(palette.children,{y:10,clipPath:'inset(0 0 20% 0)'},{y:0,clipPath:'inset(0)',duration:.4,stagger:.045,ease:'power3.out',clearProps:'transform,clipPath',scrollTrigger:{trigger:palette,start:'top 92%',once:true}});
+          const invitation=document.querySelector('.footer-invitation svg');
+          if(invitation)gsap.fromTo(invitation,{x:-16},{x:0,ease:'none',scrollTrigger:{trigger:'.site-footer',start:'top 95%',end:'top 65%',scrub:.25}});
+        }
+        return()=>{observer.disconnect();navigation?.removeEventListener('pointerover',follow);navigation?.removeEventListener('focusin',follow);navigation?.removeEventListener('pointerleave',restore);navigation?.removeEventListener('focusout',restore);};
+      });
+      document.fonts.ready.then(()=>ScrollTrigger.refresh());
+      window.addEventListener('pagehide',event=>{if(!event.persisted)pageMotion.revert();});
     </script>
   </body>
 </html>

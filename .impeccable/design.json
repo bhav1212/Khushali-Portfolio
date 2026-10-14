@@ -3,6 +3,15 @@
   "generatedAt": "2026-10-14T04:10:54.562648Z",
   "title": "Design System: Khushali Jain portfolio",
   "extensions": {
+    "sitewideMotion": {
+      "scope": "Homepage, project discovery, case studies, image boards, Plans, About and Contact",
+      "hero": "Full-width image scene with overlaid name and fixed 116px caption band; 110px caption on phones",
+      "timing": {"feedbackMs": 180, "layoutMs": 420, "carouselMs": 700, "disclosureMs": 350},
+      "sequenceProjects": ["10", "14"],
+      "sequencePalette": "Fixed position in every sketch, space and detail state",
+      "fallbacks": "Native scrolling, direct reduced-motion state changes, ordinary navigation and disclosures",
+      "verification": "163 interaction checks; 204 layout checks across 68 pages; six accessibility surfaces"
+    },
     "colorMeta": {
       "canvas": {
         "role": "neutral",
