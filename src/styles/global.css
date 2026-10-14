@@ -684,7 +684,7 @@ html { scrollbar-gutter: stable; }
 @media (max-width:360px) { .home-scene .intro-name { font-size: 44px; } .home-scene .intro-navigation nav { gap: 0 12px; } .home-scene .showcase-caption-title { font-size: 21px; } }
 @media (prefers-reduced-motion:reduce) { .inline-link > svg, .text-control > svg { transition: none; } }
 
-.catalogue-controls { position: sticky; top: var(--header-height,74px); z-index: 6; min-width: 0; padding-block: 10px; margin-bottom: 30px; background: var(--color-canvas); border-bottom: 1px solid var(--color-rule); }
+.catalogue-controls { position: sticky; top: var(--header-height,74px); scroll-margin-top: var(--header-height,74px); z-index: 6; min-width: 0; padding-block: 4px; margin-bottom: 0; background: var(--color-canvas); border-bottom: 1px solid var(--color-rule); }
 .catalogue-controls fieldset { min-inline-size: 0; }
 .catalogue-controls .view-controls button { font-size: 18px; }
 .catalogue-controls .category-controls { flex-wrap: nowrap; overflow-x: auto; gap: 22px; padding-block: 4px; scrollbar-width: thin; }
@@ -710,10 +710,10 @@ html { scrollbar-gutter: stable; }
 @media (max-width:900px) { .project-index-grid { gap: 38px 26px; } .catalogue-images { gap: 10px; } .project-index-grid .catalogue-entry .project-caption h2 { font-size: 24px; } }
 @media (max-width:700px) {
   .project-index-grid { grid-template-columns: minmax(0,1fr); gap: 36px; }
-  .catalogue-controls { margin-bottom: 24px; padding-block: 6px; }
+  .catalogue-controls { margin-bottom: 0; padding-block: 4px; }
   .catalogue-controls .explorer-toolbar { gap: 12px; }
   .catalogue-controls .view-controls { gap: 14px; }
-  .catalogue-controls .view-controls button { font-size: 15px; }
+  .catalogue-controls .view-controls button { font-size: 14px; }
   .catalogue-controls .result-count { font-size: 13px; }
   .catalogue-detail { padding-bottom: 12px; }
   .project-index-grid .catalogue-entry .project-caption h2 { font-size: 25px; }
@@ -722,6 +722,29 @@ html { scrollbar-gutter: stable; }
 .catalogue-status { display: flex; align-items: center; gap: 22px; }
 .catalogue-films { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; }
 .catalogue-films svg { width: 16px; }
+.catalogue-filter-panel > summary { display: flex; align-items: center; gap: 8px; min-height: 44px; padding-inline: 6px; font-size: 15px; cursor: pointer; list-style: none; }
+.catalogue-filter-panel > summary::-webkit-details-marker { display: none; }
+.catalogue-filter-panel > summary > span { font-size: 12px; font-variant-numeric: tabular-nums; }
+.catalogue-filter-panel > summary > svg { width: 16px; height: 16px; transform: rotate(90deg); }
+.catalogue-filter-panel[open] > summary > svg { transform: rotate(-90deg); }
+.catalogue-filter-content { position: absolute; top: 100%; right: 0; width: min(580px,100%); max-height: min(480px,calc(100svh - var(--header-height,74px) - 80px)); overflow-y: auto; overscroll-behavior: contain; padding: 16px; background: var(--color-canvas); border: 1px solid #88988C; }
+.catalogue-filter-content .category-controls { flex-wrap: wrap; gap: 4px 18px; overflow: visible; }
+.catalogue-filter-content .facet-row { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.catalogue-filter-content .filter-facet { min-width: 0; }
+.catalogue-filter-content .filter-facet summary { min-width: 0; padding: 10px; font-size: 14px; }
+.catalogue-filter-content .facet-options { position: static; width: 100%; max-height: 180px; padding: 8px; }
+.catalogue-filter-content .facet-options label { font-size: 14px; gap: 8px; overflow-wrap: anywhere; }
+.catalogue-filter-content .mood-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px 14px; overflow: visible; margin-top: 14px; }
+.catalogue-filter-content .mood-controls legend { margin-bottom: 6px; }
+.catalogue-filter-content .mood-controls button { white-space: normal; text-align: left; font-size: 14px; }
+.filter-apply { width: 100%; justify-content: space-between; margin-top: 12px; border: 0; border-top: 1px solid var(--color-rule); background: var(--color-canvas); font-size: 15px; }
+.catalogue-results-summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 6px 14px; }
+.catalogue-results-summary .result-count { display: block; font-size: 14px; }
+.projects-intro { padding-block: 20px; }
+.projects-intro h1 { font-size: 52px; line-height: 1.15; }
+.projects-intro p { font-size: 17px; margin-top: 12px; }
+@media (max-width:700px) { .projects-intro { padding-block: 14px 16px; } .projects-intro h1 { font-size: 34px; } .projects-intro p { font-size: 15px; margin-top: 8px; } }
+@media (max-width:700px) { .catalogue-filter-panel > summary { font-size: 14px; gap: 5px; } .catalogue-controls .view-controls { gap: 12px; } .catalogue-filter-content { padding: 12px; } }
 .case-labels { flex-wrap: wrap; align-items: center; }
 .case-labels .inline-link { font-size: 14px; }
 .case-overview { display: grid; grid-template-columns: minmax(0,2fr) minmax(0,1fr); grid-template-rows: repeat(2,minmax(0,1fr)); gap: 18px; height: min(62svh,560px); padding-block: 12px 30px; }

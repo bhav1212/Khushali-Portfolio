@@ -17,6 +17,12 @@ export default function ProjectExplorer({ projects, language='en' }: { projects:
   const [limit, setLimit] = useState(8);
   const root = useRef<HTMLDivElement>(null);
   const layout = useRef<ReturnType<typeof Flip.getState> | null>(null);
+  const fitFilterPanel=()=>{
+    const panel=root.current?.querySelector<HTMLElement>('.catalogue-filter-panel[open] .catalogue-filter-content');
+    if(!panel)return;
+    if(innerHeight-panel.getBoundingClientRect().top<200)root.current?.querySelector('.catalogue-controls')?.scrollIntoView({block:'start',behavior:'instant'});
+    panel.style.maxHeight=Math.max(120,Math.min(480,innerHeight-panel.getBoundingClientRect().top-12))+'px';
+  };
   const entries = projects.flatMap(project => project.gallery.map(image => ({ ...image, category: project.category, projectTitle: project.title, projectSlug: project.slug })));
   useEffect(() => {
     const restore = () => {
@@ -34,15 +40,17 @@ export default function ProjectExplorer({ projects, language='en' }: { projects:
     };
     const escape = (event: KeyboardEvent) => {
       if (event.key !== 'Escape') return;
-      const menu = root.current?.querySelector<HTMLDetailsElement>('details[open]');
+      const menu = [...(root.current?.querySelectorAll<HTMLDetailsElement>('details[open]')||[])].at(-1);
       if (menu) { menu.open = false; menu.querySelector('summary')?.focus(); }
     };
     document.addEventListener('pointerdown', closeOutside);
     document.addEventListener('keydown', escape);
+    window.addEventListener('resize',fitFilterPanel);
     return () => {
       window.removeEventListener('popstate', restore);
       document.removeEventListener('pointerdown', closeOutside);
       document.removeEventListener('keydown', escape);
+      window.removeEventListener('resize',fitFilterPanel);
     };
   }, []);
   useEffect(() => {
@@ -81,8 +89,9 @@ export default function ProjectExplorer({ projects, language='en' }: { projects:
         <button type="button" aria-pressed={filters.view === 'projects'} onClick={() => change({ ...emptyFilters, view: 'projects' })}>{text.projects}</button>
         <button type="button" aria-pressed={filters.view === 'rooms'} onClick={() => change({ ...emptyFilters, view: 'rooms' })}>{text.roomsMoods}</button>
       </div>
-      <div className="catalogue-status">{filmProject&&<a className="catalogue-films" href={localPath(`/projects/${filmProject.slug}#walkthroughs`,language)}>{text.films}<Arrow/></a>}<p className="result-count" role="status" aria-live="polite">{results.length} {filters.view === 'projects' ? language==='de'?text.projects:text.projects.toLowerCase() : text.spaces}</p></div>
-    </div>
+      <details className="catalogue-filter-panel" onToggle={event=>{if(event.target!==event.currentTarget)return;if(event.currentTarget.open){fitFilterPanel();return;}event.currentTarget.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(menu=>{menu.open=false;});}}>
+        <summary>{language==='de'?'Filter':'Filters'}{activeCount>0&&<span>{activeCount}</span>}<Arrow/></summary>
+        <div className="catalogue-filter-content">
     <fieldset className="category-controls"><legend className="sr-only">{text.spaceType}</legend>
       <button type="button" aria-pressed={!filters.categories.length} onClick={() => change({ ...filters, categories: [] })}>{text.allSpaces}</button>
       {categories.filter(category => availableCategories.has(category)).map(category => <button key={category} type="button" aria-pressed={filters.categories.includes(category)} onClick={() => toggle('categories', category)}>{categoryText[language][category]}</button>)}
@@ -103,7 +112,12 @@ export default function ProjectExplorer({ projects, language='en' }: { projects:
       </fieldset>
       {(filters.rooms.length > 0 || filters.concepts.length > 0) && <p className="active-filters">{[...filters.rooms.map(key => roomText[key]), ...filters.concepts.map(key => conceptText[key])].join(', ')}</p>}
     </div>}
+        <button type="button" className="filter-apply inline-link" onClick={event=>{const panel=event.currentTarget.closest('details');if(panel){panel.open=false;panel.querySelector('summary')?.focus();}}}>{language==='de'?'Ergebnisse ansehen':'View results'} ({results.length})<Arrow/></button>
+        </div>
+      </details>
     </div>
+    </div>
+    <div className="catalogue-results-summary"><p className="result-count" role="status" aria-live="polite">{results.length} {filters.view === 'projects' ? language==='de'?text.projects:text.projects.toLowerCase() : text.spaces}</p>{filmProject&&<a className="catalogue-films" href={localPath(`/projects/${filmProject.slug}#walkthroughs`,language)}>{text.films}<Arrow/></a>}</div>
     {results.length === 0 ? <div className="empty-results"><h2>{text.emptyTitle}</h2><p>{text.emptyCopy}</p><button className="button-link" type="button" onClick={clear}>{text.clear}<Arrow /></button></div> :
       filters.view === 'projects' ? <div className="project-index-grid">{selected.slice(0, limit).map(project => {
         const image = project.gallery[0];

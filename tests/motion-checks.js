@@ -36,10 +36,12 @@ async(page,base='http://localhost:4321')=>{
     check(label+' catalogue pairs real image views',await catalogue.locator('.catalogue-detail img').count()===1);
     await page.locator('.primary-nav a').first().hover();await page.waitForTimeout(300);
     check(label+' header has one underline system',await page.locator('.primary-nav a').first().evaluate(element=>getComputedStyle(element).textDecorationLine==='none'&&getComputedStyle(document.querySelector('.nav-position')).visibility==='visible'));
-    await page.locator('.view-controls button').nth(1).click();await page.locator('.filter-facet summary').first().click();
+    await page.locator('.view-controls button').nth(1).click();await page.locator('.catalogue-filter-panel > summary').click();await page.locator('.filter-facet summary').first().click();
     await page.locator('.facet-options input').first().check();await page.keyboard.press('Escape');await page.waitForTimeout(550);
     check(label+' filters retain matching images',await page.locator('.room-entry').count()>0&&await page.locator('.empty-results').count()===0);
     check(label+' filter closes on Escape',await page.locator('.filter-facet[open]').count()===0);
+    await page.locator('.filter-apply').click();
+    check(label+' collapsed toolbar leaves room for images',await page.locator('.catalogue-controls').evaluate(element=>element.getBoundingClientRect().height<75)&&await page.locator('.catalogue-filter-panel[open]').count()===0);
     const roomLink=page.locator('.room-entry a.project-visual').first();const destination=await roomLink.getAttribute('href');
     await roomLink.click();await ready();check(label+' image links retain selection',new URL(page.url()).hash===new URL(destination,base).hash);
     await page.goto(base+prefix+'/projects/a-home-in-teal-and-timber');await ready();

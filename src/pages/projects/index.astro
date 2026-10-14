@@ -6,4 +6,4 @@ import {ui,type Language} from '../../lib/i18n';
 interface Props{language?:Language;}
 const language=Astro.props.language||'en',text=ui[language],projects=translatedProjects(language);
 ---
-<SiteLayout language={language} title={text.projects} description={text.collectionCopy}><section class="page-intro page-gutter"><h1>{text.collectionTitle}</h1><p>{text.collectionCopy}</p></section><section class="page-gutter explorer-section" aria-label={text.collectionLabel}><ProjectExplorer projects={projects} language={language} client:load/></section><noscript><p class="page-gutter">{text.noJs}</p></noscript></SiteLayout>
+<SiteLayout language={language} title={text.projects} description={text.collectionCopy}><section class="page-intro projects-intro page-gutter"><h1>{text.collectionTitle}</h1><p>{text.collectionCopy}</p></section><section class="page-gutter explorer-section" aria-label={text.collectionLabel}><ProjectExplorer projects={projects} language={language} client:load/></section><noscript><p class="page-gutter">{text.noJs}</p></noscript></SiteLayout>

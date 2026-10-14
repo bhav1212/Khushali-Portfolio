@@ -33,6 +33,8 @@ DESIGN.md and .impeccable/design.json document the visual system. PRODUCT.md rec
 
 ## Gallery verification
 
+Rooms & moods uses a single compact sticky toolbar, with additional filters in a closed-by-default panel and a View results action. It measures about 57px on phones. The updated regression passes 217 checks; six open/closed filter accessibility scans report no violations. Portrait and landscape phone checks confirm the panel fits the viewport and images remain accessible.
+
 The editorial catalogue and inline-board refinement passes 211 interaction checks and 272 layout checks across all 68 pages at desktop, tablet, phone and 320px widths. Nine representative accessibility scans report no violations. Both landscape films are checked for playback with native controls and sound enabled. Device checks use browser emulation, not physical-device certification.
 
 The sitewide motion pass adds an immersive opening, scroll-linked image framing, connected board/viewer/comparison transitions, quicker filter reflow and animated native disclosures. The homepage and two matching projects include a real sketch-to-space sequence with a fixed colour palette. No smooth-scroll hijacking or long pinned sections are used.
